@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<CampData>
+  <CommonData openConditionId="Camp" />
+  <CampSwitch coolTimeDay="1">
+    <SwitchCost stuffType="Currency" stuffId="Gold" stuffAmount="50000" />
+  </CampSwitch>
+  <CampList>
+    <Camp id="Camp01" templateId="1" enableJoin="true" recommendWeight="0.3" iconResourcePath="/Game/UI/TEX/ArtBG/CampLogo/UITEX_CampLogo_StarSeeker.UITEX_CampLogo_StarSeeker" smallIconResourcePath="/Game/UI/TEX/ArtBG/CampLogo/UITEX_CampLogo_StarSeeker_Lobby.UITEX_CampLogo_StarSeeker_Lobby" color="StarSeeker" />
+    <Camp id="Camp02" templateId="2" enableJoin="true" recommendWeight="0.7" iconResourcePath="/Game/UI/TEX/ArtBG/CampLogo/UITEX_CampLogo_GoldUnion.UITEX_CampLogo_GoldUnion" smallIconResourcePath="/Game/UI/TEX/ArtBG/CampLogo/UITEX_CampLogo_GoldUnion_Lobby.UITEX_CampLogo_GoldUnion_Lobby" color="GoldUnion" />
+  </CampList>
+  <CampGradeList>
+    <CampGrade id="Fame01" templateId="5720001" additionalStatId="bonusBuff_01" requireCampGradeExp="0">
+      <AchieveReward stuffType="Currency" stuffId="Gold" stuffAmount="5000" />
+      <IconResourcePath campId="Camp01" path="/Game/UI/TEX/CampFame/Camp_Fame01.Camp_Fame01" />
+      <IconResourcePath campId="Camp02" path="/Game/UI/TEX/CampFame/Camp_Fame01.Camp_Fame01" />
+    </CampGrade>
+    <CampGrade id="Fame02" templateId="5720002" additionalStatId="bonusBuff_02" requireCampGradeExp="350">
+      <AchieveReward stuffType="Currency" stuffId="Gold" stuffAmount="5000" />
+      <AchieveReward stuffType="Currency" stuffId="Gem_Free" stuffAmount="5" />
+      <IconResourcePath campId="Camp01" path="/Game/UI/TEX/CampFame/Camp_Fame02.Camp_Fame02" />
+      <IconResourcePath campId="Camp02" path="/Game/UI/TEX/CampFame/Camp_Fame02.Camp_Fame02" />
+    </CampGrade>
+    <CampGrade id="Fame03" templateId="5720003" additionalStatId="bonusBuff_03" requireCampGradeExp="1050">
+      <AchieveReward stuffType="Currency" stuffId="Gold" stuffAmount="7000" />
+      <AchieveReward stuffType="Currency" stuffId="Gem_Free" stuffAmount="10" />
+      <IconResourcePath campId="Camp01" path="/Game/UI/TEX/CampFame/Camp_Fame03.Camp_Fame03" />
+      <IconResourcePath campId="Camp02" path="/Game/UI/TEX/CampFame/Camp_Fame03.Camp_Fame03" />
+    </CampGrade>
+    <CampGrade id="Fame04" templateId="5720004" additionalStatId="bonusBuff_04" requireCampGradeExp="3000">
+      <AchieveReward stuffType="Currency" stuffId="Gold" stuffAmount="8000" />
+      <AchieveReward stuffType="Currency" stuffId="Gem_Free" stuffAmount="15" />
+      <IconResourcePath campId="Camp01" path="/Game/UI/TEX/CampFame/Camp_Fame04.Camp_Fame04" />
+      <IconResourcePath campId="Camp02" path="/Game/UI/TEX/CampFame/Camp_Fame04.Camp_Fame04" />
+    </CampGrade>
+    <CampGrade id="Fame05" templateId="5720005" additionalStatId="bonusBuff_05" requireCampGradeExp="6000">
+      <AchieveReward stuffType="Currency" stuffId="Gold" stuffAmount="10000" />
+      <AchieveReward stuffType="Currency" stuffId="Gem_Free" stuffAmount="20" />
+      <IconResourcePath campId="Camp01" path="/Game/UI/TEX/CampFame/Camp_Fame05.Camp_Fame05" />
+      <IconResourcePath campId="Camp02" path="/Game/UI/TEX/CampFame/Camp_Fame05.Camp_Fame05" />
+    </CampGrade>
+    <CampGrade id="Fame06" templateId="5720006" additionalStatId="bonusBuff_06" requireCampGradeExp="10000">
+      <AchieveReward stuffType="Currency" stuffId="Gold" stuffAmount="10000" />
+      <AchieveReward stuffType="Currency" stuffId="Gem_Free" stuffAmount="30" />
+      <IconResourcePath campId="Camp01" path="/Game/UI/TEX/CampFame/Camp_Fame06.Camp_Fame06" />
+      <IconResourcePath campId="Camp02" path="/Game/UI/TEX/CampFame/Camp_Fame06.Camp_Fame06" />
+    </CampGrade>
+    <CampGrade id="Fame07" templateId="5720007" additionalStatId="bonusBuff_07" requireCampGradeExp="16000">
+      <AchieveReward stuffType="Currency" stuffId="Gold" stuffAmount="15000" />
+      <AchieveReward stuffType="Currency" stuffId="Gem_Free" stuffAmount="50" />
+      <IconResourcePath campId="Camp01" path="/Game/UI/TEX/CampFame/Camp_Fame07.Camp_Fame07" />
+      <IconResourcePath campId="Camp02" path="/Game/UI/TEX/CampFame/Camp_Fame07.Camp_Fame07" />
+    </CampGrade>
+    <CampGrade id="Fame08" templateId="5720008" additionalStatId="bonusBuff_08" requireCampGradeExp="22000">
+      <AchieveReward stuffType="Currency" stuffId="Gold" stuffAmount="15000" />
+      <AchieveReward stuffType="Currency" stuffId="Gem_Free" stuffAmount="80" />
+      <IconResourcePath campId="Camp01" path="/Game/UI/TEX/CampFame/Camp_Fame08.Camp_Fame08" />
+      <IconResourcePath campId="Camp02" path="/Game/UI/TEX/CampFame/Camp_Fame08.Camp_Fame08" />
+    </CampGrade>
+    <CampGrade id="Fame09" templateId="5720009" additionalStatId="bonusBuff_09" requireCampGradeExp="30000">
+      <AchieveReward stuffType="Currency" stuffId="Gold" stuffAmount="20000" />
+      <AchieveReward stuffType="Currency" stuffId="Gem_Free" stuffAmount="120" />
+      <IconResourcePath campId="Camp01" path="/Game/UI/TEX/CampFame/Camp_Fame09.Camp_Fame09" />
+      <IconResourcePath campId="Camp02" path="/Game/UI/TEX/CampFame/Camp_Fame09.Camp_Fame09" />
+    </CampGrade>
+    <CampGrade id="Fame10" templateId="5720010" additionalStatId="bonusBuff_10" requireCampGradeExp="40000">
+      <AchieveReward stuffType="Currency" stuffId="Gold" stuffAmount="25000" />
+      <AchieveReward stuffType="Currency" stuffId="Gem_Free" stuffAmount="170" />
+      <IconResourcePath campId="Camp01" path="/Game/UI/TEX/CampFame/Camp_Fame10.Camp_Fame10" />
+      <IconResourcePath campId="Camp02" path="/Game/UI/TEX/CampFame/Camp_Fame10.Camp_Fame10" />
+    </CampGrade>
+  </CampGradeList>
+  <CampClassList>
+    <CampClass id="CampRank01" templateId="1" requireGuildWarRank="1" />
+    <CampClass id="CampRank02" templateId="2" requireGuildWarRank="2" />
+    <CampClass id="CampRank03" templateId="3" requireGuildWarRank="3" />
+    <CampClass id="CampRank04" templateId="4" requireGuildWarRank="4" />
+    <CampClass id="CampRank05" templateId="5" requireGuildWarRank="5" />
+    <CampClass id="CampRank06" templateId="6" requireGuildWarRank="6" />
+    <CampClass id="CampRank07" templateId="7" requireGuildWarRank="7" />
+    <CampClass id="CampRank08" templateId="8" requireGuildWarRank="8" />
+    <CampClass id="CampRank09" templateId="9" requireGuildWarRank="9" />
+    <CampClass id="CampRank10" templateId="10" requireGuildWarRank="10" />
+  </CampClassList>
+</CampData>

@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="WeekDungeonData">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="CommonData">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="EnterCost">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="InternalEnterCost">
+                      <xs:complexType>
+                        <xs:attribute name="stuffType" type="xs:string" use="required" />
+                        <xs:attribute name="stuffId" type="xs:string" use="required" />
+                        <xs:attribute name="stuffAmount" type="xs:unsignedByte" use="required" />
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                  <xs:attribute name="stuffType" type="xs:string" use="required" />
+                  <xs:attribute name="stuffId" type="xs:string" use="required" />
+                  <xs:attribute name="stuffAmount" type="xs:unsignedByte" use="required" />
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="ContinueCost">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element maxOccurs="unbounded" name="Cost">
+                      <xs:complexType>
+                        <xs:attribute name="id" type="xs:string" use="required" />
+                        <xs:attribute name="stuffType" type="xs:string" use="required" />
+                        <xs:attribute name="stuffId" type="xs:string" use="required" />
+                        <xs:attribute name="stuffAmount" type="xs:unsignedByte" use="required" />
+                        <xs:attribute name="continueCountLimit" type="xs:unsignedByte" use="required" />
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="AdditionalEnterCost">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="InternalAdditionalEnterCost">
+                      <xs:complexType>
+                        <xs:attribute name="stuffType" type="xs:string" use="required" />
+                        <xs:attribute name="stuffId" type="xs:string" use="required" />
+                        <xs:attribute name="stuffAmount" type="xs:unsignedByte" use="required" />
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                  <xs:attribute name="stuffType" type="xs:string" use="required" />
+                  <xs:attribute name="stuffId" type="xs:string" use="required" />
+                  <xs:attribute name="stuffAmount" type="xs:unsignedByte" use="required" />
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+            <xs:attribute name="openConditionId" type="xs:string" use="required" />
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="WeekDungeonInfo">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element maxOccurs="unbounded" name="WeekDungeon">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element maxOccurs="unbounded" name="Difficulty">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element maxOccurs="unbounded" name="ClearReward">
+                            <xs:complexType>
+                              <xs:attribute name="prob" type="xs:unsignedByte" use="required" />
+                              <xs:attribute name="stuffType" type="xs:string" use="required" />
+                              <xs:attribute name="stuffId" type="xs:string" use="required" />
+                              <xs:attribute name="devName" type="xs:string" use="required" />
+                              <xs:attribute name="stuffAmount" type="xs:unsignedByte" use="required" />
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:sequence>
+                        <xs:attribute name="templateId" type="xs:unsignedInt" use="required" />
+                        <xs:attribute name="id" type="xs:string" use="required" />
+                        <xs:attribute name="battleLevelId" type="xs:string" use="required" />
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                  <xs:attribute name="id" type="xs:string" use="required" />
+                  <xs:attribute name="templateId" type="xs:unsignedInt" use="required" />
+                  <xs:attribute name="openConditionId" type="xs:string" use="required" />
+                  <xs:attribute name="stageImage" type="xs:string" use="required" />
+                  <xs:attribute name="entryScenario" type="xs:string" use="required" />
+                  <xs:attribute name="exitScenario" type="xs:string" use="required" />
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

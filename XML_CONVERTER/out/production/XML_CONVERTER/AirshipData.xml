@@ -1,0 +1,332 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<AirshipData>
+  <CommonData openConditionId="Airship" goldRoomEntryScenario="CON_Flying_Start_01" goldRoomExitScenario="CON_Flying_End_01">
+    <Camera fov="75" posOffset="X=0 Y=0 Z=-25" minRot="Y=-5 P=-17 R=0" maxRot="Y=5 P=-21 R=0" rotPeriod="Y=20.0 P=15.0 R=0" zoom="1200" rescaleBound="0.5" />
+    <EnterCost stuffType="Currency" stuffId="Token_Airship" stuffAmount="1" />
+    <ContinueCost stuffType="Currency" stuffId="SemiGem" stuffAmount="150" continueCountLimit="1" />
+    <PassiveBuff buffOn="true" trialCountForPassiveCharge="10">
+      <Passive stackCount="1" passiveSkillId="AirShip_G1_Passive" passiveStringId="AirShip_G1_Passive" />
+      <Passive stackCount="2" passiveSkillId="AirShip_G2_Passive" passiveStringId="AirShip_G2_Passive" />
+      <Passive stackCount="3" passiveSkillId="AirShip_G3_Passive" passiveStringId="AirShip_G3_Passive" />
+      <Passive stackCount="4" passiveSkillId="AirShip_G4_Passive" passiveStringId="AirShip_G4_Passive" />
+      <Passive stackCount="5" passiveSkillId="AirShip_G5_Passive" passiveStringId="AirShip_G5_Passive" />
+      <Passive stackCount="6" passiveSkillId="AirShip_G6_Passive" passiveStringId="AirShip_G6_Passive" />
+      <Passive stackCount="7" passiveSkillId="AirShip_G7_Passive" passiveStringId="AirShip_G7_Passive" />
+      <Passive stackCount="8" passiveSkillId="AirShip_G8_Passive" passiveStringId="AirShip_G8_Passive" />
+      <Passive stackCount="9" passiveSkillId="AirShip_G9_Passive" passiveStringId="AirShip_G9_Passive" />
+      <Passive stackCount="10" passiveSkillId="AirShip_G10_Passive" passiveStringId="AirShip_G10_Passive" />
+      <Passive stackCount="11" passiveSkillId="AirShip_G11_Passive" passiveStringId="AirShip_G11_Passive" />
+      <Passive stackCount="12" passiveSkillId="AirShip_G12_Passive" passiveStringId="AirShip_G12_Passive" />
+      <Passive stackCount="13" passiveSkillId="AirShip_G13_Passive" passiveStringId="AirShip_G13_Passive" />
+      <Passive stackCount="14" passiveSkillId="AirShip_G14_Passive" passiveStringId="AirShip_G14_Passive" />
+      <Passive stackCount="15" passiveSkillId="AirShip_G15_Passive" passiveStringId="AirShip_G15_Passive" />
+      <Passive stackCount="16" passiveSkillId="AirShip_G16_Passive" passiveStringId="AirShip_G16_Passive" />
+      <Passive stackCount="17" passiveSkillId="AirShip_G17_Passive" passiveStringId="AirShip_G17_Passive" />
+      <Passive stackCount="18" passiveSkillId="AirShip_G18_Passive" passiveStringId="AirShip_G18_Passive" />
+      <Passive stackCount="19" passiveSkillId="AirShip_G19_Passive" passiveStringId="AirShip_G19_Passive" />
+      <Passive stackCount="20" passiveSkillId="AirShip_G20_Passive" passiveStringId="AirShip_G20_Passive" />
+    </PassiveBuff>
+  </CommonData>
+  <ProgressData>
+    <Progress id="Progress01" templateId="2200001" displayDistance="10" battleLevelId="AirShip_1" goldRoomtemplateId="2201001" goldRoomBattleLevelId="goldRoom_1" entryScenario="CON_Air01_Start_01" exitScenario="CON_Air01_End_01">
+      <StageReward prob="1" stuffType="Currency" stuffId="gold" stuffAmount="5000" />
+      <GoldRoom>
+        <GoldRoomReward prob="1" stuffType="currency" stuffId="gold" stuffAmount="500" />
+      </GoldRoom>
+    </Progress>
+    <Progress id="Progress02" templateId="2200002" displayDistance="20" battleLevelId="AirShip_2" goldRoomtemplateId="2201002" goldRoomBattleLevelId="goldRoom_2" preProgressId="Progress01">
+      <StageReward prob="1" stuffType="Hero" stuffId="DancingFairy_G1" stuffAmount="1" />
+      <GoldRoom>
+        <GoldRoomReward prob="1" stuffType="currency" stuffId="gold" stuffAmount="550" />
+      </GoldRoom>
+    </Progress>
+    <Progress id="Progress03" templateId="2200003" displayDistance="30" battleLevelId="AirShip_3" goldRoomtemplateId="2201003" goldRoomBattleLevelId="goldRoom_3" preProgressId="Progress02">
+      <StageReward prob="1" stuffType="Gacha" stuffId="Airship_Reward_Armor_R02" stuffAmount="1" />
+      <GoldRoom>
+        <GoldRoomReward prob="1" stuffType="currency" stuffId="gold" stuffAmount="600" />
+      </GoldRoom>
+    </Progress>
+    <Progress id="Progress04" templateId="2200004" displayDistance="40" battleLevelId="AirShip_4" goldRoomtemplateId="2201004" goldRoomBattleLevelId="goldRoom_4" preProgressId="Progress03">
+      <StageReward prob="1" stuffType="Gacha" stuffId="Airship_Reward_Weapon_R02" stuffAmount="1" />
+      <GoldRoom>
+        <GoldRoomReward prob="1" stuffType="currency" stuffId="gold" stuffAmount="650" />
+      </GoldRoom>
+    </Progress>
+    <Progress id="Progress05" templateId="2200005" displayDistance="50" battleLevelId="AirShip_5" goldRoomtemplateId="2201005" goldRoomBattleLevelId="goldRoom_5" preProgressId="Progress04">
+      <StageReward prob="1" stuffType="Currency" stuffId="SemiGem" stuffAmount="500" />
+      <GoldRoom>
+        <GoldRoomReward prob="1" stuffType="currency" stuffId="gold" stuffAmount="700" />
+      </GoldRoom>
+    </Progress>
+    <Progress id="Progress06" templateId="2200006" displayDistance="60" battleLevelId="AirShip_6" goldRoomtemplateId="2201006" goldRoomBattleLevelId="goldRoom_6" preProgressId="Progress05">
+      <StageReward prob="1" stuffType="Currency" stuffId="gold" stuffAmount="10000" />
+      <GoldRoom>
+        <GoldRoomReward prob="1" stuffType="currency" stuffId="gold" stuffAmount="750" />
+      </GoldRoom>
+    </Progress>
+    <Progress id="Progress07" templateId="2200007" displayDistance="70" battleLevelId="AirShip_7" goldRoomtemplateId="2201007" goldRoomBattleLevelId="goldRoom_7" preProgressId="Progress06">
+      <StageReward prob="1" stuffType="Hero" stuffId="DancingFairy_G2" stuffAmount="1" />
+      <GoldRoom>
+        <GoldRoomReward prob="1" stuffType="currency" stuffId="gold" stuffAmount="800" />
+      </GoldRoom>
+    </Progress>
+    <Progress id="Progress08" templateId="2200008" displayDistance="80" battleLevelId="AirShip_8" goldRoomtemplateId="2201008" goldRoomBattleLevelId="goldRoom_8" preProgressId="Progress07">
+      <StageReward prob="1" stuffType="Item" stuffId="Material_EvolveType0_G3" stuffAmount="50" />
+      <GoldRoom>
+        <GoldRoomReward prob="1" stuffType="currency" stuffId="gold" stuffAmount="850" />
+      </GoldRoom>
+    </Progress>
+    <Progress id="Progress09" templateId="2200009" displayDistance="90" battleLevelId="AirShip_9" goldRoomtemplateId="2201009" goldRoomBattleLevelId="goldRoom_9" preProgressId="Progress08">
+      <StageReward prob="1" stuffType="Gacha" stuffId="Airship_Reward_Armor_R03" stuffAmount="1" />
+      <GoldRoom>
+        <GoldRoomReward prob="1" stuffType="currency" stuffId="gold" stuffAmount="900" />
+      </GoldRoom>
+    </Progress>
+    <Progress id="Progress10" templateId="2200010" displayDistance="100" battleLevelId="AirShip_10" goldRoomtemplateId="2201010" goldRoomBattleLevelId="goldRoom_10" preProgressId="Progress09" entryScenario="CON_Air02_Start_01">
+      <StageReward prob="1" stuffType="Currency" stuffId="Gem_Free" stuffAmount="50" />
+      <GoldRoom>
+        <GoldRoomReward prob="1" stuffType="currency" stuffId="gold" stuffAmount="950" />
+      </GoldRoom>
+    </Progress>
+    <Progress id="Progress11" templateId="2200011" displayDistance="110" battleLevelId="AirShip_11" goldRoomtemplateId="2201011" goldRoomBattleLevelId="goldRoom_11" preProgressId="Progress10">
+      <StageReward prob="1" stuffType="Currency" stuffId="Gold" stuffAmount="15000" />
+      <GoldRoom>
+        <GoldRoomReward prob="1" stuffType="currency" stuffId="gold" stuffAmount="1000" />
+      </GoldRoom>
+    </Progress>
+    <Progress id="Progress12" templateId="2200012" displayDistance="120" battleLevelId="AirShip_12" goldRoomtemplateId="2201012" goldRoomBattleLevelId="goldRoom_12" preProgressId="Progress11">
+      <StageReward prob="1" stuffType="Gacha" stuffId="Airship_Reward_Weapon_R03" stuffAmount="1" />
+      <GoldRoom>
+        <GoldRoomReward prob="1" stuffType="currency" stuffId="gold" stuffAmount="1100" />
+      </GoldRoom>
+    </Progress>
+    <Progress id="Progress13" templateId="2200013" displayDistance="130" battleLevelId="AirShip_13" goldRoomtemplateId="2201013" goldRoomBattleLevelId="goldRoom_13" preProgressId="Progress12">
+      <StageReward prob="1" stuffType="Hero" stuffId="DancingFairy_G3" stuffAmount="1" />
+      <GoldRoom>
+        <GoldRoomReward prob="1" stuffType="currency" stuffId="gold" stuffAmount="1200" />
+      </GoldRoom>
+    </Progress>
+    <Progress id="Progress14" templateId="2200014" displayDistance="140" battleLevelId="AirShip_14" goldRoomtemplateId="2201014" goldRoomBattleLevelId="goldRoom_14" preProgressId="Progress13">
+      <StageReward prob="1" stuffType="Item" stuffId="P_Gauntlet_R04_01_A" stuffAmount="1" />
+      <GoldRoom>
+        <GoldRoomReward prob="1" stuffType="currency" stuffId="gold" stuffAmount="1300" />
+      </GoldRoom>
+    </Progress>
+    <Progress id="Progress15" templateId="2200015" displayDistance="150" battleLevelId="AirShip_15" goldRoomtemplateId="2201015" goldRoomBattleLevelId="goldRoom_15" preProgressId="Progress14">
+      <StageReward prob="1" stuffType="Currency" stuffId="SemiGem" stuffAmount="1000" />
+      <GoldRoom>
+        <GoldRoomReward prob="1" stuffType="currency" stuffId="gold" stuffAmount="1400" />
+      </GoldRoom>
+    </Progress>
+    <Progress id="Progress16" templateId="2200016" displayDistance="160" battleLevelId="AirShip_16" goldRoomtemplateId="2201016" goldRoomBattleLevelId="goldRoom_16" preProgressId="Progress15">
+      <StageReward prob="1" stuffType="Currency" stuffId="gold" stuffAmount="20000" />
+      <GoldRoom>
+        <GoldRoomReward prob="1" stuffType="currency" stuffId="gold" stuffAmount="1500" />
+      </GoldRoom>
+    </Progress>
+    <Progress id="Progress17" templateId="2200017" displayDistance="170" battleLevelId="AirShip_17" goldRoomtemplateId="2201017" goldRoomBattleLevelId="goldRoom_17" preProgressId="Progress16">
+      <StageReward prob="1" stuffType="Item" stuffId="Material_EvolveTypeA_G4" stuffAmount="5" />
+      <GoldRoom>
+        <GoldRoomReward prob="1" stuffType="currency" stuffId="gold" stuffAmount="1600" />
+      </GoldRoom>
+    </Progress>
+    <Progress id="Progress18" templateId="2200018" displayDistance="180" battleLevelId="AirShip_18" goldRoomtemplateId="2201018" goldRoomBattleLevelId="goldRoom_18" preProgressId="Progress17">
+      <StageReward prob="1" stuffType="Item" stuffId="Material_EvolveTypeB_G4" stuffAmount="5" />
+      <GoldRoom>
+        <GoldRoomReward prob="1" stuffType="currency" stuffId="gold" stuffAmount="1700" />
+      </GoldRoom>
+    </Progress>
+    <Progress id="Progress19" templateId="2200019" displayDistance="190" battleLevelId="AirShip_19" goldRoomtemplateId="2201019" goldRoomBattleLevelId="goldRoom_19" preProgressId="Progress18">
+      <StageReward prob="1" stuffType="Item" stuffId="P_Boots_R05_01_A" stuffAmount="1" />
+      <GoldRoom>
+        <GoldRoomReward prob="1" stuffType="currency" stuffId="gold" stuffAmount="1800" />
+      </GoldRoom>
+    </Progress>
+    <Progress id="Progress20" templateId="2200020" displayDistance="200" battleLevelId="AirShip_20" goldRoomtemplateId="2201020" goldRoomBattleLevelId="goldRoom_20" preProgressId="Progress19" airshipCautionMessageId="AirshipCautionTestMessage1" entryScenario="CON_Air03_Start_01">
+      <StageReward prob="1" stuffType="Currency" stuffId="Gem_Free" stuffAmount="100" />
+      <GoldRoom>
+        <GoldRoomReward prob="1" stuffType="currency" stuffId="gold" stuffAmount="1900" />
+      </GoldRoom>
+    </Progress>
+    <Progress id="Progress21" templateId="2200021" displayDistance="210" battleLevelId="AirShip_21" goldRoomtemplateId="2201021" goldRoomBattleLevelId="goldRoom_21" preProgressId="Progress20">
+      <StageReward prob="1" stuffType="Currency" stuffId="Gold" stuffAmount="25000" />
+      <GoldRoom>
+        <GoldRoomReward prob="1" stuffType="currency" stuffId="gold" stuffAmount="2000" />
+      </GoldRoom>
+    </Progress>
+    <Progress id="Progress22" templateId="2200022" displayDistance="220" battleLevelId="AirShip_22" goldRoomtemplateId="2201022" goldRoomBattleLevelId="goldRoom_22" preProgressId="Progress21">
+      <StageReward prob="1" stuffType="Item" stuffId="Material_EvolveType0_G5" stuffAmount="10" />
+      <GoldRoom>
+        <GoldRoomReward prob="1" stuffType="currency" stuffId="gold" stuffAmount="2100" />
+      </GoldRoom>
+    </Progress>
+    <Progress id="Progress23" templateId="2200023" displayDistance="230" battleLevelId="AirShip_23" goldRoomtemplateId="2201023" goldRoomBattleLevelId="goldRoom_23" preProgressId="Progress22">
+      <StageReward prob="1" stuffType="Gacha" stuffId="Airship_Reward_Hero_G5_B" stuffAmount="1" />
+      <GoldRoom>
+        <GoldRoomReward prob="1" stuffType="currency" stuffId="gold" stuffAmount="2200" />
+      </GoldRoom>
+    </Progress>
+    <Progress id="Progress24" templateId="2200024" displayDistance="240" battleLevelId="AirShip_24" goldRoomtemplateId="2201024" goldRoomBattleLevelId="goldRoom_24" preProgressId="Progress23">
+      <StageReward prob="1" stuffType="Item" stuffId="Material_EvolveTypeB_G5" stuffAmount="5" />
+      <GoldRoom>
+        <GoldRoomReward prob="1" stuffType="currency" stuffId="gold" stuffAmount="2300" />
+      </GoldRoom>
+    </Progress>
+    <Progress id="Progress25" templateId="2200025" displayDistance="250" battleLevelId="AirShip_25" goldRoomtemplateId="2201025" goldRoomBattleLevelId="goldRoom_25" preProgressId="Progress24" airshipCautionMessageId="AirshipCautionTestMessage1">
+      <StageReward prob="1" stuffType="Item" stuffId="P_Ring_R06_01_B" stuffAmount="1" />
+      <GoldRoom>
+        <GoldRoomReward prob="1" stuffType="currency" stuffId="gold" stuffAmount="2400" />
+      </GoldRoom>
+    </Progress>
+    <Progress id="Progress26" templateId="2200026" displayDistance="260" battleLevelId="AirShip_26" goldRoomtemplateId="2201026" goldRoomBattleLevelId="goldRoom_26" preProgressId="Progress25">
+      <StageReward prob="1" stuffType="Currency" stuffId="Gold" stuffAmount="30000" />
+      <GoldRoom>
+        <GoldRoomReward prob="1" stuffType="currency" stuffId="gold" stuffAmount="2500" />
+      </GoldRoom>
+    </Progress>
+    <Progress id="Progress27" templateId="2200027" displayDistance="270" battleLevelId="AirShip_27" goldRoomtemplateId="2201027" goldRoomBattleLevelId="goldRoom_27" preProgressId="Progress26">
+      <StageReward prob="1" stuffType="Gacha" stuffId="Airship_Reward_Hero_G5_A" stuffAmount="1" />
+      <GoldRoom>
+        <GoldRoomReward prob="1" stuffType="currency" stuffId="gold" stuffAmount="2600" />
+      </GoldRoom>
+    </Progress>
+    <Progress id="Progress28" templateId="2200028" displayDistance="280" battleLevelId="AirShip_28" goldRoomtemplateId="2201028" goldRoomBattleLevelId="goldRoom_28" preProgressId="Progress27">
+      <StageReward prob="1" stuffType="Item" stuffId="Material_EvolveTypeA_G5" stuffAmount="5" />
+      <GoldRoom>
+        <GoldRoomReward prob="1" stuffType="currency" stuffId="gold" stuffAmount="2700" />
+      </GoldRoom>
+    </Progress>
+    <Progress id="Progress29" templateId="2200029" displayDistance="290" battleLevelId="AirShip_29" goldRoomtemplateId="2201029" goldRoomBattleLevelId="goldRoom_29" preProgressId="Progress28">
+      <StageReward prob="1" stuffType="Gacha" stuffId="Airship_Reward_Armor_R06" stuffAmount="1" />
+      <GoldRoom>
+        <GoldRoomReward prob="1" stuffType="currency" stuffId="gold" stuffAmount="2800" />
+      </GoldRoom>
+    </Progress>
+    <Progress id="Progress30" templateId="2200030" displayDistance="300" battleLevelId="AirShip_30" goldRoomtemplateId="2201030" goldRoomBattleLevelId="goldRoom_30" preProgressId="Progress29" airshipCautionMessageId="AirshipCautionTestMessage1" entryScenario="CON_Air04_Start_01">
+      <StageReward prob="1" stuffType="Currency" stuffId="Gem_Free" stuffAmount="150" />
+      <GoldRoom>
+        <GoldRoomReward prob="1" stuffType="currency" stuffId="gold" stuffAmount="2900" />
+      </GoldRoom>
+    </Progress>
+    <Progress id="Progress31" templateId="2200031" displayDistance="310" battleLevelId="AirShip_31" goldRoomtemplateId="2201031" goldRoomBattleLevelId="goldRoom_31" preProgressId="Progress30">
+      <StageReward prob="1" stuffType="Currency" stuffId="Gold" stuffAmount="40000" />
+      <GoldRoom>
+        <GoldRoomReward prob="1" stuffType="currency" stuffId="gold" stuffAmount="3000" />
+      </GoldRoom>
+    </Progress>
+    <Progress id="Progress32" templateId="2200032" displayDistance="320" battleLevelId="AirShip_32" goldRoomtemplateId="2201032" goldRoomBattleLevelId="goldRoom_32" preProgressId="Progress31" airshipCautionMessageId="AirshipCautionTestMessage2">
+      <StageReward prob="1" stuffType="Item" stuffId="P_Gauntlet_R06_01_A" stuffAmount="1" />
+      <GoldRoom>
+        <GoldRoomReward prob="1" stuffType="currency" stuffId="gold" stuffAmount="3100" />
+      </GoldRoom>
+    </Progress>
+    <Progress id="Progress33" templateId="2200033" displayDistance="330" battleLevelId="AirShip_33" goldRoomtemplateId="2201033" goldRoomBattleLevelId="goldRoom_33" preProgressId="Progress32">
+      <StageReward prob="1" stuffType="Hero" stuffId="DancingFairy_G5" stuffAmount="1" />
+      <GoldRoom>
+        <GoldRoomReward prob="1" stuffType="currency" stuffId="gold" stuffAmount="3200" />
+      </GoldRoom>
+    </Progress>
+    <Progress id="Progress34" templateId="2200034" displayDistance="340" battleLevelId="AirShip_34" goldRoomtemplateId="2201034" goldRoomBattleLevelId="goldRoom_34" preProgressId="Progress33">
+      <StageReward prob="1" stuffType="Item" stuffId="Material_EvolveType0_G5" stuffAmount="50" />
+      <GoldRoom>
+        <GoldRoomReward prob="1" stuffType="currency" stuffId="gold" stuffAmount="3300" />
+      </GoldRoom>
+    </Progress>
+    <Progress id="Progress35" templateId="2200035" displayDistance="350" battleLevelId="AirShip_35" goldRoomtemplateId="2201035" goldRoomBattleLevelId="goldRoom_35" preProgressId="Progress34">
+      <StageReward prob="1" stuffType="Currency" stuffId="Gem_Free" stuffAmount="200" />
+      <GoldRoom>
+        <GoldRoomReward prob="1" stuffType="currency" stuffId="gold" stuffAmount="3400" />
+      </GoldRoom>
+    </Progress>
+    <Progress id="Progress36" templateId="2200036" displayDistance="360" battleLevelId="AirShip_36" goldRoomtemplateId="2201036" goldRoomBattleLevelId="goldRoom_36" preProgressId="Progress35" airshipCautionMessageId="AirshipCautionTestMessage3">
+      <StageReward prob="1" stuffType="Currency" stuffId="Gold" stuffAmount="50000" />
+      <GoldRoom>
+        <GoldRoomReward prob="1" stuffType="currency" stuffId="gold" stuffAmount="3500" />
+      </GoldRoom>
+    </Progress>
+    <Progress id="Progress37" templateId="2200037" displayDistance="370" battleLevelId="AirShip_37" goldRoomtemplateId="2201037" goldRoomBattleLevelId="goldRoom_37" preProgressId="Progress36">
+      <StageReward prob="1" stuffType="Item" stuffId="Material_EvolveTypeA_G5" stuffAmount="10" />
+      <GoldRoom>
+        <GoldRoomReward prob="1" stuffType="currency" stuffId="gold" stuffAmount="3600" />
+      </GoldRoom>
+    </Progress>
+    <Progress id="Progress38" templateId="2200038" displayDistance="380" battleLevelId="AirShip_38" goldRoomtemplateId="2201038" goldRoomBattleLevelId="goldRoom_38" preProgressId="Progress37" airshipCautionMessageId="AirshipCautionTestMessage4">
+      <StageReward prob="1" stuffType="Item" stuffId="P_Mail_R06_01_A" stuffAmount="1" />
+      <GoldRoom>
+        <GoldRoomReward prob="1" stuffType="currency" stuffId="gold" stuffAmount="3700" />
+      </GoldRoom>
+    </Progress>
+    <Progress id="Progress39" templateId="2200039" displayDistance="390" battleLevelId="AirShip_39" goldRoomtemplateId="2201039" goldRoomBattleLevelId="goldRoom_39" preProgressId="Progress38">
+      <StageReward prob="1" stuffType="Item" stuffId="Material_EvolveTypeB_G5" stuffAmount="10" />
+      <GoldRoom>
+        <GoldRoomReward prob="1" stuffType="currency" stuffId="gold" stuffAmount="3800" />
+      </GoldRoom>
+    </Progress>
+    <Progress id="Progress40" templateId="2200040" displayDistance="400" battleLevelId="AirShip_40" goldRoomtemplateId="2201040" goldRoomBattleLevelId="goldRoom_40" preProgressId="Progress39" airshipCautionMessageId="AirshipCautionTestMessage2" entryScenario="CON_Air05_Start_01">
+      <StageReward prob="1" stuffType="Item" stuffId="M_Ring_R06_06_A" stuffAmount="1" />
+      <GoldRoom>
+        <GoldRoomReward prob="1" stuffType="currency" stuffId="gold" stuffAmount="3900" />
+      </GoldRoom>
+    </Progress>
+    <Progress id="Progress41" templateId="2200041" displayDistance="410" battleLevelId="AirShip_41" goldRoomtemplateId="2201041" goldRoomBattleLevelId="goldRoom_41" preProgressId="Progress40" airshipCautionMessageId="AirshipCautionTestMessage3">
+      <StageReward prob="1" stuffType="Currency" stuffId="Gold" stuffAmount="60000" />
+      <GoldRoom>
+        <GoldRoomReward prob="1" stuffType="currency" stuffId="gold" stuffAmount="4000" />
+      </GoldRoom>
+    </Progress>
+    <Progress id="Progress42" templateId="2200042" displayDistance="420" battleLevelId="AirShip_42" goldRoomtemplateId="2201042" goldRoomBattleLevelId="goldRoom_42" preProgressId="Progress41" airshipCautionMessageId="AirshipCautionTestMessage4">
+      <StageReward prob="1" stuffType="Item" stuffId="Material_EvolveType0_G5" stuffAmount="100" />
+      <GoldRoom>
+        <GoldRoomReward prob="1" stuffType="currency" stuffId="gold" stuffAmount="4100" />
+      </GoldRoom>
+    </Progress>
+    <Progress id="Progress43" templateId="2200043" displayDistance="430" battleLevelId="AirShip_43" goldRoomtemplateId="2201043" goldRoomBattleLevelId="goldRoom_43" preProgressId="Progress42" airshipCautionMessageId="AirshipCautionTestMessage2">
+      <StageReward prob="1" stuffType="Item" stuffId="P_Helmet_R06_01_A" stuffAmount="1" />
+      <GoldRoom>
+        <GoldRoomReward prob="1" stuffType="currency" stuffId="gold" stuffAmount="4200" />
+      </GoldRoom>
+    </Progress>
+    <Progress id="Progress44" templateId="2200044" displayDistance="440" battleLevelId="AirShip_44" goldRoomtemplateId="2201044" goldRoomBattleLevelId="goldRoom_44" preProgressId="Progress43" airshipCautionMessageId="AirshipCautionTestMessage3">
+      <StageReward prob="1" stuffType="Item" stuffId="P_Boots_R06_01_A" stuffAmount="1" />
+      <GoldRoom>
+        <GoldRoomReward prob="1" stuffType="currency" stuffId="gold" stuffAmount="4300" />
+      </GoldRoom>
+    </Progress>
+    <Progress id="Progress45" templateId="2200045" displayDistance="450" battleLevelId="AirShip_45" goldRoomtemplateId="2201045" goldRoomBattleLevelId="goldRoom_45" preProgressId="Progress44" airshipCautionMessageId="AirshipCautionTestMessage4">
+      <StageReward prob="1" stuffType="Currency" stuffId="Gem_Free" stuffAmount="300" />
+      <GoldRoom>
+        <GoldRoomReward prob="1" stuffType="currency" stuffId="gold" stuffAmount="4400" />
+      </GoldRoom>
+    </Progress>
+    <Progress id="Progress46" templateId="2200046" displayDistance="460" battleLevelId="AirShip_46" goldRoomtemplateId="2201046" goldRoomBattleLevelId="goldRoom_46" preProgressId="Progress45" airshipCautionMessageId="AirshipCautionTestMessage2">
+      <StageReward prob="1" stuffType="Currency" stuffId="Gold" stuffAmount="70000" />
+      <GoldRoom>
+        <GoldRoomReward prob="1" stuffType="currency" stuffId="gold" stuffAmount="4500" />
+      </GoldRoom>
+    </Progress>
+    <Progress id="Progress47" templateId="2200047" displayDistance="470" battleLevelId="AirShip_47" goldRoomtemplateId="2201047" goldRoomBattleLevelId="goldRoom_47" preProgressId="Progress46" airshipCautionMessageId="AirshipCautionTestMessage3">
+      <StageReward prob="1" stuffType="Gacha" stuffId="Airship_Reward_weapon_R06_Lo" stuffAmount="1" />
+      <GoldRoom>
+        <GoldRoomReward prob="1" stuffType="currency" stuffId="gold" stuffAmount="4600" />
+      </GoldRoom>
+    </Progress>
+    <Progress id="Progress48" templateId="2200048" displayDistance="480" battleLevelId="AirShip_48" goldRoomtemplateId="2201048" goldRoomBattleLevelId="goldRoom_48" preProgressId="Progress47" airshipCautionMessageId="AirshipCautionTestMessage4">
+      <StageReward prob="1" stuffType="Item" stuffId="P_Mail_R06_03_A" stuffAmount="1" />
+      <GoldRoom>
+        <GoldRoomReward prob="1" stuffType="currency" stuffId="gold" stuffAmount="4700" />
+      </GoldRoom>
+    </Progress>
+    <Progress id="Progress49" templateId="2200049" displayDistance="490" battleLevelId="AirShip_49" goldRoomtemplateId="2201049" goldRoomBattleLevelId="goldRoom_49" preProgressId="Progress48" airshipCautionMessageId="AirshipCautionTestMessage2">
+      <StageReward prob="1" stuffType="Item" stuffId="P_Helmet_R06_03_A" stuffAmount="1" />
+      <GoldRoom>
+        <GoldRoomReward prob="1" stuffType="currency" stuffId="gold" stuffAmount="4800" />
+      </GoldRoom>
+    </Progress>
+    <Progress id="Progress50" templateId="2200050" displayDistance="500" battleLevelId="AirShip_50" goldRoomtemplateId="2201050" goldRoomBattleLevelId="goldRoom_50" preProgressId="Progress49" airshipCautionMessageId="AirshipCautionTestMessage3" exitScenario="CON_Air06_End_01">
+      <StageReward prob="1" stuffType="Gacha" stuffId="Attendance_Reward_Hero_G6_A" stuffAmount="1" />
+      <GoldRoom>
+        <GoldRoomReward prob="1" stuffType="currency" stuffId="gold" stuffAmount="4900" />
+      </GoldRoom>
+    </Progress>
+  </ProgressData>
+</AirshipData>

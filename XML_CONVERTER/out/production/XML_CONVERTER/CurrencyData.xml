@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<CurrencyData>
+  <Currency id="Gem" dev_Name="유료 젬" icon="/Game/UI/TEX/Item/Currency/Currency_Cash.Currency_Cash" iconSmall="/Game/UI/TEX/Item/Currency/Currency_Cash.Currency_Cash" digit="7" goodsId="GemByCash30" />
+  <Currency id="Gem_Free" dev_Name="무료 젬" icon="/Game/UI/TEX/Item/Currency/Currency_Cash.Currency_Cash" iconSmall="/Game/UI/TEX/Item/Currency/Currency_Cash.Currency_Cash" showOnResourcePanelOrder="1" digit="7" goodsId="GemByCash30" preCurrencyId="Gem" />
+  <Currency id="SemiGem" dev_Name="큐브" icon="/Game/UI/TEX/Item/Currency/Currency_SemiCash.Currency_SemiCash" iconSmall="/Game/UI/TEX/Item/Currency/Currency_SemiCash.Currency_SemiCash" showOnResourcePanelOrder="2" digit="7" />
+  <Currency id="Gold" dev_Name="골드" icon="/Game/UI/TEX/Item/Currency/Currency_Gold.Currency_Gold" iconSmall="/Game/UI/TEX/Item/Currency/Currency_Gold.Currency_Gold" showOnResourcePanelOrder="3" digit="7" goodsId="GoldByGem5000" />
+  <Currency id="Guild_Point" dev_Name="길드 포인트" icon="/Game/UI/TEX/Item/Currency/Currency_Guild_Point.Currency_Guild_Point" iconSmall="/Game/UI/TEX/Item/Currency/Currency_Guild_Point.Currency_Guild_Point" digit="7" />
+  <Currency id="Camp_Point" dev_Name="진영 포인트" icon="/Game/UI/TEX/Item/Currency/Currency_Camp.Currency_Camp" iconSmall="/Game/UI/TEX/Item/Currency/Currency_Camp.Currency_Camp" showOnResourcePanelOrder="8" digit="7" />
+  <Currency id="PackageMileage" dev_Name="패키지 마일리지" icon="/Game/UI/TEX/Item/Currency/Currency_PackageMileage.Currency_PackageMileage" iconSmall="/Game/UI/TEX/Item/Currency/Currency_PackageMileage.Currency_PackageMileage" showOnResourcePanelOrder="9" digit="7" />
+  <Currency id="Token_Adventure" dev_Name="모험포인트" icon="/Game/UI/TEX/Item/Currency/Currency_Stamina.Currency_Stamina" iconSmall="/Game/UI/TEX/Item/Currency/Currency_Stamina.Currency_Stamina" showOnResourcePanelOrder="4" digit="4" goodsId="Token_AdventureByGem10">
+    <TokenInfo isDailyReset="false" isAutoCharge="true" autoChargeTimeMS="120000" displayChargeTime="true" chargeAmount="1" isGrowable="true" canOverPossess="true" />
+  </Currency>
+  <Currency id="Token_battle" dev_Name="결투장포인트" icon="/Game/UI/TEX/Item/Currency/Currency_battle.Currency_battle" iconSmall="/Game/UI/TEX/Item/Currency/Currency_battle.Currency_battle" showOnResourcePanelOrder="5" digit="4">
+    <TokenInfo isDailyReset="false" isAutoCharge="true" autoChargeTimeMS="1800000" displayChargeTime="true" chargeAmount="1" isGrowable="false" canOverPossess="false" maxChargeCount="5" />
+  </Currency>
+  <Currency id="Token_WeekDungeon" dev_Name="요일 던전" icon="/Game/UI/TEX/Item/Currency/Currency_WeekDungeon.Currency_WeekDungeon" iconSmall="/Game/UI/TEX/Item/Currency/Currency_WeekDungeon.Currency_WeekDungeon" digit="4">
+    <TokenInfo isDailyReset="true" isAutoCharge="false" autoChargeTimeMS="0" displayChargeTime="false" chargeAmount="3" isGrowable="false" canOverPossess="false" maxChargeCount="3" />
+  </Currency>
+  <Currency id="Token_WeekDungeon_Add" dev_Name="요일 던전 추가 입장" icon="/Game/UI/TEX/Item/Currency/Currency_WeekDungeon.Currency_WeekDungeon" iconSmall="/Game/UI/TEX/Item/Currency/Currency_WeekDungeon.Currency_WeekDungeon" digit="4">
+    <TokenInfo isDailyReset="true" isAutoCharge="false" autoChargeTimeMS="0" displayChargeTime="false" chargeAmount="10" isGrowable="false" canOverPossess="false" maxChargeCount="10" />
+  </Currency>
+  <Currency id="Token_SpecialDungeon" dev_Name="스페셜 던전" icon="/Game/UI/TEX/Item/Currency/Currency_Stamina.Currency_Stamina" iconSmall="/Game/UI/TEX/Item/Currency/Currency_Stamina.Currency_Stamina" digit="4">
+    <TokenInfo isDailyReset="true" isAutoCharge="false" autoChargeTimeMS="0" displayChargeTime="false" chargeAmount="1" isGrowable="false" canOverPossess="false" maxChargeCount="1" />
+  </Currency>
+  <Currency id="Token_FriendSendGift" dev_Name="친구선물주기" icon="/Game/UI/TEX/Item/Currency/Currency_battle.Currency_battle" iconSmall="/Game/UI/TEX/Item/Currency/Currency_battle.Currency_battle" digit="4">
+    <TokenInfo isDailyReset="true" isAutoCharge="false" autoChargeTimeMS="0" displayChargeTime="false" chargeAmount="50" isGrowable="false" canOverPossess="false" maxChargeCount="50" />
+  </Currency>
+  <Currency id="Token_FriendRecvGift" dev_Name="친구선물받기" icon="/Game/UI/TEX/Item/Currency/Currency_battle.Currency_battle" iconSmall="/Game/UI/TEX/Item/Currency/Currency_battle.Currency_battle" digit="4">
+    <TokenInfo isDailyReset="true" isAutoCharge="false" autoChargeTimeMS="0" displayChargeTime="false" chargeAmount="50" isGrowable="false" canOverPossess="false" maxChargeCount="50" />
+  </Currency>
+  <Currency id="Token_FriendRemove" dev_Name="친구삭제횟수" icon="/Game/UI/TEX/Item/Currency/Currency_battle.Currency_battle" iconSmall="/Game/UI/TEX/Item/Currency/Currency_battle.Currency_battle" digit="4">
+    <TokenInfo isDailyReset="true" isAutoCharge="false" autoChargeTimeMS="0" displayChargeTime="false" chargeAmount="50" isGrowable="false" canOverPossess="false" maxChargeCount="50" />
+  </Currency>
+  <Currency id="Token_Raid_Suppress" dev_Name="토벌전 토큰" icon="/Game/UI/TEX/Item/Currency/Currency_Raid_Suppress.Currency_Raid_Suppress" iconSmall="/Game/UI/TEX/Item/Currency/Currency_Raid_Suppress.Currency_Raid_Suppress" showOnResourcePanelOrder="7" digit="4">
+    <TokenInfo isDailyReset="false" isAutoCharge="true" autoChargeTimeMS="1800000" displayChargeTime="true" chargeAmount="1" isGrowable="false" canOverPossess="false" maxChargeCount="20" />
+  </Currency>
+  <Currency id="Token_Airship" dev_Name="탐사 전용 토큰" icon="/Game/UI/TEX/Item/Currency/Currency_Airship.Currency_Airship" iconSmall="/Game/UI/TEX/Item/Currency/Currency_Airship.Currency_Airship" showOnResourcePanelOrder="6" digit="4">
+    <TokenInfo isDailyReset="false" isAutoCharge="true" autoChargeTimeMS="1800000" displayChargeTime="true" chargeAmount="1" isGrowable="false" canOverPossess="false" maxChargeCount="5" />
+  </Currency>
+  <Currency id="Token_Battle_Add" dev_Name="결투장 추가 입장" icon="/Game/UI/TEX/Item/Currency/Currency_battle.Currency_battle" iconSmall="/Game/UI/TEX/Item/Currency/Currency_battle.Currency_battle" digit="4">
+    <TokenInfo isDailyReset="true" isAutoCharge="false" autoChargeTimeMS="0" displayChargeTime="false" chargeAmount="50" isGrowable="false" canOverPossess="false" maxChargeCount="50" />
+  </Currency>
+  <Currency id="Token_Guild_Attend" dev_Name="길드 출석" icon="/Game/UI/TEX/Item/Currency/Currency_battle.Currency_battle" iconSmall="/Game/UI/TEX/Item/Currency/Currency_battle.Currency_battle" digit="4">
+    <TokenInfo isDailyReset="true" isAutoCharge="false" autoChargeTimeMS="0" displayChargeTime="false" chargeAmount="1" isGrowable="false" canOverPossess="false" maxChargeCount="1" />
+  </Currency>
+  <Currency id="Token_Guild_SubMaster_Banish" dev_Name="부길드장 멤버 추방" icon="/Game/UI/TEX/Item/Currency/Currency_battle.Currency_battle" iconSmall="/Game/UI/TEX/Item/Currency/Currency_battle.Currency_battle" digit="4">
+    <TokenInfo isDailyReset="true" isAutoCharge="false" autoChargeTimeMS="0" displayChargeTime="false" chargeAmount="5" isGrowable="false" canOverPossess="false" maxChargeCount="5" />
+  </Currency>
+  <Currency id="Token_Guild_Master_Banish" dev_Name="길드장 멤버 추방" icon="/Game/UI/TEX/Item/Currency/Currency_battle.Currency_battle" iconSmall="/Game/UI/TEX/Item/Currency/Currency_battle.Currency_battle" digit="4">
+    <TokenInfo isDailyReset="true" isAutoCharge="false" autoChargeTimeMS="0" displayChargeTime="false" chargeAmount="10" isGrowable="false" canOverPossess="false" maxChargeCount="10" />
+  </Currency>
+  <Currency id="Token_Raid_Suppress_Add" dev_Name="토벌전 추가 입장" icon="/Game/UI/TEX/Item/Currency/Currency_Raid_Suppress.Currency_Raid_Suppress" iconSmall="/Game/UI/TEX/Item/Currency/Currency_Raid_Suppress.Currency_Raid_Suppress" digit="4">
+    <TokenInfo isDailyReset="true" isAutoCharge="false" autoChargeTimeMS="0" displayChargeTime="false" chargeAmount="10" isGrowable="false" canOverPossess="false" maxChargeCount="10" />
+  </Currency>
+  <Currency id="Token_Raid_Suppress_sub01" dev_Name="토벌전 서브 입장" icon="/Game/UI/TEX/Item/Currency/Currency_Raid_Suppress01.Currency_Raid_Suppress01" iconSmall="/Game/UI/TEX/Item/Currency/Currency_Raid_Suppress01.Currency_Raid_Suppress01" digit="4" />
+</CurrencyData>

@@ -1,0 +1,171 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="SuppressRaidData">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="SuppressRaid">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element maxOccurs="unbounded" name="Group">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="Camera">
+                      <xs:complexType>
+                        <xs:attribute name="fov" type="xs:unsignedByte" use="required" />
+                        <xs:attribute name="posOffset" type="xs:string" use="required" />
+                        <xs:attribute name="minRot" type="xs:string" use="required" />
+                        <xs:attribute name="maxRot" type="xs:string" use="required" />
+                        <xs:attribute name="rotPeriod" type="xs:string" use="required" />
+                        <xs:attribute name="zoom" type="xs:unsignedShort" use="required" />
+                        <xs:attribute name="rescaleBound" type="xs:decimal" use="required" />
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="AssetInfo">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="Boss">
+                            <xs:complexType>
+                              <xs:attribute name="pos" type="xs:string" use="required" />
+                              <xs:attribute name="rot" type="xs:string" use="required" />
+                              <xs:attribute name="openAnim" type="xs:string" use="required" />
+                              <xs:attribute name="blockAnim" type="xs:string" use="required" />
+                              <xs:attribute name="clearAnim" type="xs:string" use="required" />
+                            </xs:complexType>
+                          </xs:element>
+                          <xs:element name="Camera">
+                            <xs:complexType>
+                              <xs:attribute name="fov" type="xs:unsignedByte" use="required" />
+                              <xs:attribute name="pos" type="xs:string" use="required" />
+                              <xs:attribute name="rot" type="xs:string" use="required" />
+                            </xs:complexType>
+                          </xs:element>
+                          <xs:element name="Background">
+                            <xs:complexType>
+                              <xs:attribute name="image" type="xs:string" use="required" />
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element maxOccurs="unbounded" name="Stage">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="CreateSet">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element maxOccurs="unbounded" name="Cost">
+                                  <xs:complexType>
+                                    <xs:attribute name="stuffType" type="xs:string" use="required" />
+                                    <xs:attribute name="stuffId" type="xs:string" use="required" />
+                                    <xs:attribute name="stuffAmount" type="xs:unsignedByte" use="required" />
+                                  </xs:complexType>
+                                </xs:element>
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                          <xs:element name="EnterSet">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element name="Cost">
+                                  <xs:complexType>
+                                    <xs:attribute name="stuffType" type="xs:string" use="required" />
+                                    <xs:attribute name="stuffId" type="xs:string" use="required" />
+                                    <xs:attribute name="stuffAmount" type="xs:unsignedByte" use="required" />
+                                  </xs:complexType>
+                                </xs:element>
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                          <xs:element name="AdditionalEnterCost">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element name="InternalAdditionalEnterCost">
+                                  <xs:complexType>
+                                    <xs:attribute name="stuffType" type="xs:string" use="required" />
+                                    <xs:attribute name="stuffId" type="xs:string" use="required" />
+                                    <xs:attribute name="stuffAmount" type="xs:unsignedByte" use="required" />
+                                  </xs:complexType>
+                                </xs:element>
+                              </xs:sequence>
+                              <xs:attribute name="stuffType" type="xs:string" use="required" />
+                              <xs:attribute name="stuffId" type="xs:string" use="required" />
+                              <xs:attribute name="stuffAmount" type="xs:unsignedByte" use="required" />
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:sequence>
+                        <xs:attribute name="id" type="xs:string" use="required" />
+                        <xs:attribute name="templateId" type="xs:unsignedInt" use="required" />
+                        <xs:attribute name="bossId" type="xs:string" use="required" />
+                        <xs:attribute name="difficulty" type="xs:string" use="required" />
+                        <xs:attribute name="image" type="xs:string" use="required" />
+                        <xs:attribute name="enterLimitTimeMin" type="xs:unsignedByte" use="required" />
+                        <xs:attribute name="battleLimitTimeMin" type="xs:unsignedByte" use="required" />
+                        <xs:attribute name="withPlayerLimitCount" type="xs:unsignedByte" use="required" />
+                        <xs:attribute name="openConditionId" type="xs:string" use="required" />
+                        <xs:attribute name="RewardSetId" type="xs:unsignedByte" use="required" />
+                        <xs:attribute name="battleLevelId" type="xs:string" use="required" />
+                        <xs:attribute name="EnterCountLimit" type="xs:unsignedByte" use="required" />
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                  <xs:attribute name="id" type="xs:string" use="required" />
+                  <xs:attribute name="templateId" type="xs:unsignedInt" use="required" />
+                  <xs:attribute name="blockPercent" type="xs:unsignedByte" use="required" />
+                  <xs:attribute name="image" type="xs:string" use="required" />
+                  <xs:attribute name="startLevelSeq" type="xs:string" use="required" />
+                  <xs:attribute name="battleStartDelay" type="xs:decimal" use="required" />
+                  <xs:attribute name="bossGroupExpose" type="xs:boolean" use="required" />
+                  <xs:attribute name="entryScenario" type="xs:string" use="optional" />
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+            <xs:attribute name="openConditionId" type="xs:string" use="required" />
+            <xs:attribute name="isGameSpeedFast" type="xs:boolean" use="required" />
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="RewardSetList">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element maxOccurs="unbounded" name="RewardSet">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="Clear">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element maxOccurs="unbounded" name="ClearReward">
+                            <xs:complexType>
+                              <xs:attribute name="rewardType" type="xs:string" use="required" />
+                              <xs:attribute name="stuffType" type="xs:string" use="required" />
+                              <xs:attribute name="stuffId" type="xs:string" use="required" />
+                              <xs:attribute name="stuffAmount" type="xs:unsignedShort" use="required" />
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="Block">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element maxOccurs="unbounded" name="BlockReward">
+                            <xs:complexType>
+                              <xs:attribute name="rewardType" type="xs:string" use="required" />
+                              <xs:attribute name="stuffType" type="xs:string" use="required" />
+                              <xs:attribute name="stuffId" type="xs:string" use="required" />
+                              <xs:attribute name="stuffAmount" type="xs:unsignedShort" use="required" />
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                  <xs:attribute name="id" type="xs:unsignedByte" use="required" />
+                  <xs:attribute name="devName" type="xs:string" use="required" />
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

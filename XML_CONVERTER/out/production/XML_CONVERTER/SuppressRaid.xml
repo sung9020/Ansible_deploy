@@ -1,0 +1,277 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<SuppressRaidData>
+  <SuppressRaid openConditionId="SuppressRaid" isGameSpeedFast="true">
+    <Group id="LordWell" templateId="2101000" blockPercent="90" image="/Game/UI/TEX/ArtBG/ArenaBG/PVPBG.PVPBG" startLevelSeq="/Game/Character/Monster/LordWell/LevelSequence/Spawn" battleStartDelay="12.4" bossGroupExpose="true" entryScenario="CON_Lordwell_Start_01">
+      <Camera fov="46" posOffset="X=-165 Y=155 Z=345" minRot="Y=-4 P=1 R=0" maxRot="Y=-12 P=-3 R=0" rotPeriod="Y=15.0 P=15.0 R=0" zoom="2200" rescaleBound="0.5" />
+      <AssetInfo>
+        <Boss pos="X=0 Y=0 Z=0" rot="Y=0 P=0 R=0" openAnim="/Game/Character/Monster/LordWell/AnimSequence/Idle.Idle" blockAnim="/Game/Character/Monster/LordWell/AnimSequence/Idle.Idle" clearAnim="/Game/Character/Monster/LordWell/AnimSequence/Die.Die" />
+        <Camera fov="45" pos="X=0 Y=2500 Z=-200" rot="P=14 Y=-79 R=3" />
+        <Background image="/Game/UI/TEX/ArtBG/ArenaBG/PVPBG.PVPBG" />
+      </AssetInfo>
+      <Stage id="LordWell_Normal" templateId="2101001" bossId="LordWell_G1" difficulty="Normal" image="/Game/UI/TEX/ArtBG/ArenaBG/PVPBG.PVPBG" enterLimitTimeMin="60" battleLimitTimeMin="5" withPlayerLimitCount="10" openConditionId="SuppressRaid_LordWell_Normal" RewardSetId="11" battleLevelId="SuppressRaid_LordWell_Normal" EnterCountLimit="10">
+        <CreateSet>
+          <Cost stuffType="Currency" stuffId="Token_Raid_Suppress" stuffAmount="2" />
+        </CreateSet>
+        <EnterSet>
+          <Cost stuffType="Currency" stuffId="Token_Raid_Suppress" stuffAmount="2" />
+        </EnterSet>
+        <AdditionalEnterCost stuffType="Currency" stuffId="Gem_Free" stuffAmount="10">
+          <InternalAdditionalEnterCost stuffType="Currency" stuffId="Token_Raid_Suppress_Add" stuffAmount="1" />
+        </AdditionalEnterCost>
+      </Stage>
+      <Stage id="LordWell_Elite" templateId="2101002" bossId="LordWell_G2" difficulty="Elite" image="/Game/UI/TEX/ArtBG/ArenaBG/PVPBG.PVPBG" enterLimitTimeMin="120" battleLimitTimeMin="5" withPlayerLimitCount="10" openConditionId="SuppressRaid_LordWell_Elite" RewardSetId="12" battleLevelId="SuppressRaid_LordWell_Elite" EnterCountLimit="10">
+        <CreateSet>
+          <Cost stuffType="Currency" stuffId="Token_Raid_Suppress" stuffAmount="3" />
+        </CreateSet>
+        <EnterSet>
+          <Cost stuffType="Currency" stuffId="Token_Raid_Suppress" stuffAmount="3" />
+        </EnterSet>
+        <AdditionalEnterCost stuffType="Currency" stuffId="Gem_Free" stuffAmount="15">
+          <InternalAdditionalEnterCost stuffType="Currency" stuffId="Token_Raid_Suppress_Add" stuffAmount="1" />
+        </AdditionalEnterCost>
+      </Stage>
+      <Stage id="LordWell_Expert" templateId="2101003" bossId="LordWell_G3" difficulty="Expert" image="/Game/UI/TEX/ArtBG/ArenaBG/PVPBG.PVPBG" enterLimitTimeMin="180" battleLimitTimeMin="5" withPlayerLimitCount="10" openConditionId="SuppressRaid_LordWell_Expert" RewardSetId="13" battleLevelId="SuppressRaid_LordWell_Expert" EnterCountLimit="10">
+        <CreateSet>
+          <Cost stuffType="Currency" stuffId="Token_Raid_Suppress" stuffAmount="4" />
+        </CreateSet>
+        <EnterSet>
+          <Cost stuffType="Currency" stuffId="Token_Raid_Suppress" stuffAmount="4" />
+        </EnterSet>
+        <AdditionalEnterCost stuffType="Currency" stuffId="Gem_Free" stuffAmount="20">
+          <InternalAdditionalEnterCost stuffType="Currency" stuffId="Token_Raid_Suppress_Add" stuffAmount="1" />
+        </AdditionalEnterCost>
+      </Stage>
+      <Stage id="LordWell_Master" templateId="2101004" bossId="LordWell_G4" difficulty="Master" image="/Game/UI/TEX/ArtBG/ArenaBG/PVPBG.PVPBG" enterLimitTimeMin="180" battleLimitTimeMin="5" withPlayerLimitCount="10" openConditionId="SuppressRaid_LordWell_Master" RewardSetId="14" battleLevelId="SuppressRaid_LordWell_Master" EnterCountLimit="10">
+        <CreateSet>
+          <Cost stuffType="Currency" stuffId="Token_Raid_Suppress" stuffAmount="5" />
+          <Cost stuffType="Currency" stuffId="Token_Raid_Suppress_sub01" stuffAmount="10" />
+        </CreateSet>
+        <EnterSet>
+          <Cost stuffType="Currency" stuffId="Token_Raid_Suppress" stuffAmount="5" />
+        </EnterSet>
+        <AdditionalEnterCost stuffType="Currency" stuffId="Gem_Free" stuffAmount="25">
+          <InternalAdditionalEnterCost stuffType="Currency" stuffId="Token_Raid_Suppress_Add" stuffAmount="1" />
+        </AdditionalEnterCost>
+      </Stage>
+    </Group>
+    <Group id="Riesistein" templateId="2102000" blockPercent="90" image="/Game/UI/TEX/ArtBG/ArenaBG/PVPBG.PVPBG" startLevelSeq="/Game/Character/Monster/Riesistein/LevelSequence/Spawn.Spawn" battleStartDelay="14" bossGroupExpose="false">
+      <Camera fov="55" posOffset="X=520 Y=-30 Z=300" minRot="Y=-15 P=3 R=0" maxRot="Y=-20 P=-2 R=0" rotPeriod="Y=15.0 P=15.0 R=0" zoom="2800" rescaleBound="0.5" />
+      <AssetInfo>
+        <Boss pos="X=0 Y=0 Z=0" rot="Y=0 P=0 R=0" openAnim="/Game/Character/Monster/Riesistein/AnimSequence/Idle.Idle" blockAnim="/Game/Character/Monster/Riesistein/AnimSequence/Idle.Idle" clearAnim="/Game/Character/Monster/Riesistein/AnimSequence/Die.Die" />
+        <Camera fov="55" pos="X=0 Y=2500 Z=-200" rot="P=14 Y=-79 R=3" />
+        <Background image="/Game/UI/TEX/ArtBG/ArenaBG/PVPBG.PVPBG" />
+      </AssetInfo>
+      <Stage id="Riesistein_Normal" templateId="2102001" bossId="Riesistein_G1" difficulty="Normal" image="/Game/UI/TEX/ArtBG/ArenaBG/PVPBG.PVPBG" enterLimitTimeMin="60" battleLimitTimeMin="5" withPlayerLimitCount="10" openConditionId="SuppressRaid_Riesistein_Normal" RewardSetId="21" battleLevelId="SuppressRaid_Riesistein_Normal" EnterCountLimit="10">
+        <CreateSet>
+          <Cost stuffType="Currency" stuffId="Token_Raid_Suppress" stuffAmount="2" />
+        </CreateSet>
+        <EnterSet>
+          <Cost stuffType="Currency" stuffId="Token_Raid_Suppress" stuffAmount="2" />
+        </EnterSet>
+        <AdditionalEnterCost stuffType="Currency" stuffId="Gem_Free" stuffAmount="20">
+          <InternalAdditionalEnterCost stuffType="Currency" stuffId="Token_Raid_Suppress_Add" stuffAmount="1" />
+        </AdditionalEnterCost>
+      </Stage>
+      <Stage id="Riesistein_Elite" templateId="2102002" bossId="Riesistein_G2" difficulty="Elite" image="/Game/UI/TEX/ArtBG/ArenaBG/PVPBG.PVPBG" enterLimitTimeMin="120" battleLimitTimeMin="5" withPlayerLimitCount="10" openConditionId="SuppressRaid_Riesistein_Elite" RewardSetId="22" battleLevelId="SuppressRaid_Riesistein_Elite" EnterCountLimit="10">
+        <CreateSet>
+          <Cost stuffType="Currency" stuffId="Token_Raid_Suppress" stuffAmount="3" />
+        </CreateSet>
+        <EnterSet>
+          <Cost stuffType="Currency" stuffId="Token_Raid_Suppress" stuffAmount="3" />
+        </EnterSet>
+        <AdditionalEnterCost stuffType="Currency" stuffId="Gem_Free" stuffAmount="15">
+          <InternalAdditionalEnterCost stuffType="Currency" stuffId="Token_Raid_Suppress_Add" stuffAmount="1" />
+        </AdditionalEnterCost>
+      </Stage>
+      <Stage id="Riesistein_Expert" templateId="2102003" bossId="Riesistein_G3" difficulty="Expert" image="/Game/UI/TEX/ArtBG/ArenaBG/PVPBG.PVPBG" enterLimitTimeMin="180" battleLimitTimeMin="5" withPlayerLimitCount="10" openConditionId="SuppressRaid_Riesistein_Expert" RewardSetId="23" battleLevelId="SuppressRaid_Riesistein_Expert" EnterCountLimit="10">
+        <CreateSet>
+          <Cost stuffType="Currency" stuffId="Token_Raid_Suppress" stuffAmount="4" />
+        </CreateSet>
+        <EnterSet>
+          <Cost stuffType="Currency" stuffId="Token_Raid_Suppress" stuffAmount="4" />
+        </EnterSet>
+        <AdditionalEnterCost stuffType="Currency" stuffId="Gem_Free" stuffAmount="20">
+          <InternalAdditionalEnterCost stuffType="Currency" stuffId="Token_Raid_Suppress_Add" stuffAmount="1" />
+        </AdditionalEnterCost>
+      </Stage>
+      <Stage id="Riesistein_Master" templateId="2102004" bossId="Riesistein_G4" difficulty="Master" image="/Game/UI/TEX/ArtBG/ArenaBG/PVPBG.PVPBG" enterLimitTimeMin="180" battleLimitTimeMin="5" withPlayerLimitCount="10" openConditionId="SuppressRaid_Riesistein_Master" RewardSetId="24" battleLevelId="SuppressRaid_Riesistein_Master" EnterCountLimit="10">
+        <CreateSet>
+          <Cost stuffType="Currency" stuffId="Token_Raid_Suppress" stuffAmount="5" />
+        </CreateSet>
+        <EnterSet>
+          <Cost stuffType="Currency" stuffId="Token_Raid_Suppress" stuffAmount="5" />
+        </EnterSet>
+        <AdditionalEnterCost stuffType="Currency" stuffId="Gem_Free" stuffAmount="25">
+          <InternalAdditionalEnterCost stuffType="Currency" stuffId="Token_Raid_Suppress_Add" stuffAmount="1" />
+        </AdditionalEnterCost>
+      </Stage>
+    </Group>
+  </SuppressRaid>
+  <RewardSetList>
+    <RewardSet id="14" devName="로드웰_마스터">
+      <Clear>
+        <ClearReward rewardType="Host" stuffType="Gacha" stuffId="Equip_Reward_R06_Lo_1" stuffAmount="1" />
+        <ClearReward rewardType="Host" stuffType="Gacha" stuffId="Equip_Reward_R06_Lo_1" stuffAmount="1" />
+        <ClearReward rewardType="Host" stuffType="Gacha" stuffId="Equip_Reward_R06_Lo_1" stuffAmount="1" />
+        <ClearReward rewardType="Rank_1" stuffType="Gacha" stuffId="Equip_Reward_R06_Lo_1" stuffAmount="1" />
+        <ClearReward rewardType="Rank_1" stuffType="Gacha" stuffId="Equip_Reward_R06_Lo_1" stuffAmount="1" />
+        <ClearReward rewardType="Rank_1" stuffType="Gacha" stuffId="Equip_Reward_R06_Lo_1" stuffAmount="1" />
+        <ClearReward rewardType="Rank_1" stuffType="Currency" stuffId="Gold" stuffAmount="10000" />
+        <ClearReward rewardType="Rank_2" stuffType="Gacha" stuffId="Equip_Reward_R06_Lo_1" stuffAmount="1" />
+        <ClearReward rewardType="Rank_2" stuffType="Gacha" stuffId="Equip_Reward_R06_Lo_1" stuffAmount="1" />
+        <ClearReward rewardType="Rank_2" stuffType="Currency" stuffId="Gold" stuffAmount="10000" />
+        <ClearReward rewardType="Rank_3" stuffType="Gacha" stuffId="Equip_Reward_R06_Lo_1" stuffAmount="1" />
+        <ClearReward rewardType="Rank_3" stuffType="Currency" stuffId="Gold" stuffAmount="10000" />
+        <ClearReward rewardType="ETC" stuffType="Gacha" stuffId="Equip_Raid_Reward_Lo_MA_Entry" stuffAmount="1" />
+        <ClearReward rewardType="ETC" stuffType="Currency" stuffId="Gold" stuffAmount="10000" />
+      </Clear>
+      <Block>
+        <BlockReward rewardType="Host" stuffType="Currency" stuffId="Gold" stuffAmount="20000" />
+        <BlockReward rewardType="ETC" stuffType="Currency" stuffId="Gold" stuffAmount="10000" />
+      </Block>
+    </RewardSet>
+    <RewardSet id="13" devName="로드웰_익스퍼트">
+      <Clear>
+        <ClearReward rewardType="Host" stuffType="Gacha" stuffId="Equip_Raid_Reward_R04_to_R05" stuffAmount="1" />
+        <ClearReward rewardType="Rank_1" stuffType="Gacha" stuffId="Equip_Raid_Reward_R04_to_R05" stuffAmount="1" />
+        <ClearReward rewardType="Rank_1" stuffType="Gacha" stuffId="Equip_Raid_Reward_R04_to_R05" stuffAmount="1" />
+        <ClearReward rewardType="Rank_1" stuffType="Gacha" stuffId="Equip_Raid_Reward_R04_to_R05" stuffAmount="1" />
+        <ClearReward rewardType="Rank_1" stuffType="Currency" stuffId="Gold" stuffAmount="8000" />
+        <ClearReward rewardType="Rank_1" stuffType="Currency" stuffId="Token_Raid_Suppress_sub01" stuffAmount="2" />
+        <ClearReward rewardType="Rank_2" stuffType="Gacha" stuffId="Equip_Raid_Reward_R04_to_R05" stuffAmount="1" />
+        <ClearReward rewardType="Rank_2" stuffType="Gacha" stuffId="Equip_Raid_Reward_R04_to_R05" stuffAmount="1" />
+        <ClearReward rewardType="Rank_2" stuffType="Currency" stuffId="Gold" stuffAmount="8000" />
+        <ClearReward rewardType="Rank_2" stuffType="Currency" stuffId="Token_Raid_Suppress_sub01" stuffAmount="2" />
+        <ClearReward rewardType="Rank_3" stuffType="Gacha" stuffId="Equip_Raid_Reward_R04_to_R05" stuffAmount="1" />
+        <ClearReward rewardType="Rank_3" stuffType="Currency" stuffId="Gold" stuffAmount="8000" />
+        <ClearReward rewardType="Rank_3" stuffType="Currency" stuffId="Token_Raid_Suppress_sub01" stuffAmount="2" />
+        <ClearReward rewardType="ETC" stuffType="Gacha" stuffId="Equip_Raid_Reward_Lo_EX_Entry" stuffAmount="1" />
+        <ClearReward rewardType="ETC" stuffType="Currency" stuffId="Gold" stuffAmount="8000" />
+      </Clear>
+      <Block>
+        <BlockReward rewardType="Host" stuffType="Currency" stuffId="Gold" stuffAmount="10000" />
+        <BlockReward rewardType="ETC" stuffType="Currency" stuffId="Gold" stuffAmount="5000" />
+      </Block>
+    </RewardSet>
+    <RewardSet id="12" devName="로드웰_엘리트">
+      <Clear>
+        <ClearReward rewardType="Host" stuffType="Gacha" stuffId="Equip_Raid_Reward_Lo_Elite_Rank" stuffAmount="1" />
+        <ClearReward rewardType="Rank_1" stuffType="Gacha" stuffId="Equip_Raid_Reward_Lo_Elite_Rank" stuffAmount="1" />
+        <ClearReward rewardType="Rank_1" stuffType="Gacha" stuffId="Equip_Raid_Reward_Lo_Elite_Rank" stuffAmount="1" />
+        <ClearReward rewardType="Rank_1" stuffType="Gacha" stuffId="Equip_Raid_Reward_Lo_Elite_Rank" stuffAmount="1" />
+        <ClearReward rewardType="Rank_1" stuffType="Currency" stuffId="Gold" stuffAmount="6000" />
+        <ClearReward rewardType="Rank_2" stuffType="Gacha" stuffId="Equip_Raid_Reward_Lo_Elite_Rank" stuffAmount="1" />
+        <ClearReward rewardType="Rank_2" stuffType="Gacha" stuffId="Equip_Raid_Reward_Lo_Elite_Rank" stuffAmount="1" />
+        <ClearReward rewardType="Rank_2" stuffType="Currency" stuffId="Gold" stuffAmount="6000" />
+        <ClearReward rewardType="Rank_3" stuffType="Gacha" stuffId="Equip_Raid_Reward_Lo_Elite_Rank" stuffAmount="1" />
+        <ClearReward rewardType="Rank_3" stuffType="Currency" stuffId="Gold" stuffAmount="6000" />
+        <ClearReward rewardType="ETC" stuffType="Gacha" stuffId="Equip_Raid_Reward_Lo_Elite_Entry" stuffAmount="1" />
+        <ClearReward rewardType="ETC" stuffType="Currency" stuffId="Gold" stuffAmount="6000" />
+      </Clear>
+      <Block>
+        <BlockReward rewardType="Host" stuffType="Currency" stuffId="Gold" stuffAmount="5000" />
+        <BlockReward rewardType="ETC" stuffType="Currency" stuffId="Gold" stuffAmount="2500" />
+      </Block>
+    </RewardSet>
+    <RewardSet id="11" devName="로드웰_노멀">
+      <Clear>
+        <ClearReward rewardType="Host" stuffType="Gacha" stuffId="Equip_Raid_Reward_R02_to_R03" stuffAmount="1" />
+        <ClearReward rewardType="Rank_1" stuffType="Gacha" stuffId="Equip_Raid_Reward_R02_to_R03" stuffAmount="1" />
+        <ClearReward rewardType="Rank_1" stuffType="Gacha" stuffId="Equip_Raid_Reward_R02_to_R03" stuffAmount="1" />
+        <ClearReward rewardType="Rank_1" stuffType="Gacha" stuffId="Equip_Raid_Reward_R02_to_R03" stuffAmount="1" />
+        <ClearReward rewardType="Rank_1" stuffType="Currency" stuffId="Gold" stuffAmount="4000" />
+        <ClearReward rewardType="Rank_2" stuffType="Gacha" stuffId="Equip_Raid_Reward_R02_to_R03" stuffAmount="1" />
+        <ClearReward rewardType="Rank_2" stuffType="Gacha" stuffId="Equip_Raid_Reward_R02_to_R03" stuffAmount="1" />
+        <ClearReward rewardType="Rank_2" stuffType="Currency" stuffId="Gold" stuffAmount="4000" />
+        <ClearReward rewardType="Rank_3" stuffType="Gacha" stuffId="Equip_Raid_Reward_R02_to_R03" stuffAmount="1" />
+        <ClearReward rewardType="Rank_3" stuffType="Currency" stuffId="Gold" stuffAmount="4000" />
+        <ClearReward rewardType="ETC" stuffType="Gacha" stuffId="Equip_Raid_Reward_R01_to_R02" stuffAmount="1" />
+        <ClearReward rewardType="ETC" stuffType="Currency" stuffId="Gold" stuffAmount="4000" />
+      </Clear>
+      <Block>
+        <BlockReward rewardType="Host" stuffType="Currency" stuffId="Gold" stuffAmount="2000" />
+        <BlockReward rewardType="ETC" stuffType="Currency" stuffId="Gold" stuffAmount="1000" />
+      </Block>
+    </RewardSet>
+    <RewardSet id="24" devName="레지슈타인_마스터">
+      <Clear>
+        <ClearReward rewardType="Host" stuffType="Gacha" stuffId="Equip_Reward_R06_Ri" stuffAmount="1" />
+        <ClearReward rewardType="Rank_1" stuffType="Gacha" stuffId="Equip_Reward_R06_Ri" stuffAmount="1" />
+        <ClearReward rewardType="Rank_1" stuffType="Gacha" stuffId="Equip_Reward_R06_Ri" stuffAmount="1" />
+        <ClearReward rewardType="Rank_1" stuffType="Gacha" stuffId="Equip_Reward_R06_Ri" stuffAmount="1" />
+        <ClearReward rewardType="Rank_1" stuffType="Currency" stuffId="Gold" stuffAmount="10000" />
+        <ClearReward rewardType="Rank_2" stuffType="Gacha" stuffId="Equip_Reward_R06_Ri" stuffAmount="1" />
+        <ClearReward rewardType="Rank_2" stuffType="Gacha" stuffId="Equip_Reward_R06_Ri" stuffAmount="1" />
+        <ClearReward rewardType="Rank_2" stuffType="Currency" stuffId="Gold" stuffAmount="10000" />
+        <ClearReward rewardType="Rank_3" stuffType="Gacha" stuffId="Equip_Reward_R06_Ri" stuffAmount="1" />
+        <ClearReward rewardType="Rank_3" stuffType="Currency" stuffId="Gold" stuffAmount="10000" />
+        <ClearReward rewardType="ETC" stuffType="Gacha" stuffId="Equip_Reward_R05_Ri" stuffAmount="1" />
+        <ClearReward rewardType="ETC" stuffType="Currency" stuffId="Gold" stuffAmount="10000" />
+      </Clear>
+      <Block>
+        <BlockReward rewardType="Host" stuffType="Currency" stuffId="Gold" stuffAmount="20000" />
+        <BlockReward rewardType="ETC" stuffType="Currency" stuffId="Gold" stuffAmount="10000" />
+      </Block>
+    </RewardSet>
+    <RewardSet id="23" devName="레지슈타인_익스퍼트">
+      <Clear>
+        <ClearReward rewardType="Host" stuffType="Gacha" stuffId="Equip_Reward_R05_Ri" stuffAmount="1" />
+        <ClearReward rewardType="Rank_1" stuffType="Gacha" stuffId="Equip_Reward_R05_Ri" stuffAmount="1" />
+        <ClearReward rewardType="Rank_1" stuffType="Gacha" stuffId="Equip_Reward_R05_Ri" stuffAmount="1" />
+        <ClearReward rewardType="Rank_1" stuffType="Gacha" stuffId="Equip_Reward_R05_Ri" stuffAmount="1" />
+        <ClearReward rewardType="Rank_1" stuffType="Currency" stuffId="Gold" stuffAmount="8000" />
+        <ClearReward rewardType="Rank_2" stuffType="Gacha" stuffId="Equip_Reward_R05_Ri" stuffAmount="1" />
+        <ClearReward rewardType="Rank_2" stuffType="Gacha" stuffId="Equip_Reward_R05_Ri" stuffAmount="1" />
+        <ClearReward rewardType="Rank_2" stuffType="Currency" stuffId="Gold" stuffAmount="8000" />
+        <ClearReward rewardType="Rank_3" stuffType="Gacha" stuffId="Equip_Reward_R05_Ri" stuffAmount="1" />
+        <ClearReward rewardType="Rank_3" stuffType="Currency" stuffId="Gold" stuffAmount="8000" />
+        <ClearReward rewardType="ETC" stuffType="Gacha" stuffId="Raid_Reward_R04" stuffAmount="1" />
+        <ClearReward rewardType="ETC" stuffType="Currency" stuffId="Gold" stuffAmount="8000" />
+      </Clear>
+      <Block>
+        <BlockReward rewardType="Host" stuffType="Currency" stuffId="Gold" stuffAmount="10000" />
+        <BlockReward rewardType="ETC" stuffType="Currency" stuffId="Gold" stuffAmount="5000" />
+      </Block>
+    </RewardSet>
+    <RewardSet id="22" devName="레지슈타인_엘리트">
+      <Clear>
+        <ClearReward rewardType="Host" stuffType="Gacha" stuffId="Raid_Reward_R04" stuffAmount="1" />
+        <ClearReward rewardType="Rank_1" stuffType="Gacha" stuffId="Raid_Reward_R04" stuffAmount="1" />
+        <ClearReward rewardType="Rank_1" stuffType="Gacha" stuffId="Raid_Reward_R04" stuffAmount="1" />
+        <ClearReward rewardType="Rank_1" stuffType="Gacha" stuffId="Raid_Reward_R04" stuffAmount="1" />
+        <ClearReward rewardType="Rank_1" stuffType="Currency" stuffId="Gold" stuffAmount="6000" />
+        <ClearReward rewardType="Rank_2" stuffType="Gacha" stuffId="Raid_Reward_R04" stuffAmount="1" />
+        <ClearReward rewardType="Rank_2" stuffType="Gacha" stuffId="Raid_Reward_R04" stuffAmount="1" />
+        <ClearReward rewardType="Rank_2" stuffType="Currency" stuffId="Gold" stuffAmount="6000" />
+        <ClearReward rewardType="Rank_3" stuffType="Gacha" stuffId="Raid_Reward_R04" stuffAmount="1" />
+        <ClearReward rewardType="Rank_3" stuffType="Currency" stuffId="Gold" stuffAmount="6000" />
+        <ClearReward rewardType="ETC" stuffType="Gacha" stuffId="Raid_Reward_R03" stuffAmount="1" />
+        <ClearReward rewardType="ETC" stuffType="Currency" stuffId="Gold" stuffAmount="6000" />
+      </Clear>
+      <Block>
+        <BlockReward rewardType="Host" stuffType="Currency" stuffId="Gold" stuffAmount="5000" />
+        <BlockReward rewardType="ETC" stuffType="Currency" stuffId="Gold" stuffAmount="2500" />
+      </Block>
+    </RewardSet>
+    <RewardSet id="21" devName="레지슈타인_노멀">
+      <Clear>
+        <ClearReward rewardType="Host" stuffType="Gacha" stuffId="Raid_Reward_R03" stuffAmount="1" />
+        <ClearReward rewardType="Rank_1" stuffType="Gacha" stuffId="Raid_Reward_R03" stuffAmount="1" />
+        <ClearReward rewardType="Rank_1" stuffType="Gacha" stuffId="Raid_Reward_R03" stuffAmount="1" />
+        <ClearReward rewardType="Rank_1" stuffType="Gacha" stuffId="Raid_Reward_R03" stuffAmount="1" />
+        <ClearReward rewardType="Rank_1" stuffType="Currency" stuffId="Gold" stuffAmount="4000" />
+        <ClearReward rewardType="Rank_2" stuffType="Gacha" stuffId="Raid_Reward_R03" stuffAmount="1" />
+        <ClearReward rewardType="Rank_2" stuffType="Gacha" stuffId="Raid_Reward_R03" stuffAmount="1" />
+        <ClearReward rewardType="Rank_2" stuffType="Currency" stuffId="Gold" stuffAmount="4000" />
+        <ClearReward rewardType="Rank_3" stuffType="Gacha" stuffId="Raid_Reward_R03" stuffAmount="1" />
+        <ClearReward rewardType="Rank_3" stuffType="Currency" stuffId="Gold" stuffAmount="4000" />
+        <ClearReward rewardType="ETC" stuffType="Gacha" stuffId="Raid_Reward_R02" stuffAmount="1" />
+        <ClearReward rewardType="ETC" stuffType="Currency" stuffId="Gold" stuffAmount="4000" />
+      </Clear>
+      <Block>
+        <BlockReward rewardType="Host" stuffType="Currency" stuffId="Gold" stuffAmount="2000" />
+        <BlockReward rewardType="ETC" stuffType="Currency" stuffId="Gold" stuffAmount="1000" />
+      </Block>
+    </RewardSet>
+  </RewardSetList>
+</SuppressRaidData>

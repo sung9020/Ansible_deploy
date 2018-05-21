@@ -1,0 +1,376 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<StringItemData>
+  <String id="ItemName_Weapon_R01_Test" value="테스트 무기1" memo="-" />
+  <String id="ItemName_Weapon_R02_Test" value="테스트 무기2" memo="-" />
+  <String id="ItemName_Weapon_R03_Test" value="테스트 무기3" memo="-" />
+  <String id="ItemName_Weapon_R04_Test" value="테스트 무기4" memo="-" />
+  <String id="ItemName_Weapon_R05_Test" value="테스트 무기5" memo="-" />
+  <String id="ItemName_Weapon_R06_Test" value="테스트 무기6" memo="-" />
+  <String id="ItemName_Mail_R01_Test" value="테스트 갑옷" />
+  <String id="ItemName_Helmet_R01_Test" value="테스트헬멧" />
+  <String id="ItemName_Gauntlet_R01_Test" value="테스트장갑" />
+  <String id="ItemName_Boots_R01_Test" value="테스트신발" />
+  <String id="ItemName_Ring_R01_Test" value="테스트 반지" />
+  <String id="ItemName_Material_EquipEvolve" value="안씀" memo="장비 진화 재료" />
+  <String id="ItemName_Material_EvolveTypeA" value="브레이브 스톤" memo="탱커/파이터/레인저 진화재료" />
+  <String id="ItemName_Material_EvolveTypeB" value="위즈덤 스톤" memo="메이지/서포터 진화재료" />
+  <String id="ItemName_Material_EvolveType0" value="빛의 결정" memo="공용 진화 재료" />
+  <String id="ItemName_StatTraining" value="비전서" memo="훈련 재료" />
+  <String id="ItemName_Material_TankerEvolve" value="수호의 원천" memo="탱커 진화 재료" />
+  <String id="ItemName_Material_FighterEvolve" value="용기의 원천" memo="파이터 진화 재료" />
+  <String id="ItemName_Material_MageEvolve" value="진리의 원천" memo="메이지 진화 재료" />
+  <String id="ItemName_Material_RangerEvolve" value="신속의 원천" memo="레인저 진화 재료" />
+  <String id="ItemName_Material_SupporterEvolve" value="생명의 원천" memo="서포터 진화 재료" />
+  <String id="ItemName_P_Weapon_R01_01" value="노련한 초심자의 활" />
+  <String id="ItemName_P_Weapon_R01_02" value="준비된 초심자의 장검" />
+  <String id="ItemName_M_Weapon_R01_01" value="은은한 초심자의 지팡이" />
+  <String id="ItemName_M_Weapon_R01_02" value="잔잔한 초심자의 마법봉" />
+  <String id="ItemName_P_Weapon_R02_01" value="노련한 모험가의 활" />
+  <String id="ItemName_P_Weapon_R02_02" value="준비된 모험가의 장검" />
+  <String id="ItemName_M_Weapon_R02_01" value="은은한 모험가의 지팡이" />
+  <String id="ItemName_M_Weapon_R02_02" value="잔잔한 모험가의 마법봉" />
+  <String id="ItemName_P_Weapon_R03_01" value="노련한 사냥꾼의 활" />
+  <String id="ItemName_P_Weapon_R03_02" value="준비된 사냥꾼의 장검" />
+  <String id="ItemName_M_Weapon_R03_01" value="은은한 사냥꾼의 지팡이" />
+  <String id="ItemName_M_Weapon_R03_02" value="잔잔한 사냥꾼의 마법봉" />
+  <String id="ItemName_P_Weapon_R04_01" value="노련한 장인의 활" />
+  <String id="ItemName_P_Weapon_R04_02" value="용맹한 장인의 낫" />
+  <String id="ItemName_P_Weapon_R04_03" value="준비된 장인의 장검" />
+  <String id="ItemName_M_Weapon_R04_01" value="은은한 장인의 지팡이" />
+  <String id="ItemName_M_Weapon_R04_02" value="유려한 장인의 마법책" />
+  <String id="ItemName_M_Weapon_R04_03" value="잔잔한 장인의 마법봉" />
+  <String id="ItemName_P_Weapon_R05_01" value="노련한 현자의 활" />
+  <String id="ItemName_P_Weapon_R05_02" value="용맹한 현자의 낫" />
+  <String id="ItemName_P_Weapon_R05_03" value="준비된 현자의 장검" />
+  <String id="ItemName_M_Weapon_R05_01" value="은은한 현자의 지팡이" />
+  <String id="ItemName_M_Weapon_R05_02" value="유려한 현자의 마법책" />
+  <String id="ItemName_M_Weapon_R05_03" value="잔잔한 현자의 마법봉" />
+  <String id="ItemName_P_Weapon_R06_01" value="격렬한 심연의 활" />
+  <String id="ItemName_P_Weapon_R06_02" value="격렬한 파괴의 낫" />
+  <String id="ItemName_P_Weapon_R06_03" value="격렬한 배덕의 대검" />
+  <String id="ItemName_P_Weapon_R06_04" value="격렬한 시련의 장검" />
+  <String id="ItemName_M_Weapon_R06_01" value="고요한 심연의 지팡이" />
+  <String id="ItemName_M_Weapon_R06_02" value="고요한 파괴의 마법책" />
+  <String id="ItemName_M_Weapon_R06_03" value="고요한 배덕의 마법구" />
+  <String id="ItemName_M_Weapon_R06_04" value="고요한 시련의 마법봉" />
+  <String id="ItemName_P_Weapon_R07_01" value="격렬한 파멸의 활" />
+  <String id="ItemName_P_Weapon_R07_02" value="격렬한 재앙의 낫" />
+  <String id="ItemName_P_Weapon_R07_03" value="격렬한 심판의 대검" />
+  <String id="ItemName_P_Weapon_R07_04" value="격렬한 비탄의 장검" />
+  <String id="ItemName_M_Weapon_R07_01" value="고요한 파멸의 지팡이" />
+  <String id="ItemName_M_Weapon_R07_02" value="고요한 재앙의 마법책" />
+  <String id="ItemName_M_Weapon_R07_03" value="고요한 심판의 마법구" />
+  <String id="ItemName_M_Weapon_R07_04" value="고요한 비탄의 마법봉" />
+  <String id="ItemName_Mail_R01_01" value="노련한 초심자의 갑옷" />
+  <String id="ItemName_Mail_R01_02" value="은은한 초심자의 천옷" />
+  <String id="ItemName_Mail_R02_01" value="노련한 모험가의 갑옷" />
+  <String id="ItemName_Mail_R02_02" value="은은한 모험가의 천옷" />
+  <String id="ItemName_Mail_R03_01" value="노련한 사냥꾼의 갑옷" />
+  <String id="ItemName_Mail_R03_02" value="은은한 사냥꾼의 천옷" />
+  <String id="ItemName_Mail_R04_01" value="노련한 장인의 갑옷" />
+  <String id="ItemName_Mail_R04_02" value="용맹한 장인의 갑옷" />
+  <String id="ItemName_Mail_R04_03" value="은은한 장인의 천옷" />
+  <String id="ItemName_Mail_R04_04" value="유려한 장인의 천옷" />
+  <String id="ItemName_Mail_R05_01" value="노련한 현자의 갑옷" />
+  <String id="ItemName_Mail_R05_02" value="용맹한 현자의 갑옷" />
+  <String id="ItemName_Mail_R05_03" value="은은한 현자의 천옷" />
+  <String id="ItemName_Mail_R05_04" value="유려한 현자의 천옷" />
+  <String id="ItemName_Mail_R06_01" value="격렬한 심연의 갑옷" />
+  <String id="ItemName_Mail_R06_02" value="격렬한 파괴의 갑옷" />
+  <String id="ItemName_Mail_R06_03" value="격렬한 배덕의 갑옷" />
+  <String id="ItemName_Mail_R06_04" value="고요한 심연의 천옷" />
+  <String id="ItemName_Mail_R06_05" value="고요한 파괴의 천옷" />
+  <String id="ItemName_Mail_R06_06" value="고요한 배덕의 천옷" />
+  <String id="ItemName_Mail_R07_01" value="격렬한 파멸의 갑옷" />
+  <String id="ItemName_Mail_R07_02" value="격렬한 재앙의 갑옷" />
+  <String id="ItemName_Mail_R07_03" value="격렬한 심판의 갑옷" />
+  <String id="ItemName_Mail_R07_04" value="고요한 파멸의 천옷" />
+  <String id="ItemName_Mail_R07_05" value="고요한 재앙의 천옷" />
+  <String id="ItemName_Mail_R07_06" value="고요한 심판의 천옷" />
+  <String id="ItemName_Helmet_R01_01" value="노련한 초심자의 투구" />
+  <String id="ItemName_Helmet_R01_02" value="은은한 초심자의 머리띠" />
+  <String id="ItemName_Helmet_R02_01" value="노련한 모험가의 투구" />
+  <String id="ItemName_Helmet_R02_02" value="은은한 모험가의 머리띠" />
+  <String id="ItemName_Helmet_R03_01" value="노련한 사냥꾼의 투구" />
+  <String id="ItemName_Helmet_R03_02" value="은은한 사냥꾼의 머리띠" />
+  <String id="ItemName_Helmet_R04_01" value="노련한 장인의 투구" />
+  <String id="ItemName_Helmet_R04_02" value="용맹한 장인의 투구" />
+  <String id="ItemName_Helmet_R04_03" value="은은한 장인의 머리띠" />
+  <String id="ItemName_Helmet_R04_04" value="유려한 장인의 모자" />
+  <String id="ItemName_Helmet_R05_01" value="노련한 현자의 투구" />
+  <String id="ItemName_Helmet_R05_02" value="용맹한 현자의 투구" />
+  <String id="ItemName_Helmet_R05_03" value="은은한 현자의 머리띠" />
+  <String id="ItemName_Helmet_R05_04" value="유려한 현자의 모자" />
+  <String id="ItemName_Helmet_R06_01" value="격렬한 심연의 투구" />
+  <String id="ItemName_Helmet_R06_02" value="격렬한 파괴의 투구" />
+  <String id="ItemName_Helmet_R06_03" value="격렬한 배덕의 투구" />
+  <String id="ItemName_Helmet_R06_04" value="고요한 심연의 머리띠" />
+  <String id="ItemName_Helmet_R06_05" value="고요한 파괴의 모자" />
+  <String id="ItemName_Helmet_R06_06" value="고요한 배덕의 모자" />
+  <String id="ItemName_Helmet_R07_01" value="격렬한 파멸의 투구" />
+  <String id="ItemName_Helmet_R07_02" value="격렬한 재앙의 투구" />
+  <String id="ItemName_Helmet_R07_03" value="격렬한 심판의 투구" />
+  <String id="ItemName_Helmet_R07_04" value="고요한 파멸의 머리띠" />
+  <String id="ItemName_Helmet_R07_05" value="고요한 재앙의 모자" />
+  <String id="ItemName_Helmet_R07_06" value="고요한 심판의 모자" />
+  <String id="ItemName_Gauntlet_R04_01" value="노련한 장인의 장갑" />
+  <String id="ItemName_Gauntlet_R04_02" value="용맹한 장인의 장갑" />
+  <String id="ItemName_Gauntlet_R04_03" value="은은한 장인의 장갑" />
+  <String id="ItemName_Gauntlet_R04_04" value="유려한 장인의 장갑" />
+  <String id="ItemName_Gauntlet_R05_01" value="노련한 현자의 장갑" />
+  <String id="ItemName_Gauntlet_R05_02" value="용맹한 현자의 장갑" />
+  <String id="ItemName_Gauntlet_R05_03" value="은은한 현자의 장갑" />
+  <String id="ItemName_Gauntlet_R05_04" value="유려한 현자의 장갑" />
+  <String id="ItemName_Gauntlet_R06_01" value="격렬한 심연의 장갑" />
+  <String id="ItemName_Gauntlet_R06_02" value="격렬한 파괴의 장갑" />
+  <String id="ItemName_Gauntlet_R06_03" value="격렬한 배덕의 장갑" />
+  <String id="ItemName_Gauntlet_R06_04" value="고요한 심연의 장갑" />
+  <String id="ItemName_Gauntlet_R06_05" value="고요한 파괴의 장갑" />
+  <String id="ItemName_Gauntlet_R06_06" value="고요한 배덕의 장갑" />
+  <String id="ItemName_Gauntlet_R07_01" value="격렬한 파멸의 장갑" />
+  <String id="ItemName_Gauntlet_R07_02" value="격렬한 재앙의 장갑" />
+  <String id="ItemName_Gauntlet_R07_03" value="격렬한 심판의 장갑" />
+  <String id="ItemName_Gauntlet_R07_04" value="고요한 파멸의 장갑" />
+  <String id="ItemName_Gauntlet_R07_05" value="고요한 재앙의 장갑" />
+  <String id="ItemName_Gauntlet_R07_06" value="고요한 심판의 장갑" />
+  <String id="ItemName_Boots_R05_01" value="노련한 현자의 신발" />
+  <String id="ItemName_Boots_R05_02" value="용맹한 현자의 신발" />
+  <String id="ItemName_Boots_R05_03" value="은은한 현자의 신발" />
+  <String id="ItemName_Boots_R05_04" value="유려한 현자의 신발" />
+  <String id="ItemName_Boots_R06_01" value="격렬한 심연의 신발" />
+  <String id="ItemName_Boots_R06_02" value="격렬한 파괴의 신발" />
+  <String id="ItemName_Boots_R06_03" value="격렬한 배덕의 신발" />
+  <String id="ItemName_Boots_R06_04" value="고요한 심연의 신발" />
+  <String id="ItemName_Boots_R06_05" value="고요한 파괴의 신발" />
+  <String id="ItemName_Boots_R06_06" value="고요한 배덕의 신발" />
+  <String id="ItemName_Boots_R07_01" value="격렬한 파멸의 신발" />
+  <String id="ItemName_Boots_R07_02" value="격렬한 재앙의 신발" />
+  <String id="ItemName_Boots_R07_03" value="격렬한 심판의 신발" />
+  <String id="ItemName_Boots_R07_04" value="고요한 파멸의 신발" />
+  <String id="ItemName_Boots_R07_05" value="고요한 재앙의 신발" />
+  <String id="ItemName_Boots_R07_06" value="고요한 심판의 신발" />
+  <String id="ItemName_Ring_R06_01" value="격렬한 심연의 반지" />
+  <String id="ItemName_Ring_R06_02" value="격렬한 파괴의 반지" />
+  <String id="ItemName_Ring_R06_03" value="격렬한 배덕의 반지" />
+  <String id="ItemName_Ring_R06_04" value="고요한 심연의 반지" />
+  <String id="ItemName_Ring_R06_05" value="고요한 파괴의 반지" />
+  <String id="ItemName_Ring_R06_06" value="고요한 배덕의 반지" />
+  <String id="ItemName_Ring_R07_01" value="격렬한 파멸의 반지" />
+  <String id="ItemName_Ring_R07_02" value="격렬한 재앙의 반지" />
+  <String id="ItemName_Ring_R07_03" value="격렬한 심판의 반지" />
+  <String id="ItemName_Ring_R07_04" value="고요한 파멸의 반지" />
+  <String id="ItemName_Ring_R07_05" value="고요한 재앙의 반지" />
+  <String id="ItemName_Ring_R07_06" value="고요한 심판의 반지" />
+  <String id="ItemName_Weapon_R01_Exp" value="성장의 무기" />
+  <String id="ItemName_Mail_R01_Exp" value="성장의 방패" />
+  <String id="ItemDesc_Material_EquipEvolve" value="고순도의 휘광석 덩어리. 장비의 성능을 끌어올리는 신비한 힘을 가졌다." memo="장비 진화 재료 설명" />
+  <String id="ItemDesc_Material_TankerEvolve" value="[탱커 영웅 진화 재료]&#xA;물러서지 않는 자존심이 모여 결정화된 신비한 광석. 사용자의 몸에 더 큰 힘을 담아낼 수 있게 한다." memo="탱커 진화 재료 설명" />
+  <String id="ItemDesc_Material_FighterEvolve" value="[파이터 영웅 진화 재료]&#xA;승리를 탐하는 호승심이 모여 결정화된 신비한 광석. 사용자의 몸에 더 큰 힘을 담아낼 수 있게 한다." memo="파이터 진화 재료 설명" />
+  <String id="ItemDesc_Material_MageEvolve" value="[메이지 영웅 진화 재료]&#xA;미지를 탐구하는 호기심이 모여 결정화된 신비한 광석. 사용자의 몸에 더 큰 힘을 담아낼 수 있게 한다." memo="메이지 진화 재료 설명" />
+  <String id="ItemDesc_Material_RangerEvolve" value="[레인저 영웅 진화 재료]&#xA;시간을 거부하는 조바심이 모여 결정화된 신비한 광석. 사용자의 몸에 더 큰 힘을 담아낼 수 있게 한다." memo="레인저 진화 재료 설명" />
+  <String id="ItemDesc_Material_SupporterEvolve" value="[서포터 영웅 진화 재료]&#xA;만물을 사랑하는 이타심이 모여 결정화된 신비한 광석. 사용자의 몸에 더 큰 힘을 담아낼 수 있게 한다." memo="서포터 진화 재료 설명" />
+  <String id="ItemCategoryName_weapon" value="무기" memo="아이템 카테고리 : 무기" />
+  <String id="ItemCategoryName_armor" value="방어구" memo="아이템 카테고리 : 방어구" />
+  <String id="ItemCategoryName_accessory" value="액세서리" memo="아이템 카테고리 : 액세서리" />
+  <String id="ItemCategoryName_Mail" value="갑옷" memo="아이템 카테고리 : 갑옷" />
+  <String id="ItemCategoryName_Helmet" value="투구" memo="아이템 카테고리 : 투구" />
+  <String id="ItemCategoryName_Gauntlet" value="장갑" memo="아이템 카테고리 : 장갑" />
+  <String id="ItemCategoryName_Boots" value="신발" memo="아이템 카테고리 : 신발" />
+  <String id="ItemCategoryName_Ring" value="반지" memo="아이템 카테고리 : 반지" />
+  <String id="ItemCategoryName_material" value="재료" memo="아이템 카테고리 : 재료" />
+  <String id="AttendanceTitle_Normal" value="출석부" memo="기본 출석부 타이틀 명" />
+  <String id="AttendanceAdvice_Normal" value="출석 보상은 우편으로 지급됩니다." memo="기본 출석부 보상 지급 정보" />
+  <String id="AttendanceTitle_Return" value="돌아온 원정대 출석부" memo="복귀 유저 출석부 타이틀 명" />
+  <String id="AttendanceAdvice_Return" value="출석 보상은 우편으로 지급됩니다." memo="복귀 유저 출석부 보상 지급 정보" />
+  <String id="AttendanceTitle_eventId1" value="설날 이벤트 출석부" memo="이벤트용 출석부 타이틀 명" />
+  <String id="AttendanceAdvice_eventId1" value="설날 이벤트 출석 보상은 우편으로 지급됩니다." memo="이벤트용 출석부 보상 지급 정보" />
+  <String id="AttendanceTitle_eventId2" value="추석 이벤트 출석부" memo="이벤트용 출석부 타이틀 명" />
+  <String id="AttendanceAdvice_eventId2" value="추석 이벤트 출석 보상은 우편으로 지급됩니다." memo="이벤트용 출석부 보상 지급 정보" />
+  <String id="AttendanceTitle_eventId3" value="성탄절 이벤트 출석부" memo="이벤트용 출석부 타이틀 명" />
+  <String id="AttendanceAdvice_eventId3" value="성탄절 이벤트 출석 보상은 우편으로 지급됩니다." memo="이벤트용 출석부 보상 지급 정보" />
+  <String id="ItemDesc_P_Weapon_R01_01" value="초심자들을 위한 훈련용 활.&#xA;가볍고 휴대성이 좋아 누구든지 다룰 수 있다." />
+  <String id="ItemDesc_P_Weapon_R01_02" value="초심자들을 위한 훈련용 장검.&#xA;가볍고 휴대성이 좋아 누구든지 다룰 수 있다." />
+  <String id="ItemDesc_M_Weapon_R01_01" value="초심자들을 위한 훈련용 지팡이.&#xA;가볍고 휴대성이 좋아 누구든지 다룰 수 있다." />
+  <String id="ItemDesc_M_Weapon_R01_02" value="초심자들을 위한 훈련용 마법봉.&#xA;가볍고 휴대성이 좋아 누구든지 다룰 수 있다." />
+  <String id="ItemDesc_P_Weapon_R02_01" value="모험가들이 애용하는 전천후 활.&#xA;어느 환경에서든 신뢰할 수 있는 성능을 발휘한다." />
+  <String id="ItemDesc_P_Weapon_R02_02" value="모험가들이 애용하는 전천후 장검.&#xA;어느 환경에서든 신뢰할 수 있는 성능을 발휘한다." />
+  <String id="ItemDesc_M_Weapon_R02_01" value="모험가들이 애용하는 전천후 지팡이.&#xA;어느 환경에서든 신뢰할 수 있는 성능을 발휘한다." />
+  <String id="ItemDesc_M_Weapon_R02_02" value="모험가들이 애용하는 전천후 마법봉.&#xA;어느 환경에서든 신뢰할 수 있는 성능을 발휘한다." />
+  <String id="ItemDesc_P_Weapon_R03_01" value="사냥꾼들이 애용하는 만듦새 좋은 활.&#xA;적을 상대하기에 충분한 위력을 가지고 있어 전투용으로 부족함이 없다." />
+  <String id="ItemDesc_P_Weapon_R03_02" value="사냥꾼들이 애용하는 만듦새 좋은 장검.&#xA;적을 상대하기에 충분한 위력을 가지고 있어 전투용으로 부족함이 없다." />
+  <String id="ItemDesc_M_Weapon_R03_01" value="사냥꾼들이 애용하는 만듦새 좋은 지팡이.&#xA;적을 상대하기에 충분한 위력을 가지고 있어 전투용으로 부족함이 없다." />
+  <String id="ItemDesc_M_Weapon_R03_02" value="사냥꾼들이 애용하는 만듦새 좋은 마법봉.&#xA;적을 상대하기에 충분한 위력을 가지고 있어 전투용으로 부족함이 없다." />
+  <String id="ItemDesc_P_Weapon_R04_01" value="대륙의 장인들이 제작한 높은 품질의 활.&#xA;심혈을 기울여 만들어진 이 무기는 멋진 외형과 함께 높은 위력을 보장한다." />
+  <String id="ItemDesc_P_Weapon_R04_02" value="대륙의 장인들이 제작한 높은 품질의 낫.&#xA;심혈을 기울여 만들어진 이 무기는 멋진 외형과 함께 높은 위력을 보장한다." />
+  <String id="ItemDesc_P_Weapon_R04_03" value="대륙의 장인들이 제작한 높은 품질의 장검.&#xA;심혈을 기울여 만들어진 이 무기는 멋진 외형과 함께 높은 위력을 보장한다." />
+  <String id="ItemDesc_M_Weapon_R04_01" value="대륙의 장인들이 제작한 높은 품질의 지팡이.&#xA;심혈을 기울여 만들어진 이 무기는 멋진 외형과 함께 높은 위력을 보장한다." />
+  <String id="ItemDesc_M_Weapon_R04_02" value="대륙의 장인들이 제작한 높은 품질의 마법책.&#xA;심혈을 기울여 만들어진 이 무기는 멋진 외형과 함께 높은 위력을 보장한다." />
+  <String id="ItemDesc_M_Weapon_R04_03" value="대륙의 장인들이 제작한 높은 품질의 마법봉.&#xA;심혈을 기울여 만들어진 이 무기는 멋진 외형과 함께 높은 위력을 보장한다." />
+  <String id="ItemDesc_P_Weapon_R05_01" value="현자들이 오랜 세월 쌓아 올린 지식을 토대로 제작한 활.&#xA;착용자의 잠재력을 십분 끌어올려 크나큰 힘을 주는 무기다." />
+  <String id="ItemDesc_P_Weapon_R05_02" value="현자들이 오랜 세월 쌓아 올린 지식을 토대로 제작한 낫.&#xA;착용자의 잠재력을 십분 끌어올려 크나큰 힘을 주는 무기이다." />
+  <String id="ItemDesc_P_Weapon_R05_03" value="현자들이 오랜 세월 쌓아 올린 지식을 토대로 제작한 장검.&#xA;착용자의 잠재력을 십분 끌어올려 크나큰 힘을 주는 무기이다." />
+  <String id="ItemDesc_M_Weapon_R05_01" value="현자들이 오랜 세월 쌓아 올린 지식을 토대로 제작한 지팡이.&#xA;착용자의 잠재력을 십분 끌어올려 크나큰 힘을 주는 무기이다." />
+  <String id="ItemDesc_M_Weapon_R05_02" value="현자들이 오랜 세월 쌓아 올린 지식을 토대로 제작한 마법책.&#xA;착용자의 잠재력을 십분 끌어올려 크나큰 힘을 주는 무기이다." />
+  <String id="ItemDesc_M_Weapon_R05_03" value="현자들이 오랜 세월 쌓아 올린 지식을 토대로 제작한 마법봉.&#xA;착용자의 잠재력을 십분 끌어올려 크나큰 힘을 주는 무기이다." />
+  <String id="ItemDesc_P_Weapon_R06_01" value="마수를 처치하고 얻은 재료로 제작된 활.&#xA;조용히 귀를 가져다 대면 마수의 목소리가 들리는 듯하다.&#xA;마수의 검은 기운이 남아 있으며 착용자에게 마수의 힘 일부를 선사한다." />
+  <String id="ItemDesc_P_Weapon_R06_02" value="레지슈타인을 처치하고 얻은 재료로 제작된 낫.&#xA;레지슈타인의 몸에 흐르던 전류 중 일부가 아직 남아 있는 듯, 장비를 착용하면 짜릿함이 느껴진다.&#xA;착용자에게 레지슈타인이 가지고 있던 마수의 힘 일부를 부여한다." />
+  <String id="ItemDesc_P_Weapon_R06_03" value="로드웰을 처치하고 얻은 재료로 제작된 대검.&#xA;로드웰의 열기가 가시지 않은 장비로 착용 시 화상을 당하지 않도록 주의를 요한다.&#xA;검은 안개의 기운이 남아 있으며 착용자에게 마수의 힘 일부를 선사한다." />
+  <String id="ItemDesc_P_Weapon_R06_04" value="마수를 처치하고 얻은 재료로 제작된 장검.&#xA;조용히 귀를 가져다 대면 마수의 목소리가 들리는 듯하다.&#xA;마수의 검은 기운이 남아 있으며 착용자에게 마수의 힘 일부를 선사한다." />
+  <String id="ItemDesc_M_Weapon_R06_01" value="마수를 처치하고 얻은 재료로 제작된 지팡이.&#xA;조용히 귀를 가져다 대면 마수의 목소리가 들리는 듯하다.&#xA;마수의 검은 기운이 남아 있으며 착용자에게 마수의 힘 일부를 선사한다." />
+  <String id="ItemDesc_M_Weapon_R06_02" value="레지슈타인을 처치하고 얻은 재료로 제작된 마법책.&#xA;레지슈타인의 몸에 흐르던 전류 중 일부가 아직 남아 있는 듯, 장비를 착용하면 짜릿한 느낌이 느껴진다.&#xA;검은 안개의 기운이 담겨 있으며 착용자에게 마수의 힘 일부를 부여한다." />
+  <String id="ItemDesc_M_Weapon_R06_03" value="로드웰을 처치하고 얻은 재료로 제작된 마법구.&#xA;로드웰의 열기가 가시지 않은 장비로 착용 시 화상을 당하지 않도록 주의를 요한다.&#xA;검은 안개의 기운이 남아 있으며 착용자에게 마수의 힘 일부를 선사한다." />
+  <String id="ItemDesc_M_Weapon_R06_04" value="마수를 처치하고 얻은 재료로 제작된 마법봉.&#xA;조용히 귀를 가져다 대면 마수의 목소리가 들리는 듯하다.&#xA;마수의 검은 기운이 남아 있으며 착용자에게 마수의 힘 일부를 선사한다." />
+  <String id="ItemDesc_P_Weapon_R07_01" value="마수에게서 얻은 극소량의 정수를 정제하여 제작한 활.&#xA;바라만 보고 있어도 강대한 마수의 위엄이 느껴지는 듯하다.&#xA;마수의 순수한 기운이 착용자에게 그대로 전달되며 그 힘은 상상을 초월한다." />
+  <String id="ItemDesc_P_Weapon_R07_02" value="레지슈타인에게서 얻은 극소량의 정수를 정제하여 제작한 낫.&#xA;가까이 가기만 해도 레지슈타인에 흐르던 전류가 느껴지는 듯 하다.&#xA;레지슈타인의 순수한 기운이 착용자에게 그대로 전달되며 그 힘은 적들에게 재앙이 될 것이다." />
+  <String id="ItemDesc_P_Weapon_R07_03" value="로드웰에게서 얻은 극소량의 정수를 정제하여 제작한 대검.&#xA;주변의 물건들을 녹일듯 맹렬한 열기를 내뿜고 있다.&#xA;로드웰의 순수한 기운이 착용자에게 그대로 전달되며 그 힘은 적들에게 절망을 선사할 것이다." />
+  <String id="ItemDesc_P_Weapon_R07_04" value="마수에게서 얻은 극소량의 정수를 정제하여 제작한 장검.&#xA;바라만 보고 있어도 강대한 마수의 위엄이 느껴지는 듯하다.&#xA;마수의 순수한 기운이 착용자에게 그대로 전달되며 그 힘은 상상을 초월한다." />
+  <String id="ItemDesc_M_Weapon_R07_01" value="마수에게서 얻은 극소량의 정수를 정제하여 제작한 지팡이.&#xA;바라만 보고 있어도 강대한 마수의 위엄이 느껴지는 듯하다.&#xA;마수의 순수한 기운이 착용자에게 그대로 전달되며 그 힘은 상상을 초월한다." />
+  <String id="ItemDesc_M_Weapon_R07_02" value="레지슈타인에게서 얻은 극소량의 정수를 정제하여 제작한 마법책.&#xA;가까이 가기만 해도 레지슈타인에 흐르던 전류가 느껴지는 듯 하다.&#xA;레지슈타인의 순수한 기운이 착용자에게 그대로 전달되며 그 힘은 적들에게 재앙이 될 것이다." />
+  <String id="ItemDesc_M_Weapon_R07_03" value="로드웰에게서 얻은 극소량의 정수를 정제하여 제작한 마법구.&#xA;주변의 물건들을 녹일듯 맹렬한 열기를 내뿜고 있다.&#xA;로드웰의 순수한 기운이 착용자에게 그대로 전달되며 그 힘은 적들에게 절망을 선사할 것이다." />
+  <String id="ItemDesc_M_Weapon_R07_04" value="마수에게서 얻은 극소량의 정수를 정제하여 제작한 마법봉.&#xA;바라만 보고 있어도 강대한 마수의 위엄이 느껴지는 듯하다.&#xA;마수의 순수한 기운이 착용자에게 그대로 전달되며 그 힘은 상상을 초월한다." />
+  <String id="ItemDesc_Mail_R01_01" value="초심자들을 위한 훈련용 갑옷.&#xA;가볍고 휴대성이 좋아 누구든지 다룰 수 있다." />
+  <String id="ItemDesc_Mail_R01_02" value="초심자들을 위한 훈련용 천옷.&#xA;가볍고 휴대성이 좋아 누구든지 다룰 수 있다." />
+  <String id="ItemDesc_Mail_R02_01" value="모험가들이 애용하는 전천후 갑옷.&#xA;어느 환경에서든 신뢰할 수 있는 성능을 발휘한다." />
+  <String id="ItemDesc_Mail_R02_02" value="모험가들이 애용하는 전천후 천옷.&#xA;어느 환경에서든 신뢰할 수 있는 성능을 발휘한다." />
+  <String id="ItemDesc_Mail_R03_01" value="사냥꾼들이 애용하는 만듦새 좋은 갑옷.&#xA;강도가 높은 소재로 제작되어 적의 공격을 받아내는데 부족함이 없다." />
+  <String id="ItemDesc_Mail_R03_02" value="사냥꾼들이 애용하는 만듦새 좋은 천옷.&#xA;강도가 높은 소재로 제작되어 적의 공격을 받아내는데 부족함이 없다." />
+  <String id="ItemDesc_Mail_R04_01" value="대륙의 장인들이 제작한 높은 품질의 갑옷.&#xA;심혈을 기울여 만들어진 이 방어구는 멋진 외형과 함께 높은 방어력을 보장한다." />
+  <String id="ItemDesc_Mail_R04_02" value="대륙의 장인들이 제작한 높은 품질의 갑옷.&#xA;심혈을 기울여 만들어진 이 방어구는 멋진 외형과 함께 높은 방어력을 보장한다." />
+  <String id="ItemDesc_Mail_R04_03" value="대륙의 장인들이 제작한 높은 품질의 천옷.&#xA;심혈을 기울여 만들어진 이 방어구는 멋진 외형과 함께 높은 방어력을 보장한다." />
+  <String id="ItemDesc_Mail_R04_04" value="대륙의 장인들이 제작한 높은 품질의 천옷.&#xA;심혈을 기울여 만들어진 이 방어구는 멋진 외형과 함께 높은 방어력을 보장한다." />
+  <String id="ItemDesc_Mail_R05_01" value="현자들이 오랜 세월 쌓아 올린 지식을 토대로 제작한 갑옷.&#xA;착용자의 잠재력을 십분 끌어올려 크나큰 힘을 주는 방어구이다." />
+  <String id="ItemDesc_Mail_R05_02" value="현자들이 오랜 세월 쌓아 올린 지식을 토대로 제작한 갑옷.&#xA;착용자의 잠재력을 십분 끌어올려 크나큰 힘을 주는 방어구이다." />
+  <String id="ItemDesc_Mail_R05_03" value="현자들이 오랜 세월 쌓아 올린 지식을 토대로 제작한 천옷.&#xA;착용자의 잠재력을 십분 끌어올려 크나큰 힘을 주는 방어구이다." />
+  <String id="ItemDesc_Mail_R05_04" value="현자들이 오랜 세월 쌓아 올린 지식을 토대로 제작한 천옷.&#xA;착용자의 잠재력을 십분 끌어올려 크나큰 힘을 주는 방어구이다." />
+  <String id="ItemDesc_Mail_R06_01" value="마수를 처치하고 얻은 재료로 제작된 갑옷.&#xA;조용히 귀를 가져다 대면 마수의 목소리가 들리는 듯하다.&#xA;마수의 검은 기운이 남아 있으며 착용자에게 마수의 힘 일부를 선사한다." />
+  <String id="ItemDesc_Mail_R06_02" value="레지슈타인을 처치하고 얻은 재료로 제작된 갑옷.&#xA;레지슈타인의 몸에 흐르던 전류 중 일부가 아직 남아 있는 듯, 장비를 착용하면 짜릿한 느낌이 느껴진다.&#xA;착용자에게 레지슈타인이 가지고 있던 마수의 힘 일부를 부여한다." />
+  <String id="ItemDesc_Mail_R06_03" value="로드웰을 처치하고 얻은 재료로 제작된 갑옷.&#xA;로드웰의 열기가 가시지 않은 장비로 착용 시 화상을 당하지 않도록 주의를 요한다.&#xA;검은 안개의 기운이 남아 있으며 착용자에게 마수의 힘 일부를 선사한다." />
+  <String id="ItemDesc_Mail_R06_04" value="마수를 처치하고 얻은 재료로 제작된 천옷.&#xA;조용히 귀를 가져다 대면 마수의 목소리가 들리는 듯하다.&#xA;마수의 검은 기운이 남아 있으며 착용자에게 마수의 힘 일부를 선사한다." />
+  <String id="ItemDesc_Mail_R06_05" value="레지슈타인을 처치하고 얻은 재료로 제작된 천옷.&#xA;레지슈타인의 몸에 흐르던 전류 중 일부가 아직 남아 있는 듯, 장비를 착용하면 짜릿한 느낌이 느껴진다.&#xA;검은 안개의 기운이 담겨 있으며 착용자에게 마수의 힘 일부를 부여한다." />
+  <String id="ItemDesc_Mail_R06_06" value="로드웰을 처치하고 얻은 재료로 제작된 천옷.&#xA;로드웰의 열기가 가시지 않은 장비로 착용 시 화상을 당하지 않도록 주의를 요한다.&#xA;검은 안개의 기운이 남아 있으며 착용자에게 마수의 힘 일부를 선사한다." />
+  <String id="ItemDesc_Mail_R07_01" value="마수에게서 얻은 극소량의 정수를 정제하여 제작한 갑옷.&#xA;바라만 보고 있어도 강대한 마수의 위엄이 느껴지는 듯하다.&#xA;마수의 순수한 기운이 착용자에게 그대로 전달되며 그 힘은 상상을 초월한다." />
+  <String id="ItemDesc_Mail_R07_02" value="레지슈타인에게서 얻은 극소량의 정수를 정제하여 제작한 갑옷.&#xA;가까이 가기만 해도 레지슈타인에 흐르던 전류가 느껴지는 듯 하다.&#xA;레지슈타인의 순수한 기운이 착용자에게 그대로 전달되며 그 힘은 적들에게 재앙이 될 것이다." />
+  <String id="ItemDesc_Mail_R07_03" value="로드웰에게서 얻은 극소량의 정수를 정제하여 제작한 갑옷.&#xA;주변의 물건들을 녹일듯 맹렬한 열기를 내뿜고 있다.&#xA;로드웰의 순수한 기운이 착용자에게 그대로 전달되며 그 힘은 적들에게 절망을 선사할 것이다." />
+  <String id="ItemDesc_Mail_R07_04" value="마수에게서 얻은 극소량의 정수를 정제하여 제작한 천옷.&#xA;바라만 보고 있어도 강대한 마수의 위엄이 느껴지는 듯하다.&#xA;마수의 순수한 기운이 착용자에게 그대로 전달되며 그 힘은 상상을 초월한다." />
+  <String id="ItemDesc_Mail_R07_05" value="레지슈타인에게서 얻은 극소량의 정수를 정제하여 제작한 천옷.&#xA;가까이 가기만 해도 레지슈타인에 흐르던 전류가 느껴지는 듯 하다.&#xA;레지슈타인의 순수한 기운이 착용자에게 그대로 전달되며 그 힘은 적들에게 재앙이 될 것이다." />
+  <String id="ItemDesc_Mail_R07_06" value="로드웰에게서 얻은 극소량의 정수를 정제하여 제작한 천옷.&#xA;주변의 물건들을 녹일듯 맹렬한 열기를 내뿜고 있다.&#xA;로드웰의 순수한 기운이 착용자에게 그대로 전달되며 그 힘은 적들에게 절망을 선사할 것이다." />
+  <String id="ItemDesc_Helmet_R01_01" value="초심자들을 위한 훈련용 투구.&#xA;가볍고 휴대성이 좋아 누구든지 다룰 수 있다." />
+  <String id="ItemDesc_Helmet_R01_02" value="초심자들을 위한 훈련용 머리띠.&#xA;가볍고 휴대성이 좋아 누구든지 다룰 수 있다." />
+  <String id="ItemDesc_Helmet_R02_01" value="모험가들이 애용하는 전천후 투구.&#xA;어느 환경에서든 신뢰할 수 있는 성능을 발휘한다." />
+  <String id="ItemDesc_Helmet_R02_02" value="모험가들이 애용하는 전천후 머리띠.&#xA;어느 환경에서든 신뢰할 수 있는 성능을 발휘한다." />
+  <String id="ItemDesc_Helmet_R03_01" value="사냥꾼들이 애용하는 만듦새 좋은 투구.&#xA;강도가 높은 소재로 제작되어 적의 공격을 받아내는데 부족함이 없다." />
+  <String id="ItemDesc_Helmet_R03_02" value="사냥꾼들이 애용하는 만듦새 좋은 머리띠.&#xA;강도가 높은 소재로 제작되어 적의 공격을 받아내는데 부족함이 없다." />
+  <String id="ItemDesc_Helmet_R04_01" value="대륙의 장인들이 제작한 높은 품질의 투구.&#xA;심혈을 기울여 만들어진 이 방어구는 멋진 외형과 함께 높은 방어력을 보장한다." />
+  <String id="ItemDesc_Helmet_R04_02" value="대륙의 장인들이 제작한 높은 품질의 투구.&#xA;심혈을 기울여 만들어진 이 방어구는 멋진 외형과 함께 높은 방어력을 보장한다." />
+  <String id="ItemDesc_Helmet_R04_03" value="대륙의 장인들이 제작한 높은 품질의 머리띠.&#xA;심혈을 기울여 만들어진 이 방어구는 멋진 외형과 함께 높은 방어력을 보장한다." />
+  <String id="ItemDesc_Helmet_R04_04" value="대륙의 장인들이 제작한 높은 품질의 모자.&#xA;심혈을 기울여 만들어진 이 방어구는 멋진 외형과 함께 높은 방어력을 보장한다." />
+  <String id="ItemDesc_Helmet_R05_01" value="현자들이 오랜 세월 쌓아 올린 지식을 토대로 제작한 투구.&#xA;착용자의 잠재력을 십분 끌어올려 크나큰 힘을 주는 방어구이다." />
+  <String id="ItemDesc_Helmet_R05_02" value="현자들이 오랜 세월 쌓아 올린 지식을 토대로 제작한 투구.&#xA;착용자의 잠재력을 십분 끌어올려 크나큰 힘을 주는 방어구이다." />
+  <String id="ItemDesc_Helmet_R05_03" value="현자들이 오랜 세월 쌓아 올린 지식을 토대로 제작한 머리띠.&#xA;착용자의 잠재력을 십분 끌어올려 크나큰 힘을 주는 방어구이다." />
+  <String id="ItemDesc_Helmet_R05_04" value="현자들이 오랜 세월 쌓아 올린 지식을 토대로 제작한 모자.&#xA;착용자의 잠재력을 십분 끌어올려 크나큰 힘을 주는 방어구이다." />
+  <String id="ItemDesc_Helmet_R06_01" value="마수를 처치하고 얻은 재료로 제작된 투구.&#xA;조용히 귀를 가져다 대면 마수의 목소리가 들리는 듯하다.&#xA;마수의 검은 기운이 남아 있으며 착용자에게 마수의 힘 일부를 선사한다." />
+  <String id="ItemDesc_Helmet_R06_02" value="레지슈타인을 처치하고 얻은 재료로 제작된 투구.&#xA;레지슈타인의 몸에 흐르던 전류 중 일부가 아직 남아 있는 듯, 장비를 착용하면 짜릿한 느낌이 느껴진다.&#xA;착용자에게 레지슈타인이 가지고 있던 마수의 힘 일부를 부여한다." />
+  <String id="ItemDesc_Helmet_R06_03" value="로드웰을 처치하고 얻은 재료로 제작된 투구.&#xA;로드웰의 열기가 가시지 않은 장비로 착용 시 화상을 당하지 않도록 주의를 요한다.&#xA;검은 안개의 기운이 남아 있으며 착용자에게 마수의 힘 일부를 선사한다." />
+  <String id="ItemDesc_Helmet_R06_04" value="마수를 처치하고 얻은 재료로 제작된 머리띠.&#xA;조용히 귀를 가져다 대면 마수의 목소리가 들리는 듯하다.&#xA;마수의 검은 기운이 남아 있으며 착용자에게 마수의 힘 일부를 선사한다." />
+  <String id="ItemDesc_Helmet_R06_05" value="레지슈타인을 처치하고 얻은 재료로 제작된 모자.&#xA;레지슈타인의 몸에 흐르던 전류 중 일부가 아직 남아 있는 듯, 장비를 착용하면 짜릿한 느낌이 느껴진다.&#xA;검은 안개의 기운이 담겨 있으며 착용자에게 마수의 힘 일부를 부여한다." />
+  <String id="ItemDesc_Helmet_R06_06" value="로드웰을 처치하고 얻은 재료로 제작된 모자.&#xA;로드웰의 열기가 가시지 않은 장비로 착용 시 화상을 당하지 않도록 주의를 요한다.&#xA;검은 안개의 기운이 남아 있으며 착용자에게 마수의 힘 일부를 선사한다." />
+  <String id="ItemDesc_Helmet_R07_01" value="마수에게서 얻은 극소량의 정수를 정제하여 제작한 투구.&#xA;바라만 보고 있어도 강대한 마수의 위엄이 느껴지는 듯하다.&#xA;마수의 순수한 기운이 착용자에게 그대로 전달되며 그 힘은 상상을 초월한다." />
+  <String id="ItemDesc_Helmet_R07_02" value="레지슈타인에게서 얻은 극소량의 정수를 정제하여 제작한 투구.&#xA;가까이 가기만 해도 레지슈타인에 흐르던 전류가 느껴지는 듯 하다.&#xA;레지슈타인의 순수한 기운이 착용자에게 그대로 전달되며 그 힘은 적들에게 재앙이 될 것이다." />
+  <String id="ItemDesc_Helmet_R07_03" value="로드웰에게서 얻은 극소량의 정수를 정제하여 제작한 투구.&#xA;주변의 물건들을 녹일듯 맹렬한 열기를 내뿜고 있다.&#xA;로드웰의 순수한 기운이 착용자에게 그대로 전달되며 그 힘은 적들에게 절망을 선사할 것이다." />
+  <String id="ItemDesc_Helmet_R07_04" value="마수에게서 얻은 극소량의 정수를 정제하여 제작한 머리띠.&#xA;바라만 보고 있어도 강대한 마수의 위엄이 느껴지는 듯하다.&#xA;마수의 순수한 기운이 착용자에게 그대로 전달되며 그 힘은 상상을 초월한다." />
+  <String id="ItemDesc_Helmet_R07_05" value="레지슈타인에게서 얻은 극소량의 정수를 정제하여 제작한 모자.&#xA;가까이 가기만 해도 레지슈타인에 흐르던 전류가 느껴지는 듯 하다.&#xA;레지슈타인의 순수한 기운이 착용자에게 그대로 전달되며 그 힘은 적들에게 재앙이 될 것이다." />
+  <String id="ItemDesc_Helmet_R07_06" value="로드웰에게서 얻은 극소량의 정수를 정제하여 제작한 모자.&#xA;주변의 물건들을 녹일듯 맹렬한 열기를 내뿜고 있다.&#xA;로드웰의 순수한 기운이 착용자에게 그대로 전달되며 그 힘은 적들에게 절망을 선사할 것이다." />
+  <String id="ItemDesc_Gauntlet_R04_01" value="대륙의 장인들이 제작한 높은 품질의 장갑.&#xA;심혈을 기울여 만들어진 이 방어구는 멋진 외형과 함께 높은 방어력을 보장한다." />
+  <String id="ItemDesc_Gauntlet_R04_02" value="대륙의 장인들이 제작한 높은 품질의 장갑.&#xA;심혈을 기울여 만들어진 이 방어구는 멋진 외형과 함께 높은 방어력을 보장한다." />
+  <String id="ItemDesc_Gauntlet_R04_03" value="대륙의 장인들이 제작한 높은 품질의 장갑.&#xA;심혈을 기울여 만들어진 이 방어구는 멋진 외형과 함께 높은 방어력을 보장한다." />
+  <String id="ItemDesc_Gauntlet_R04_04" value="대륙의 장인들이 제작한 높은 품질의 장갑.&#xA;심혈을 기울여 만들어진 이 방어구는 멋진 외형과 함께 높은 방어력을 보장한다." />
+  <String id="ItemDesc_Gauntlet_R05_01" value="현자들이 오랜 세월 쌓아 올린 지식을 토대로 제작한 장갑.&#xA;착용자의 잠재력을 십분 끌어올려 크나큰 힘을 주는 방어구이다." />
+  <String id="ItemDesc_Gauntlet_R05_02" value="현자들이 오랜 세월 쌓아 올린 지식을 토대로 제작한 장갑.&#xA;착용자의 잠재력을 십분 끌어올려 크나큰 힘을 주는 방어구이다." />
+  <String id="ItemDesc_Gauntlet_R05_03" value="현자들이 오랜 세월 쌓아 올린 지식을 토대로 제작한 장갑.&#xA;착용자의 잠재력을 십분 끌어올려 크나큰 힘을 주는 방어구이다." />
+  <String id="ItemDesc_Gauntlet_R05_04" value="현자들이 오랜 세월 쌓아 올린 지식을 토대로 제작한 장갑.&#xA;착용자의 잠재력을 십분 끌어올려 크나큰 힘을 주는 방어구이다." />
+  <String id="ItemDesc_Gauntlet_R06_01" value="마수를 처치하고 얻은 재료로 제작된 장갑.&#xA;조용히 귀를 가져다 대면 마수의 목소리가 들리는 듯하다.&#xA;마수의 검은 기운이 남아 있으며 착용자에게 마수의 힘 일부를 선사한다." />
+  <String id="ItemDesc_Gauntlet_R06_02" value="레지슈타인을 처치하고 얻은 재료로 제작된 장갑.&#xA;레지슈타인의 몸에 흐르던 전류 중 일부가 아직 남아 있는 듯, 장비를 착용하면 짜릿한 느낌이 느껴진다.&#xA;착용자에게 레지슈타인이 가지고 있던 마수의 힘 일부를 부여한다." />
+  <String id="ItemDesc_Gauntlet_R06_03" value="로드웰을 처치하고 얻은 재료로 제작된 장갑.&#xA;로드웰의 열기가 가시지 않은 장비로 착용 시 화상을 당하지 않도록 주의를 요한다.&#xA;검은 안개의 기운이 남아 있으며 착용자에게 마수의 힘 일부를 선사한다." />
+  <String id="ItemDesc_Gauntlet_R06_04" value="마수를 처치하고 얻은 재료로 제작된 장갑.&#xA;조용히 귀를 가져다 대면 마수의 목소리가 들리는 듯하다.&#xA;마수의 검은 기운이 남아 있으며 착용자에게 마수의 힘 일부를 선사한다." />
+  <String id="ItemDesc_Gauntlet_R06_05" value="레지슈타인을 처치하고 얻은 재료로 제작된 장갑.&#xA;레지슈타인의 몸에 흐르던 전류 중 일부가 아직 남아 있는 듯, 장비를 착용하면 짜릿한 느낌이 느껴진다.&#xA;검은 안개의 기운이 담겨 있으며 착용자에게 마수의 힘 일부를 부여한다." />
+  <String id="ItemDesc_Gauntlet_R06_06" value="로드웰을 처치하고 얻은 재료로 제작된 장갑.&#xA;로드웰의 열기가 가시지 않은 장비로 착용 시 화상을 당하지 않도록 주의를 요한다.&#xA;검은 안개의 기운이 남아 있으며 착용자에게 마수의 힘 일부를 선사한다." />
+  <String id="ItemDesc_Gauntlet_R07_01" value="마수에게서 얻은 극소량의 정수를 정제하여 제작한 장갑.&#xA;바라만 보고 있어도 강대한 마수의 위엄이 느껴지는 듯하다.&#xA;마수의 순수한 기운이 착용자에게 그대로 전달되며 그 힘은 상상을 초월한다." />
+  <String id="ItemDesc_Gauntlet_R07_02" value="레지슈타인에게서 얻은 극소량의 정수를 정제하여 제작한 장갑.&#xA;가까이 가기만 해도 레지슈타인에 흐르던 전류가 느껴지는 듯 하다.&#xA;레지슈타인의 순수한 기운이 착용자에게 그대로 전달되며 그 힘은 적들에게 재앙이 될 것이다." />
+  <String id="ItemDesc_Gauntlet_R07_03" value="로드웰에게서 얻은 극소량의 정수를 정제하여 제작한 장갑.&#xA;주변의 물건들을 녹일듯 맹렬한 열기를 내뿜고 있다.&#xA;로드웰의 순수한 기운이 착용자에게 그대로 전달되며 그 힘은 적들에게 절망을 선사할 것이다." />
+  <String id="ItemDesc_Gauntlet_R07_04" value="마수에게서 얻은 극소량의 정수를 정제하여 제작한 장갑.&#xA;바라만 보고 있어도 강대한 마수의 위엄이 느껴지는 듯하다.&#xA;마수의 순수한 기운이 착용자에게 그대로 전달되며 그 힘은 상상을 초월한다." />
+  <String id="ItemDesc_Gauntlet_R07_05" value="레지슈타인에게서 얻은 극소량의 정수를 정제하여 제작한 장갑.&#xA;가까이 가기만 해도 레지슈타인에 흐르던 전류가 느껴지는 듯 하다.&#xA;레지슈타인의 순수한 기운이 착용자에게 그대로 전달되며 그 힘은 적들에게 재앙이 될 것이다." />
+  <String id="ItemDesc_Gauntlet_R07_06" value="로드웰에게서 얻은 극소량의 정수를 정제하여 제작한 장갑.&#xA;주변의 물건들을 녹일듯 맹렬한 열기를 내뿜고 있다.&#xA;로드웰의 순수한 기운이 착용자에게 그대로 전달되며 그 힘은 적들에게 절망을 선사할 것이다." />
+  <String id="ItemDesc_Boots_R05_01" value="현자들이 오랜 세월 쌓아 올린 지식을 토대로 제작한 신발.&#xA;착용자의 잠재력을 십분 끌어올려 크나큰 힘을 주는 방어구이다." />
+  <String id="ItemDesc_Boots_R05_02" value="현자들이 오랜 세월 쌓아 올린 지식을 토대로 제작한 신발.&#xA;착용자의 잠재력을 십분 끌어올려 크나큰 힘을 주는 방어구이다." />
+  <String id="ItemDesc_Boots_R05_03" value="현자들이 오랜 세월 쌓아 올린 지식을 토대로 제작한 신발.&#xA;착용자의 잠재력을 십분 끌어올려 크나큰 힘을 주는 방어구이다." />
+  <String id="ItemDesc_Boots_R05_04" value="현자들이 오랜 세월 쌓아 올린 지식을 토대로 제작한 신발.&#xA;착용자의 잠재력을 십분 끌어올려 크나큰 힘을 주는 방어구이다." />
+  <String id="ItemDesc_Boots_R06_01" value="마수를 처치하고 얻은 재료로 제작된 신발.&#xA;조용히 귀를 가져다 대면 마수의 목소리가 들리는 듯하다.&#xA;마수의 검은 기운이 남아 있으며 착용자에게 마수의 힘 일부를 선사한다." />
+  <String id="ItemDesc_Boots_R06_02" value="레지슈타인을 처치하고 얻은 재료로 제작된 부츠.&#xA;레지슈타인의 몸에 흐르던 전류 중 일부가 아직 남아 있는 듯, 장비를 착용하면 짜릿한 느낌이 느껴진다.&#xA;착용자에게 레지슈타인이 가지고 있던 마수의 힘 일부를 부여한다." />
+  <String id="ItemDesc_Boots_R06_03" value="로드웰을 처치하고 얻은 재료로 제작된 신발.&#xA;로드웰의 열기가 가시지 않은 장비로 착용 시 화상을 당하지 않도록 주의를 요한다.&#xA;검은 안개의 기운이 남아 있으며 착용자에게 마수의 힘 일부를 선사한다." />
+  <String id="ItemDesc_Boots_R06_04" value="마수를 처치하고 얻은 재료로 제작된 신발.&#xA;조용히 귀를 가져다 대면 마수의 목소리가 들리는 듯하다.&#xA;마수의 검은 기운이 남아 있으며 착용자에게 마수의 힘 일부를 선사한다." />
+  <String id="ItemDesc_Boots_R06_05" value="레지슈타인을 처치하고 얻은 재료로 제작된 부츠.&#xA;레지슈타인의 몸에 흐르던 전류 중 일부가 아직 남아 있는 듯, 장비를 착용하면 짜릿한 느낌이 느껴진다.&#xA;검은 안개의 기운이 담겨 있으며 착용자에게 마수의 힘 일부를 부여한다." />
+  <String id="ItemDesc_Boots_R06_06" value="로드웰을 처치하고 얻은 재료로 제작된 신발.&#xA;로드웰의 열기가 가시지 않은 장비로 착용 시 화상을 당하지 않도록 주의를 요한다.&#xA;검은 안개의 기운이 남아 있으며 착용자에게 마수의 힘 일부를 선사한다." />
+  <String id="ItemDesc_Boots_R07_01" value="마수에게서 얻은 극소량의 정수를 정제하여 제작한 신발.&#xA;바라만 보고 있어도 강대한 마수의 위엄이 느껴지는 듯하다.&#xA;마수의 순수한 기운이 착용자에게 그대로 전달되며 그 힘은 상상을 초월한다." />
+  <String id="ItemDesc_Boots_R07_02" value="레지슈타인에게서 얻은 극소량의 정수를 정제하여 제작한 부츠.&#xA;가까이 가기만 해도 레지슈타인에 흐르던 전류가 느껴지는 듯 하다.&#xA;레지슈타인의 순수한 기운이 착용자에게 그대로 전달되며 그 힘은 적들에게 재앙이 될 것이다." />
+  <String id="ItemDesc_Boots_R07_03" value="로드웰에게서 얻은 극소량의 정수를 정제하여 제작한 신발.&#xA;주변의 물건들을 녹일듯 맹렬한 열기를 내뿜고 있다.&#xA;로드웰의 순수한 기운이 착용자에게 그대로 전달되며 그 힘은 적들에게 절망을 선사할 것이다." />
+  <String id="ItemDesc_Boots_R07_04" value="마수에게서 얻은 극소량의 정수를 정제하여 제작한 신발.&#xA;바라만 보고 있어도 강대한 마수의 위엄이 느껴지는 듯하다.&#xA;마수의 순수한 기운이 착용자에게 그대로 전달되며 그 힘은 상상을 초월한다." />
+  <String id="ItemDesc_Boots_R07_05" value="레지슈타인에게서 얻은 극소량의 정수를 정제하여 제작한 부츠.&#xA;가까이 가기만 해도 레지슈타인에 흐르던 전류가 느껴지는 듯 하다.&#xA;레지슈타인의 순수한 기운이 착용자에게 그대로 전달되며 그 힘은 적들에게 재앙이 될 것이다." />
+  <String id="ItemDesc_Boots_R07_06" value="로드웰에게서 얻은 극소량의 정수를 정제하여 제작한 신발.&#xA;주변의 물건들을 녹일듯 맹렬한 열기를 내뿜고 있다.&#xA;로드웰의 순수한 기운이 착용자에게 그대로 전달되며 그 힘은 적들에게 절망을 선사할 것이다." />
+  <String id="ItemDesc_Ring_R06_01" value="마수를 처치하고 얻은 재료로 제작된 반지.&#xA;조용히 귀를 가져다 대면 마수의 목소리가 들리는 듯하다.&#xA;마수의 검은 기운이 남아 있으며 착용자에게 마수의 힘 일부를 선사한다." />
+  <String id="ItemDesc_Ring_R06_02" value="레지슈타인을 처치하고 얻은 재료로 제작된 반지.&#xA;레지슈타인의 몸에 흐르던 전류 중 일부가 아직 남아 있는 듯, 장비를 착용하면 짜릿한 느낌이 느껴진다.&#xA;착용자에게 레지슈타인이 가지고 있던 마수의 힘 일부를 부여한다." />
+  <String id="ItemDesc_Ring_R06_03" value="로드웰을 처치하고 얻은 재료로 제작된 반지.&#xA;로드웰의 열기가 가시지 않은 장비로 착용 시 화상을 당하지 않도록 주의를 요한다.&#xA;검은 안개의 기운이 남아 있으며 착용자에게 마수의 힘 일부를 선사한다." />
+  <String id="ItemDesc_Ring_R06_04" value="마수를 처치하고 얻은 재료로 제작된 반지.&#xA;조용히 귀를 가져다 대면 마수의 목소리가 들리는 듯하다.&#xA;마수의 검은 기운이 남아 있으며 착용자에게 마수의 힘 일부를 선사한다." />
+  <String id="ItemDesc_Ring_R06_05" value="레지슈타인을 처치하고 얻은 재료로 제작된 반지.&#xA;레지슈타인의 몸에 흐르던 전류 중 일부가 아직 남아 있는 듯, 장비를 착용하면 짜릿한 느낌이 느껴진다.&#xA;검은 안개의 기운이 담겨 있으며 착용자에게 마수의 힘 일부를 부여한다." />
+  <String id="ItemDesc_Ring_R06_06" value="로드웰을 처치하고 얻은 재료로 제작된 반지.&#xA;로드웰의 열기가 가시지 않은 장비로 착용 시 화상을 당하지 않도록 주의를 요한다.&#xA;검은 안개의 기운이 남아 있으며 착용자에게 마수의 힘 일부를 선사한다." />
+  <String id="ItemDesc_Ring_R07_01" value="마수에게서 얻은 극소량의 정수를 정제하여 제작한 반지.&#xA;바라만 보고 있어도 강대한 마수의 위엄이 느껴지는 듯하다.&#xA;마수의 순수한 기운이 착용자에게 그대로 전달되며 그 힘은 상상을 초월한다." />
+  <String id="ItemDesc_Ring_R07_02" value="레지슈타인에게서 얻은 극소량의 정수를 정제하여 제작한 반지.&#xA;가까이 가기만 해도 레지슈타인에 흐르던 전류가 느껴지는 듯 하다.&#xA;레지슈타인의 순수한 기운이 착용자에게 그대로 전달되며 그 힘은 적들에게 재앙이 될 것이다." />
+  <String id="ItemDesc_Ring_R07_03" value="로드웰에게서 얻은 극소량의 정수를 정제하여 제작한 반지.&#xA;주변의 물건들을 녹일듯 맹렬한 열기를 내뿜고 있다.&#xA;로드웰의 순수한 기운이 착용자에게 그대로 전달되며 그 힘은 적들에게 절망을 선사할 것이다." />
+  <String id="ItemDesc_Ring_R07_04" value="마수에게서 얻은 극소량의 정수를 정제하여 제작한 반지.&#xA;바라만 보고 있어도 강대한 마수의 위엄이 느껴지는 듯하다.&#xA;마수의 순수한 기운이 착용자에게 그대로 전달되며 그 힘은 상상을 초월한다." />
+  <String id="ItemDesc_Ring_R07_05" value="레지슈타인에게서 얻은 극소량의 정수를 정제하여 제작한 반지.&#xA;가까이 가기만 해도 레지슈타인에 흐르던 전류가 느껴지는 듯 하다.&#xA;레지슈타인의 순수한 기운이 착용자에게 그대로 전달되며 그 힘은 적들에게 재앙이 될 것이다." />
+  <String id="ItemDesc_Ring_R07_06" value="로드웰에게서 얻은 극소량의 정수를 정제하여 제작한 반지.&#xA;주변의 물건들을 녹일듯 맹렬한 열기를 내뿜고 있다.&#xA;로드웰의 순수한 기운이 착용자에게 그대로 전달되며 그 힘은 적들에게 절망을 선사할 것이다." />
+  <String id="ItemDesc_Weapon_R01_Exp" value="무기의 성장을 목적으로 제작된 물건.&#xA;다른 무기의 성장을 효과적으로 도울 수 있으나 무기로서의 성능은 기대하지 말자." />
+  <String id="ItemDesc_Mail_R01_Exp" value="방어구의 성장을 목적으로 제작된 물건.&#xA;다른 방어구의 성장을 효과적으로 도울 수 있으나 방어구로서의 성능은 기대하지 말자." />
+  <String id="ItemDesc_Material_EvolveTypeA" value="시대를 호령한 영웅들의 [용기]가 모여 결정화된 광석.&#xA;지니고 있기만 해도 적 앞에서 물러서지 않는 용기가 샘솟는것 만 같다.&#xA;[탱커], [파이터], [레인저] 타입 영웅의 진화 재료로 쓰인다." />
+  <String id="ItemDesc_Material_EvolveTypeB" value="역사를 빛낸 지식인들의 [지혜]가 모여 결정화된 광석.&#xA;머리가 총명해지고 지혜가 솟아나는 파장을 뿜어낸다.&#xA;[메이지], [서포터] 타입 영웅의 진화 재료로 쓰인다." />
+  <String id="ItemDesc_Material_EvolveType0" value="[무엇이든 될 수 있다]는 순수한 마나를 머금고 있는 결정. 내재한 힘의 끝을 알 수 없다.&#xA;모든 영웅의 공통 진화 재료로 쓰인다." />
+  <String id="ItemDesc_StatTraining" value="강해지는 법이 적혀진 문서.&#xA;신체의 사용법, 마나의 운용법, 병법 등이 총망라되어 있다. 영웅의 훈련 재료로 쓰인다." />
+  <String id="ItemDesc_Weapon_R01_Test" value="테스트 무기는 게임플레이시 보이면 안됨" />
+  <String id="ItemDesc_Weapon_R02_Test" value="테스트 무기는 게임플레이시 보이면 안됨" />
+  <String id="ItemDesc_Weapon_R03_Test" value="테스트 무기는 게임플레이시 보이면 안됨" />
+  <String id="ItemDesc_Weapon_R04_Test" value="테스트 무기는 게임플레이시 보이면 안됨" />
+  <String id="ItemDesc_Weapon_R05_Test" value="테스트 무기는 게임플레이시 보이면 안됨" />
+  <String id="ItemDesc_Weapon_R06_Test" value="테스트 무기는 게임플레이시 보이면 안됨" />
+  <String id="ItemDesc_Mail_R01_Test" value="테스트 갑옷은 게임플레이시 보이면 안됨" />
+  <String id="ItemDesc_Helmet_R01_Test" value="테스트 투구는 게임플레이시 보이면 안됨" />
+  <String id="ItemDesc_Gauntlet_R01_Test" value="테스트 장갑은 게임플레이시 보이면 안됨" />
+  <String id="ItemDesc_Boots_R01_Test" value="테스트 신발은 게임플레이시 보이면 안됨" />
+  <String id="ItemDesc_Ring_R01_Test" value="테스트 반지는 게임플레이시 보이면 안됨" />
+  <String id="ItemName_Material_SpendEvent" value="블로섬의 깜짝 상자 티켓" />
+  <String id="ItemDesc_Material_SpendEvent" value="블로섬의 깜짝 상자를 열 수 있는 티켓입니다." />
+  <String id="ItemName_Material_EventDungeon" value="주작의 인" />
+  <String id="ItemDesc_Material_EventDungeon" value="파이란 던전 티켓 교환 이벤트에 사용됩니다." />
+  <String id="ItemHiddenStoryDesc_P_Weapon_R06_03" value="[이계의 문 관찰 보고서 1-1]&#xA;그 문은 내가 대마법사님의 [이계 송환 마법]을 사용한 자리에서 발견되었다.&#xA;어떤 것에도 연결되어 있지 않은 채 덩그러니 홀로 존재하는 그것은 그랑버스의 마나가 아닌 [다른] 마나를 내뿜고 있었다.&#xA;혹시 저 문은 나의 [이계 송환 마법]이 불러낸 것이 아닐까?&#xA;나는 좀 더 연구해 보기로 했다." memo="6등급 로드웰 장비 히든 설명 1-1" />
+  <String id="ItemHiddenStoryDesc_Mail_R06_03" value="[이계의 문 관찰 보고서 1-2]&#xA;우리와는 다른 마나.&#xA;그래서 나는 그것을 [이계]의 마나라고 부르기로 하고, 이 문을 [이계의 문]이라고 부르기로 했다.&#xA;이계의 마나는 아주 미약한 양이지만, 주변 생물들의 생기를 죽여가고 있었다." memo="6등급 로드웰 장비 히든 설명 1-2" />
+  <String id="ItemHiddenStoryDesc_Helmet_R06_03" value="[이계의 문 관찰 보고서 1-3]&#xA;그 문은 조금의 틈도 없이 굳게 닫혀 있었다.&#xA;나는 그것을 밀어도 보고, 마법으로 때려보기도 했지만, 그것은 부서지지도 움직이지도 않았다.&#xA;문의 앞에서든 뒤에서든 무슨 짓을 해도 문은 움직일 기미를 보이지 않았다." memo="6등급 로드웰 장비 히든 설명 1-3" />
+  <String id="ItemHiddenStoryDesc_Gauntlet_R06_03" value="[이계의 문 관찰 보고서 1-4]&#xA;나는 그 문에 우리의 마나를 주입해보기로 했다.&#xA;작은 양의 마나로 아무런 변화를 보이지 않던 문은, 주입량을 늘리자 끝부분부터 아주 조금씩 부서지기 시작했다.&#xA;아무래도 이것은 우리의 마나를 받아들이지 못하는 듯하다." memo="6등급 로드웰 장비 히든 설명 1-4" />
+  <String id="ItemHiddenStoryDesc_Boots_R06_03" value="[이계의 문 관찰 보고서 1-5]&#xA;몇 번의 실험 결과 나는 이계의 마나가 우리의 마나와 섞이지 않듯, 이 문 역시 우리의 마나와는 상극이라는 것을 깨닫게 되었다.&#xA;그러다 나는 아주 중대한 의문에 빠졌다.&#xA;그랑버스의 마나로 만들어지지 않은 문이라면 도대체 누가 만들어 낸 것이란 말인가?" memo="6등급 로드웰 장비 히든 설명 1-5" />
+  <String id="ItemHiddenStoryDesc_Ring_R06_03" value="[이계의 문 관찰 보고서 1-6]&#xA;아크날 대마법사님의 이계 송환 마법을 사용한 자리에 생겨난 문.&#xA;그랑버스가 아닌 [이계의 마나]로 만들어진 문.&#xA;그랑버스의 마나를 주입받으면 부서져 버리는 문.&#xA;&#xA;나는 위의 결론을 토대로, 이 문을 만들어 낸 것은 나의 이계 송환 마법이라고 결론 내렸다." memo="6등급 로드웰 장비 히든 설명 1-6" />
+  <String id="ItemHiddenStoryDesc_M_Weapon_R06_03" value="[이계의 문 관찰 보고서 2-1]&#xA;나는 몇 번의 실험을 거쳐, 통칭 [이계의 문]이 내가 사용했던 [이계 송환 마법]에 의해 만들어진 것이라고 결론을 내렸다.&#xA;앞으로 나는 이 문을 여는 방법과 문이 열린 후 그 영향에 대해 연구해 보고자 한다." memo="6등급 로드웰 장비 히든 설명 2-1" />
+  <String id="ItemHiddenStoryDesc_Mail_R06_06" value="[이계의 문 관찰 보고서 2-2]&#xA;이전 실험을 통해, 타격을 주거나 마나를 주입하는 것으로는 문을 열 수 없다는 사실을 알게 되었다.&#xA;그래서 나는 이 문을 열기 위해선 [이계의 마나]가 필요하다고 생각하게 되었다." memo="6등급 로드웰 장비 히든 설명 2-2" />
+  <String id="ItemHiddenStoryDesc_Helmet_R06_06" value="[이계의 문 관찰 보고서 2-3]&#xA;그랑버스에서 이계의 마나를 모을 수 있는 방법이 무엇이 있을까.&#xA;곰곰이 생각해본 나는 문 근처에 마나를 모두 사용한 [휘광석]을 놓아두면, 이계의 마나를 담을 수 있지 않을까 하는 생각이 들었다.&#xA;나는 그것을 직접 실험해 보기로 했다." memo="6등급 로드웰 장비 히든 설명 2-3" />
+  <String id="ItemHiddenStoryDesc_Gauntlet_R06_06" value="[이계의 문 관찰 보고서 2-4]&#xA;내 예상대로였다. &#xA;담겨진 모든 마나가 소진된 휘광석을 이계의 문 근처에 갖다두자 휘광석은 맹렬히 이계의 마나를 받아들이기 시작했다.&#xA;조금만 기다리면, 나는 이 이계의 힘이 담긴 휘광석으로 문을 열 수 있으리라. 그렇게 판단했었다." memo="6등급 로드웰 장비 히든 설명 2-4" />
+  <String id="ItemHiddenStoryDesc_Boots_R06_06" value="[이계의 문 관찰 보고서 2-5]&#xA;실험은 실패했다.&#xA;휘광석이 이계의 마나를 받아들이긴 했지만, 주변에 그랑버스 마나도 함께 받아드리는 바람에 두 마나가 충돌하여 휘광석이 깨져버리고 말았기 때문이다.&#xA;이 실험이 성공하기 위해선 그랑버스의 마나를 일순간 배제 시킬 수 있을 정도의 거대한 이계의 마나가 필요할 것이다.&#xA;그렇게 생각한 나는 이계의 마나를 불러올 방법을 고민해보기로 했다." memo="6등급 로드웰 장비 히든 설명 2-5" />
+  <String id="ItemHiddenStoryDesc_Ring_R06_06" value="[이계의 문 관찰 보고서 2-6]&#xA;거대한 이계의 마나를 불러올 방법.&#xA;나는 그것을 위해 다시 한번 더 이계 송환 마법을 사용하기로 마음먹었다.&#xA;분명, 이 문이 생겨났을 땐 그랑버스의 마나를 배제시킬 만큼 거대한 이계의 마나가 발생했을 것이다.&#xA;이번에 한 번 더 마법을 사용한다면 분명 이계의 마나를 모을 수 있을 것이다.&#xA;&#xA;나는 오늘 그 마법을 사용하러 갈 것이다.&#xA;만약 성공한다면… 내가 아크날 님과 같은 대마법사가 될 수 있을지도 몰라.&#xA;&#xA;(더 이상 기록은 이어지지 않았다.)" memo="6등급 로드웰 장비 히든 설명 2-6" />
+  <String id="ItemHiddenStoryDesc_P_Weapon_R07_03" value="[어느 마법사의 관찰 일기 1장 1화]&#xA;나는 지금부터 어떤 한 미치광이 마법사에 대해 이야기하고자 한다.&#xA;그의 이름은 [로드웰].&#xA;휘광의 탑 소속의 마법사이자, 대마법사 아크날의 [이계 송환 마법]을 신봉하는 자이다." memo="7등급 로드웰 장비 히든 설명 1-1" />
+  <String id="ItemHiddenStoryDesc_Mail_R07_03" value="[어느 마법사의 관찰 일기 1장 2화]&#xA;그의 아크날을 향한 맹목적인 믿음이 어디에서부터 시작되었는지는 아무도 모른다.&#xA;다만 나는 그가 아크날이 [이계 송환 마법]을 발표했을 때, 가장 먼저 박수를 쳤다는 사실만을 알고 있을 뿐이었다.&#xA;대 마법사가 갑자기 행방을 감춘 이후, 그 맹목적인 팬심이 [이계 송환 마법]을 연구하는 것으로 방향을 틀었을 때 나는 그가 아크날이 아닌 그 마법에 매료된 것이라고 판단하게 되었다." memo="7등급 로드웰 장비 히든 설명 1-2" />
+  <String id="ItemHiddenStoryDesc_Helmet_R07_03" value="[어느 마법사의 관찰 일기 1장 3화]&#xA;아크날이 사라진 이후, 미친 듯이 [이계 송환 마법]에 대해 연구하던 로드웰은 어느 날 만족스러운 웃음을 지으며 [완성]하였다고 이야기했다.&#xA;그리고 얼마 지나지 않아, 그는 많은 도구를 챙겨 든 채 휘광의 탑을 나가 버렸다.&#xA;나는 그의 관찰을 계속하기 위해 그의 뒤를 추적해 보기로 했다." memo="7등급 로드웰 장비 히든 설명 1-3" />
+  <String id="ItemHiddenStoryDesc_Gauntlet_R07_03" value="[어느 마법사의 관찰 일기 1장 4화]&#xA;휘광의 탑을 떠난 그가 도착한 곳은 놀랍게도 [어스마니아]였다.&#xA;그는 주변에 내가 있는 것도 알지 못한 채 기뻐 어쩔 줄 모르겠다는 사람처럼 자신의 실험 계획을 중얼거리기 시작했다.&#xA;계획을 중얼거리며, 실험을 준비하던 그는 마침내 모든 준비를 끝냈는지 마법을 사용하기 시작했다.&#xA;드디어 그의 [이계 송환 마법]이 시작된 것이었다." memo="7등급 로드웰 장비 히든 설명 1-4" />
+  <String id="ItemHiddenStoryDesc_Boots_R07_03" value="[어느 마법사의 관찰 일기 1장 5화]&#xA;마침내 그의 이계 송환 마법이 시작되었다.&#xA;일순간 하늘에 거대한 구멍이 생겨났지만 얼마 지나지 않아 그 구멍은 사라져버렸다.&#xA;실험에 실패한 로드웰은 좌절했다.&#xA;무너져 내리듯 바닥에 엎드려 흐느끼는 그를 보았지만, 나는 이상하게도 그가 만들어낸 구멍 사이로 누군가의 시선을 느꼈던 것만 같은 느낌에 몸을 떨어야만 했다." memo="7등급 로드웰 장비 히든 설명 1-5" />
+  <String id="ItemHiddenStoryDesc_Ring_R07_03" value="[어느 마법사의 관찰 일기 1장 6화]&#xA;몇일 뒤, 마법의 실패를 느끼고 휘광의 탑으로 돌아가려던 그는 그가 마법을 사용했던 곳에 이상한 [문]이 생겼다는 이야기를 듣게 된다.&#xA;그는 어쩌면 그 문이 자신이 불러낸 [이계]의 것일지도 모른다며 기뻐하고는 다시 그곳으로 뛰어가 버렸다.&#xA;&#xA;이계의 것이라니.&#xA;다른 사람이 보기엔 그의 말이 헛소리라고 생각할지 모르지만.&#xA;나는 안다. 아마 그것은 [이계의 것]이 맞을 것이다.&#xA;&#xA;나는 그것이 무서워, 로드웰의 관찰을 잠시 멈추기로 했다." memo="7등급 로드웰 장비 히든 설명 1-6" />
+  <String id="ItemHiddenStoryDesc_M_Weapon_R07_03" value="[어느 마법사의 관찰 일기 2장 1화]&#xA;이계 송환 마법을 사용한 곳에 나타난 그 문에 멋대로 [이계의 문]이라 이름 붙인 로드웰은 자신이 그 문을 만들어 냈다며 떠들고 다니기 시작했다.&#xA;그러나 주변 사람들은 아무도 그 말을 믿지 않았고, 그는 이계의 문을 연구하는데 더 열을 올리기 시작했다." memo="7등급 로드웰 장비 히든 설명 2-1" />
+  <String id="ItemHiddenStoryDesc_Mail_R07_06" value="[어느 마법사의 관찰 일기 2장 2화]&#xA;그는 자신이 문을 연구한 기록을 모아, [이계의 문 연구 보고서]라는 이름으로 휘광의 탑에 제출하였다.&#xA;아마, 보고서를 제출하여 이계의 문을 연구할 비용을 지원받기 위해서였을 것이라고 추측한다." memo="7등급 로드웰 장비 히든 설명 2-2" />
+  <String id="ItemHiddenStoryDesc_Helmet_R07_06" value="[어느 마법사의 관찰 일기 2장 3화]&#xA;휘광의 탑으로부터 연구 비용을 받은 그가 가장 먼저 산 것은 [휘광석]이었다. 그것도 이미 마나를 다 소진한 것들만.&#xA;그는 휘광석을 대량으로 구매한 후, 그것을 들고 [이계의 문] 앞으로 달려가기 시작했다.&#xA;나는 도대체 왜 그가 그런 것들을 구매하여, 급하게 뛰어가는지 궁금해졌다. &#xA;그래서 난 그날 이후 다시는 가고 싶지 않았던 그곳에 따라가 보기로 했다." memo="7등급 로드웰 장비 히든 설명 2-3" />
+  <String id="ItemHiddenStoryDesc_Gauntlet_R07_06" value="[어느 마법사의 관찰 일기 2장 4화]&#xA;이계의 문을 본 내 감상은 이 한 마디면 충분하다고 생각한다.&#xA;[저 미친 마법사가 성공해버렸다.]&#xA;그것은 정말로 이계의 문임이 분명했다.&#xA;그날 느꼈던 그 불길한 마나가 저 문을 통해 흘러나오고 있었다.&#xA;로드웰은 그 문 앞에서 마나가 소진된 휘광석들을 하나씩 세워두기 시작했다.&#xA;그 행동을 본 나는 그가 무엇을 하려는지 이해해버리고 말았다.&#xA;그는 이계의 마나를 모으고 싶어 하고 있었다." memo="7등급 로드웰 장비 히든 설명 2-4" />
+  <String id="ItemHiddenStoryDesc_Boots_R07_06" value="[어느 마법사의 관찰 일기 2장 5화]&#xA;그러나 그의 바램과는 다르게, 휘광석을 차례차례 깨져나가 버리고 말았다.&#xA;몇 번의 반복 끝에 그가 바라는 것이 불가능하다고 판단한 로드웰을 한동한 좌절해 있더니 미친 듯이 웃기 시작했다.&#xA;&quot;그래! 다시 한번 사용해 보면 될 거야! 그 마법을!&quot;&#xA;그렇게 말한 그는 마법에 사용할 재료를 준비하기 위해 뛰어가 버렸다.&#xA;나는 정말로 불길해졌다." memo="7등급 로드웰 장비 히든 설명 2-5" />
+  <String id="ItemHiddenStoryDesc_Ring_R07_06" value="[어느 마법사의 관찰 일기 2장 6화]&#xA;내 예상대로였다.&#xA;그는 다시 [이계 송환 마법]을 사용하려 하고 있었다.&#xA;마침내 모든 준비가 끝나고 그의 마법이 발동되자, 저번과 같이 하늘에 거대한 구멍이 생겨났다.&#xA;그리고 [그 시선]도 나타났다.&#xA;그것은 기쁜 듯 웃더니 로드웰을 향해 붉은 보석을 던졌다.&#xA;정말로 순시간에 일어난 일이었다.&#xA;붉은 보석이 머리에 박힌 로드웰을 비명을 질러댔다.&#xA;그리고 거대한 괴물로 변해버렸다.&#xA;&#xA;그리고 그는 나를 발견해 버렸다.&#xA;나는 이렇게 죽는 것일… (기록이 끊어져 있다.)" memo="7등급 로드웰 장비 히든 설명 2-6" />
+</StringItemData>

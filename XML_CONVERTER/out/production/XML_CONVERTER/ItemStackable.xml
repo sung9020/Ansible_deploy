@@ -1,0 +1,174 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ItemData>
+  <Item id="Material_EquipEvolve_G1" templateId="1100011" dev_Name="장비진화재료_1성" tier="D" category="material" groupId="Material_EquipEvolve" canLevelUp="false" canEvolve="true" isStackable="true" canCombine="false" locked="false" iconResourcePath="/Game/UI/TEX/Item/Material/Material_HeroEvolve_Magical.Material_HeroEvolve_Magical" sellingId="Gold" sellingPrice="50" immediateItem="false">
+    <LevelUp maxLevel="10" baseExp="100" stuffType="Currency" stuffId="Gold" stuffAmount="100" />
+  </Item>
+  <Item id="Material_EquipEvolve_G2" templateId="1100012" dev_Name="장비진화재료_2성" tier="C" category="material" groupId="Material_EquipEvolve" canLevelUp="false" canEvolve="true" isStackable="true" canCombine="false" locked="false" iconResourcePath="/Game/UI/TEX/Item/Material/Material_HeroEvolve_Magical.Material_HeroEvolve_Magical" sellingId="Gold" sellingPrice="50" immediateItem="false">
+    <LevelUp maxLevel="20" baseExp="200" stuffType="Currency" stuffId="Gold" stuffAmount="200" />
+  </Item>
+  <Item id="Material_EquipEvolve_G3" templateId="1100013" dev_Name="장비진화재료_3성" tier="B" category="material" groupId="Material_EquipEvolve" canLevelUp="false" canEvolve="true" isStackable="true" canCombine="false" locked="false" iconResourcePath="/Game/UI/TEX/Item/Material/Material_HeroEvolve_Magical.Material_HeroEvolve_Magical" sellingId="Gold" sellingPrice="50" immediateItem="false">
+    <LevelUp maxLevel="30" baseExp="400" stuffType="Currency" stuffId="Gold" stuffAmount="400" />
+  </Item>
+  <Item id="Material_EquipEvolve_G4" templateId="1100014" dev_Name="장비진화재료_4성" tier="A" category="material" groupId="Material_EquipEvolve" canLevelUp="false" canEvolve="true" isStackable="true" canCombine="false" locked="false" iconResourcePath="/Game/UI/TEX/Item/Material/Material_HeroEvolve_Magical.Material_HeroEvolve_Magical" sellingId="Gold" sellingPrice="50" immediateItem="false">
+    <LevelUp maxLevel="40" baseExp="1000" stuffType="Currency" stuffId="Gold" stuffAmount="1000" />
+  </Item>
+  <Item id="Material_EquipEvolve_G5" templateId="1100015" dev_Name="장비진화재료_5성" tier="S" category="material" groupId="Material_EquipEvolve" canLevelUp="false" canEvolve="false" isStackable="true" canCombine="false" locked="false" iconResourcePath="/Game/UI/TEX/Item/Material/Material_HeroEvolve_Magical.Material_HeroEvolve_Magical" sellingId="Gold" sellingPrice="50" immediateItem="false">
+    <LevelUp maxLevel="50" baseExp="3000" stuffType="Currency" stuffId="Gold" stuffAmount="3000" />
+  </Item>
+  <Item id="Material_EquipEvolve_G6" templateId="1100016" dev_Name="장비진화재료_6성" tier="S" category="material" groupId="Material_EquipEvolve" canLevelUp="false" canEvolve="false" isStackable="true" canCombine="false" locked="false" iconResourcePath="/Game/UI/TEX/Item/Material/Material_HeroEvolve_Magical.Material_HeroEvolve_Magical" sellingId="Gold" sellingPrice="50" immediateItem="false">
+    <LevelUp maxLevel="60" baseExp="10000" stuffType="Currency" stuffId="Gold" stuffAmount="10000" />
+  </Item>
+  <Item id="Material_TankerEvolve_G1" templateId="1100017" dev_Name="탱커진화재료_1성" tier="D" category="material" groupId="Material_TankerEvolve" canLevelUp="false" canEvolve="true" isStackable="true" canCombine="false" locked="false" iconResourcePath="/Game/UI/TEX/Item/Material/Material_HeroEvolve_01_D.Material_HeroEvolve_01_D" sellingId="Gold" sellingPrice="50" immediateItem="false">
+    <LevelUp maxLevel="10" baseExp="100" stuffType="Currency" stuffId="Gold" stuffAmount="100" />
+  </Item>
+  <Item id="Material_TankerEvolve_G2" templateId="1100018" dev_Name="탱커진화재료_2성" tier="C" category="material" groupId="Material_TankerEvolve" canLevelUp="false" canEvolve="true" isStackable="true" canCombine="false" locked="false" iconResourcePath="/Game/UI/TEX/Item/Material/Material_HeroEvolve_01_C.Material_HeroEvolve_01_C" sellingId="Gold" sellingPrice="50" immediateItem="false">
+    <LevelUp maxLevel="20" baseExp="200" stuffType="Currency" stuffId="Gold" stuffAmount="200" />
+  </Item>
+  <Item id="Material_TankerEvolve_G3" templateId="1100019" dev_Name="탱커진화재료_3성" tier="B" category="material" groupId="Material_TankerEvolve" canLevelUp="false" canEvolve="true" isStackable="true" canCombine="false" locked="false" iconResourcePath="/Game/UI/TEX/Item/Material/Material_HeroEvolve_01_B.Material_HeroEvolve_01_B" sellingId="Gold" sellingPrice="50" immediateItem="false">
+    <LevelUp maxLevel="30" baseExp="400" stuffType="Currency" stuffId="Gold" stuffAmount="400" />
+  </Item>
+  <Item id="Material_TankerEvolve_G4" templateId="1100020" dev_Name="탱커진화재료_4성" tier="A" category="material" groupId="Material_TankerEvolve" canLevelUp="false" canEvolve="true" isStackable="true" canCombine="false" locked="false" iconResourcePath="/Game/UI/TEX/Item/Material/Material_HeroEvolve_01_A.Material_HeroEvolve_01_A" sellingId="Gold" sellingPrice="50" immediateItem="false">
+    <LevelUp maxLevel="40" baseExp="1000" stuffType="Currency" stuffId="Gold" stuffAmount="1000" />
+  </Item>
+  <Item id="Material_TankerEvolve_G5" templateId="1100021" dev_Name="탱커진화재료_5성" tier="S" category="material" groupId="Material_TankerEvolve" canLevelUp="false" canEvolve="false" isStackable="true" canCombine="false" locked="false" iconResourcePath="/Game/UI/TEX/Item/Material/Material_HeroEvolve_01_S.Material_HeroEvolve_01_S" sellingId="Gold" sellingPrice="50" immediateItem="false">
+    <LevelUp maxLevel="50" baseExp="3000" stuffType="Currency" stuffId="Gold" stuffAmount="3000" />
+  </Item>
+  <Item id="Material_TankerEvolve_G6" templateId="1100022" dev_Name="탱커진화재료_6성" tier="S" category="material" groupId="Material_TankerEvolve" canLevelUp="false" canEvolve="false" isStackable="true" canCombine="false" locked="false" iconResourcePath="/Game/UI/TEX/Item/Material/Material_HeroEvolve_01_S.Material_HeroEvolve_01_S" sellingId="Gold" sellingPrice="50" immediateItem="false">
+    <LevelUp maxLevel="60" baseExp="10000" stuffType="Currency" stuffId="Gold" stuffAmount="10000" />
+  </Item>
+  <Item id="Material_FighterEvolve_G1" templateId="1100023" dev_Name="파이터진화재료_1성" tier="D" category="material" groupId="Material_FighterEvolve" canLevelUp="false" canEvolve="true" isStackable="true" canCombine="false" locked="false" iconResourcePath="/Game/UI/TEX/Item/Material/Material_HeroEvolve_02_D.Material_HeroEvolve_02_D" sellingId="Gold" sellingPrice="50" immediateItem="false">
+    <LevelUp maxLevel="10" baseExp="100" stuffType="Currency" stuffId="Gold" stuffAmount="100" />
+  </Item>
+  <Item id="Material_FighterEvolve_G2" templateId="1100024" dev_Name="파이터진화재료_2성" tier="C" category="material" groupId="Material_FighterEvolve" canLevelUp="false" canEvolve="true" isStackable="true" canCombine="false" locked="false" iconResourcePath="/Game/UI/TEX/Item/Material/Material_HeroEvolve_02_C.Material_HeroEvolve_02_C" sellingId="Gold" sellingPrice="50" immediateItem="false">
+    <LevelUp maxLevel="20" baseExp="200" stuffType="Currency" stuffId="Gold" stuffAmount="200" />
+  </Item>
+  <Item id="Material_FighterEvolve_G3" templateId="1100025" dev_Name="파이터진화재료_3성" tier="B" category="material" groupId="Material_FighterEvolve" canLevelUp="false" canEvolve="true" isStackable="true" canCombine="false" locked="false" iconResourcePath="/Game/UI/TEX/Item/Material/Material_HeroEvolve_02_B.Material_HeroEvolve_02_B" sellingId="Gold" sellingPrice="50" immediateItem="false">
+    <LevelUp maxLevel="30" baseExp="400" stuffType="Currency" stuffId="Gold" stuffAmount="400" />
+  </Item>
+  <Item id="Material_FighterEvolve_G4" templateId="1100026" dev_Name="파이터진화재료_4성" tier="A" category="material" groupId="Material_FighterEvolve" canLevelUp="false" canEvolve="true" isStackable="true" canCombine="false" locked="false" iconResourcePath="/Game/UI/TEX/Item/Material/Material_HeroEvolve_02_A.Material_HeroEvolve_02_A" sellingId="Gold" sellingPrice="50" immediateItem="false">
+    <LevelUp maxLevel="40" baseExp="1000" stuffType="Currency" stuffId="Gold" stuffAmount="1000" />
+  </Item>
+  <Item id="Material_FighterEvolve_G5" templateId="1100027" dev_Name="파이터진화재료_5성" tier="S" category="material" groupId="Material_FighterEvolve" canLevelUp="false" canEvolve="false" isStackable="true" canCombine="false" locked="false" iconResourcePath="/Game/UI/TEX/Item/Material/Material_HeroEvolve_02_S.Material_HeroEvolve_02_S" sellingId="Gold" sellingPrice="50" immediateItem="false">
+    <LevelUp maxLevel="50" baseExp="3000" stuffType="Currency" stuffId="Gold" stuffAmount="3000" />
+  </Item>
+  <Item id="Material_FighterEvolve_G6" templateId="1100028" dev_Name="파이터진화재료_6성" tier="S" category="material" groupId="Material_FighterEvolve" canLevelUp="false" canEvolve="false" isStackable="true" canCombine="false" locked="false" iconResourcePath="/Game/UI/TEX/Item/Material/Material_HeroEvolve_02_S.Material_HeroEvolve_02_S" sellingId="Gold" sellingPrice="50" immediateItem="false">
+    <LevelUp maxLevel="60" baseExp="10000" stuffType="Currency" stuffId="Gold" stuffAmount="10000" />
+  </Item>
+  <Item id="Material_MageEvolve_G1" templateId="1100029" dev_Name="메이지진화재료_1성" tier="D" category="material" groupId="Material_MageEvolve" canLevelUp="false" canEvolve="true" isStackable="true" canCombine="false" locked="false" iconResourcePath="/Game/UI/TEX/Item/Material/Material_HeroEvolve_03_D.Material_HeroEvolve_03_D" sellingId="Gold" sellingPrice="50" immediateItem="false">
+    <LevelUp maxLevel="10" baseExp="100" stuffType="Currency" stuffId="Gold" stuffAmount="100" />
+  </Item>
+  <Item id="Material_MageEvolve_G2" templateId="1100030" dev_Name="메이지진화재료_2성" tier="C" category="material" groupId="Material_MageEvolve" canLevelUp="false" canEvolve="true" isStackable="true" canCombine="false" locked="false" iconResourcePath="/Game/UI/TEX/Item/Material/Material_HeroEvolve_03_C.Material_HeroEvolve_03_C" sellingId="Gold" sellingPrice="50" immediateItem="false">
+    <LevelUp maxLevel="20" baseExp="200" stuffType="Currency" stuffId="Gold" stuffAmount="200" />
+  </Item>
+  <Item id="Material_MageEvolve_G3" templateId="1100031" dev_Name="메이지진화재료_3성" tier="B" category="material" groupId="Material_MageEvolve" canLevelUp="false" canEvolve="true" isStackable="true" canCombine="false" locked="false" iconResourcePath="/Game/UI/TEX/Item/Material/Material_HeroEvolve_03_B.Material_HeroEvolve_03_B" sellingId="Gold" sellingPrice="50" immediateItem="false">
+    <LevelUp maxLevel="30" baseExp="400" stuffType="Currency" stuffId="Gold" stuffAmount="400" />
+  </Item>
+  <Item id="Material_MageEvolve_G4" templateId="1100032" dev_Name="메이지진화재료_4성" tier="A" category="material" groupId="Material_MageEvolve" canLevelUp="false" canEvolve="true" isStackable="true" canCombine="false" locked="false" iconResourcePath="/Game/UI/TEX/Item/Material/Material_HeroEvolve_03_A.Material_HeroEvolve_03_A" sellingId="Gold" sellingPrice="50" immediateItem="false">
+    <LevelUp maxLevel="40" baseExp="1000" stuffType="Currency" stuffId="Gold" stuffAmount="1000" />
+  </Item>
+  <Item id="Material_MageEvolve_G5" templateId="1100033" dev_Name="메이지진화재료_5성" tier="S" category="material" groupId="Material_MageEvolve" canLevelUp="false" canEvolve="false" isStackable="true" canCombine="false" locked="false" iconResourcePath="/Game/UI/TEX/Item/Material/Material_HeroEvolve_03_S.Material_HeroEvolve_03_S" sellingId="Gold" sellingPrice="50" immediateItem="false">
+    <LevelUp maxLevel="50" baseExp="3000" stuffType="Currency" stuffId="Gold" stuffAmount="3000" />
+  </Item>
+  <Item id="Material_MageEvolve_G6" templateId="1100034" dev_Name="메이지진화재료_6성" tier="S" category="material" groupId="Material_MageEvolve" canLevelUp="false" canEvolve="false" isStackable="true" canCombine="false" locked="false" iconResourcePath="/Game/UI/TEX/Item/Material/Material_HeroEvolve_03_S.Material_HeroEvolve_03_S" sellingId="Gold" sellingPrice="50" immediateItem="false">
+    <LevelUp maxLevel="60" baseExp="10000" stuffType="Currency" stuffId="Gold" stuffAmount="10000" />
+  </Item>
+  <Item id="Material_RangerEvolve_G1" templateId="1100035" dev_Name="레인저진화재료_1성" tier="D" category="material" groupId="Material_RangerEvolve" canLevelUp="false" canEvolve="true" isStackable="true" canCombine="false" locked="false" iconResourcePath="/Game/UI/TEX/Item/Material/Material_HeroEvolve_04_D.Material_HeroEvolve_04_D" sellingId="Gold" sellingPrice="50" immediateItem="false">
+    <LevelUp maxLevel="10" baseExp="100" stuffType="Currency" stuffId="Gold" stuffAmount="100" />
+  </Item>
+  <Item id="Material_RangerEvolve_G2" templateId="1100036" dev_Name="레인저진화재료_2성" tier="C" category="material" groupId="Material_RangerEvolve" canLevelUp="false" canEvolve="true" isStackable="true" canCombine="false" locked="false" iconResourcePath="/Game/UI/TEX/Item/Material/Material_HeroEvolve_04_C.Material_HeroEvolve_04_C" sellingId="Gold" sellingPrice="50" immediateItem="false">
+    <LevelUp maxLevel="20" baseExp="200" stuffType="Currency" stuffId="Gold" stuffAmount="200" />
+  </Item>
+  <Item id="Material_RangerEvolve_G3" templateId="1100037" dev_Name="레인저진화재료_3성" tier="B" category="material" groupId="Material_RangerEvolve" canLevelUp="false" canEvolve="true" isStackable="true" canCombine="false" locked="false" iconResourcePath="/Game/UI/TEX/Item/Material/Material_HeroEvolve_04_B.Material_HeroEvolve_04_B" sellingId="Gold" sellingPrice="50" immediateItem="false">
+    <LevelUp maxLevel="30" baseExp="400" stuffType="Currency" stuffId="Gold" stuffAmount="400" />
+  </Item>
+  <Item id="Material_RangerEvolve_G4" templateId="1100038" dev_Name="레인저진화재료_4성" tier="A" category="material" groupId="Material_RangerEvolve" canLevelUp="false" canEvolve="true" isStackable="true" canCombine="false" locked="false" iconResourcePath="/Game/UI/TEX/Item/Material/Material_HeroEvolve_04_A.Material_HeroEvolve_04_A" sellingId="Gold" sellingPrice="50" immediateItem="false">
+    <LevelUp maxLevel="40" baseExp="1000" stuffType="Currency" stuffId="Gold" stuffAmount="1000" />
+  </Item>
+  <Item id="Material_RangerEvolve_G5" templateId="1100039" dev_Name="레인저진화재료_5성" tier="S" category="material" groupId="Material_RangerEvolve" canLevelUp="false" canEvolve="false" isStackable="true" canCombine="false" locked="false" iconResourcePath="/Game/UI/TEX/Item/Material/Material_HeroEvolve_04_S.Material_HeroEvolve_04_S" sellingId="Gold" sellingPrice="50" immediateItem="false">
+    <LevelUp maxLevel="50" baseExp="3000" stuffType="Currency" stuffId="Gold" stuffAmount="3000" />
+  </Item>
+  <Item id="Material_RangerEvolve_G6" templateId="1100040" dev_Name="레인저진화재료_6성" tier="S" category="material" groupId="Material_RangerEvolve" canLevelUp="false" canEvolve="false" isStackable="true" canCombine="false" locked="false" iconResourcePath="/Game/UI/TEX/Item/Material/Material_HeroEvolve_04_S.Material_HeroEvolve_04_S" sellingId="Gold" sellingPrice="50" immediateItem="false">
+    <LevelUp maxLevel="60" baseExp="10000" stuffType="Currency" stuffId="Gold" stuffAmount="10000" />
+  </Item>
+  <Item id="Material_SupporterEvolve_G1" templateId="1100041" dev_Name="서포터진화재료_1성" tier="D" category="material" groupId="Material_SupporterEvolve" canLevelUp="false" canEvolve="true" isStackable="true" canCombine="false" locked="false" iconResourcePath="/Game/UI/TEX/Item/Material/Material_HeroEvolve_05_D.Material_HeroEvolve_05_D" sellingId="Gold" sellingPrice="50" immediateItem="false">
+    <LevelUp maxLevel="10" baseExp="100" stuffType="Currency" stuffId="Gold" stuffAmount="100" />
+  </Item>
+  <Item id="Material_SupporterEvolve_G2" templateId="1100042" dev_Name="서포터진화재료_2성" tier="C" category="material" groupId="Material_SupporterEvolve" canLevelUp="false" canEvolve="true" isStackable="true" canCombine="false" locked="false" iconResourcePath="/Game/UI/TEX/Item/Material/Material_HeroEvolve_05_C.Material_HeroEvolve_05_C" sellingId="Gold" sellingPrice="50" immediateItem="false">
+    <LevelUp maxLevel="20" baseExp="200" stuffType="Currency" stuffId="Gold" stuffAmount="200" />
+  </Item>
+  <Item id="Material_SupporterEvolve_G3" templateId="1100043" dev_Name="서포터진화재료_3성" tier="B" category="material" groupId="Material_SupporterEvolve" canLevelUp="false" canEvolve="true" isStackable="true" canCombine="false" locked="false" iconResourcePath="/Game/UI/TEX/Item/Material/Material_HeroEvolve_05_B.Material_HeroEvolve_05_B" sellingId="Gold" sellingPrice="50" immediateItem="false">
+    <LevelUp maxLevel="30" baseExp="400" stuffType="Currency" stuffId="Gold" stuffAmount="400" />
+  </Item>
+  <Item id="Material_SupporterEvolve_G4" templateId="1100044" dev_Name="서포터진화재료_4성" tier="A" category="material" groupId="Material_SupporterEvolve" canLevelUp="false" canEvolve="true" isStackable="true" canCombine="false" locked="false" iconResourcePath="/Game/UI/TEX/Item/Material/Material_HeroEvolve_05_A.Material_HeroEvolve_05_A" sellingId="Gold" sellingPrice="50" immediateItem="false">
+    <LevelUp maxLevel="40" baseExp="1000" stuffType="Currency" stuffId="Gold" stuffAmount="1000" />
+  </Item>
+  <Item id="Material_SupporterEvolve_G5" templateId="1100045" dev_Name="서포터진화재료_5성" tier="S" category="material" groupId="Material_SupporterEvolve" canLevelUp="false" canEvolve="false" isStackable="true" canCombine="false" locked="false" iconResourcePath="/Game/UI/TEX/Item/Material/Material_HeroEvolve_05_S.Material_HeroEvolve_05_S" sellingId="Gold" sellingPrice="50" immediateItem="false">
+    <LevelUp maxLevel="50" baseExp="3000" stuffType="Currency" stuffId="Gold" stuffAmount="3000" />
+  </Item>
+  <Item id="Material_SupporterEvolve_G6" templateId="1100046" dev_Name="서포터진화재료_6성" tier="S" category="material" groupId="Material_SupporterEvolve" canLevelUp="false" canEvolve="false" isStackable="true" canCombine="false" locked="false" iconResourcePath="/Game/UI/TEX/Item/Material/Material_HeroEvolve_05_S.Material_HeroEvolve_05_S" sellingId="Gold" sellingPrice="50" immediateItem="false">
+    <LevelUp maxLevel="60" baseExp="10000" stuffType="Currency" stuffId="Gold" stuffAmount="10000" />
+  </Item>
+  <Item id="Material_EvolveTypeA_G1" templateId="1100047" dev_Name="탱/파/레진화재료_1성" tier="D" category="material" groupId="Material_EvolveTypeA" canLevelUp="false" canEvolve="true" isStackable="true" canCombine="false" locked="false" iconResourcePath="/Game/UI/TEX/Item/Material/Material_HeroEvolve_Physical_D.Material_HeroEvolve_Physical_D" sellingId="Gold" sellingPrice="50" immediateItem="false">
+    <LevelUp maxLevel="10" baseExp="100" stuffType="Currency" stuffId="Gold" stuffAmount="100" />
+  </Item>
+  <Item id="Material_EvolveTypeA_G2" templateId="1100048" dev_Name="탱/파/레진화재료_1성" tier="C" category="material" groupId="Material_EvolveTypeA" canLevelUp="false" canEvolve="true" isStackable="true" canCombine="false" locked="false" iconResourcePath="/Game/UI/TEX/Item/Material/Material_HeroEvolve_Physical_C.Material_HeroEvolve_Physical_C" sellingId="Gold" sellingPrice="50" immediateItem="false">
+    <LevelUp maxLevel="20" baseExp="200" stuffType="Currency" stuffId="Gold" stuffAmount="200" />
+  </Item>
+  <Item id="Material_EvolveTypeA_G3" templateId="1100049" dev_Name="탱/파/레진화재료_1성" tier="B" category="material" groupId="Material_EvolveTypeA" canLevelUp="false" canEvolve="true" isStackable="true" canCombine="false" locked="false" iconResourcePath="/Game/UI/TEX/Item/Material/Material_HeroEvolve_Physical_B.Material_HeroEvolve_Physical_B" sellingId="Gold" sellingPrice="50" immediateItem="false">
+    <LevelUp maxLevel="30" baseExp="400" stuffType="Currency" stuffId="Gold" stuffAmount="400" />
+  </Item>
+  <Item id="Material_EvolveTypeA_G4" templateId="1100050" dev_Name="탱/파/레진화재료_1성" tier="A" category="material" groupId="Material_EvolveTypeA" canLevelUp="false" canEvolve="true" isStackable="true" canCombine="false" locked="false" iconResourcePath="/Game/UI/TEX/Item/Material/Material_HeroEvolve_Physical_A.Material_HeroEvolve_Physical_A" sellingId="Gold" sellingPrice="50" immediateItem="false">
+    <LevelUp maxLevel="40" baseExp="1000" stuffType="Currency" stuffId="Gold" stuffAmount="1000" />
+  </Item>
+  <Item id="Material_EvolveTypeA_G5" templateId="1100051" dev_Name="탱/파/레진화재료_1성" tier="S" category="material" groupId="Material_EvolveTypeA" canLevelUp="false" canEvolve="false" isStackable="true" canCombine="false" locked="false" iconResourcePath="/Game/UI/TEX/Item/Material/Material_HeroEvolve_Physical_S.Material_HeroEvolve_Physical_S" sellingId="Gold" sellingPrice="50" immediateItem="false">
+    <LevelUp maxLevel="50" baseExp="3000" stuffType="Currency" stuffId="Gold" stuffAmount="3000" />
+  </Item>
+  <Item id="Material_EvolveTypeA_G6" templateId="1100052" dev_Name="탱/파/레진화재료_1성" tier="S" category="material" groupId="Material_EvolveTypeA" canLevelUp="false" canEvolve="false" isStackable="true" canCombine="false" locked="false" iconResourcePath="/Game/UI/TEX/Item/Material/Material_HeroEvolve_Physical_S.Material_HeroEvolve_Physical_S" sellingId="Gold" sellingPrice="50" immediateItem="false">
+    <LevelUp maxLevel="60" baseExp="10000" stuffType="Currency" stuffId="Gold" stuffAmount="10000" />
+  </Item>
+  <Item id="Material_EvolveTypeB_G1" templateId="1100053" dev_Name="서폿/메이지진화재료_1성" tier="D" category="material" groupId="Material_EvolveTypeB" canLevelUp="false" canEvolve="true" isStackable="true" canCombine="false" locked="false" iconResourcePath="/Game/UI/TEX/Item/Material/Material_HeroEvolve_Magical_D.Material_HeroEvolve_Magical_D" sellingId="Gold" sellingPrice="50" immediateItem="false">
+    <LevelUp maxLevel="10" baseExp="100" stuffType="Currency" stuffId="Gold" stuffAmount="100" />
+  </Item>
+  <Item id="Material_EvolveTypeB_G2" templateId="1100054" dev_Name="서폿/메이지진화재료_1성" tier="C" category="material" groupId="Material_EvolveTypeB" canLevelUp="false" canEvolve="true" isStackable="true" canCombine="false" locked="false" iconResourcePath="/Game/UI/TEX/Item/Material/Material_HeroEvolve_Magical_C.Material_HeroEvolve_Magical_C" sellingId="Gold" sellingPrice="50" immediateItem="false">
+    <LevelUp maxLevel="20" baseExp="200" stuffType="Currency" stuffId="Gold" stuffAmount="200" />
+  </Item>
+  <Item id="Material_EvolveTypeB_G3" templateId="1100055" dev_Name="서폿/메이지진화재료_1성" tier="B" category="material" groupId="Material_EvolveTypeB" canLevelUp="false" canEvolve="true" isStackable="true" canCombine="false" locked="false" iconResourcePath="/Game/UI/TEX/Item/Material/Material_HeroEvolve_Magical_B.Material_HeroEvolve_Magical_B" sellingId="Gold" sellingPrice="50" immediateItem="false">
+    <LevelUp maxLevel="30" baseExp="400" stuffType="Currency" stuffId="Gold" stuffAmount="400" />
+  </Item>
+  <Item id="Material_EvolveTypeB_G4" templateId="1100056" dev_Name="서폿/메이지진화재료_1성" tier="A" category="material" groupId="Material_EvolveTypeB" canLevelUp="false" canEvolve="true" isStackable="true" canCombine="false" locked="false" iconResourcePath="/Game/UI/TEX/Item/Material/Material_HeroEvolve_Magical_A.Material_HeroEvolve_Magical_A" sellingId="Gold" sellingPrice="50" immediateItem="false">
+    <LevelUp maxLevel="40" baseExp="1000" stuffType="Currency" stuffId="Gold" stuffAmount="1000" />
+  </Item>
+  <Item id="Material_EvolveTypeB_G5" templateId="1100057" dev_Name="서폿/메이지진화재료_1성" tier="S" category="material" groupId="Material_EvolveTypeB" canLevelUp="false" canEvolve="false" isStackable="true" canCombine="false" locked="false" iconResourcePath="/Game/UI/TEX/Item/Material/Material_HeroEvolve_Magical_S.Material_HeroEvolve_Magical_S" sellingId="Gold" sellingPrice="50" immediateItem="false">
+    <LevelUp maxLevel="50" baseExp="3000" stuffType="Currency" stuffId="Gold" stuffAmount="3000" />
+  </Item>
+  <Item id="Material_EvolveTypeB_G6" templateId="1100058" dev_Name="서폿/메이지진화재료_1성" tier="S" category="material" groupId="Material_EvolveTypeB" canLevelUp="false" canEvolve="false" isStackable="true" canCombine="false" locked="false" iconResourcePath="/Game/UI/TEX/Item/Material/Material_HeroEvolve_Magical_S.Material_HeroEvolve_Magical_S" sellingId="Gold" sellingPrice="50" immediateItem="false">
+    <LevelUp maxLevel="60" baseExp="10000" stuffType="Currency" stuffId="Gold" stuffAmount="10000" />
+  </Item>
+  <Item id="Material_EvolveType0_G1" templateId="1100059" dev_Name="공통영웅진화재료_1성" tier="D" category="material" groupId="Material_EvolveType0" canLevelUp="false" canEvolve="true" isStackable="true" canCombine="false" locked="false" iconResourcePath="/Game/UI/TEX/Item/Material/Material_HeroEvolve_Common_D.Material_HeroEvolve_Common_D" sellingId="Gold" sellingPrice="50" immediateItem="false">
+    <LevelUp maxLevel="10" baseExp="100" stuffType="Currency" stuffId="Gold" stuffAmount="100" />
+  </Item>
+  <Item id="Material_EvolveType0_G2" templateId="1100060" dev_Name="공통영웅진화재료_2성" tier="C" category="material" groupId="Material_EvolveType0" canLevelUp="false" canEvolve="true" isStackable="true" canCombine="false" locked="false" iconResourcePath="/Game/UI/TEX/Item/Material/Material_HeroEvolve_Common_C.Material_HeroEvolve_Common_C" sellingId="Gold" sellingPrice="50" immediateItem="false">
+    <LevelUp maxLevel="20" baseExp="200" stuffType="Currency" stuffId="Gold" stuffAmount="200" />
+  </Item>
+  <Item id="Material_EvolveType0_G3" templateId="1100061" dev_Name="공통영웅진화재료_3성" tier="B" category="material" groupId="Material_EvolveType0" canLevelUp="false" canEvolve="true" isStackable="true" canCombine="false" locked="false" iconResourcePath="/Game/UI/TEX/Item/Material/Material_HeroEvolve_Common_B.Material_HeroEvolve_Common_B" sellingId="Gold" sellingPrice="50" immediateItem="false">
+    <LevelUp maxLevel="30" baseExp="400" stuffType="Currency" stuffId="Gold" stuffAmount="400" />
+  </Item>
+  <Item id="Material_EvolveType0_G4" templateId="1100062" dev_Name="공통영웅진화재료_4성" tier="A" category="material" groupId="Material_EvolveType0" canLevelUp="false" canEvolve="true" isStackable="true" canCombine="false" locked="false" iconResourcePath="/Game/UI/TEX/Item/Material/Material_HeroEvolve_Common_A.Material_HeroEvolve_Common_A" sellingId="Gold" sellingPrice="50" immediateItem="false">
+    <LevelUp maxLevel="40" baseExp="1000" stuffType="Currency" stuffId="Gold" stuffAmount="1000" />
+  </Item>
+  <Item id="Material_EvolveType0_G5" templateId="1100063" dev_Name="공통영웅진화재료_5성" tier="S" category="material" groupId="Material_EvolveType0" canLevelUp="false" canEvolve="false" isStackable="true" canCombine="false" locked="false" iconResourcePath="/Game/UI/TEX/Item/Material/Material_HeroEvolve_Common_S.Material_HeroEvolve_Common_S" sellingId="Gold" sellingPrice="50" immediateItem="false">
+    <LevelUp maxLevel="50" baseExp="3000" stuffType="Currency" stuffId="Gold" stuffAmount="3000" />
+  </Item>
+  <Item id="Material_EvolveType0_G6" templateId="1100064" dev_Name="공통영웅진화재료_6성" tier="S" category="material" groupId="Material_EvolveType0" canLevelUp="false" canEvolve="false" isStackable="true" canCombine="false" locked="false" iconResourcePath="/Game/UI/TEX/Item/Material/Material_HeroEvolve_Common_S.Material_HeroEvolve_Common_S" sellingId="Gold" sellingPrice="50" immediateItem="false">
+    <LevelUp maxLevel="60" baseExp="10000" stuffType="Currency" stuffId="Gold" stuffAmount="10000" />
+  </Item>
+  <Item id="Material_StatTraining_01" templateId="1100065" dev_Name="훈련교본_01" tier="D" category="material" groupId="StatTraining" canLevelUp="false" canEvolve="false" isStackable="true" canCombine="false" locked="false" iconResourcePath="/Game/UI/TEX/Item/Material/Material_HeroTraining_01.Material_HeroTraining_01" sellingId="Gold" sellingPrice="50" immediateItem="false">
+    <LevelUp maxLevel="10" baseExp="100" stuffType="Currency" stuffId="Gold" stuffAmount="100" />
+  </Item>
+  <Item id="Material_EventTicket_01" templateId="1100066" dev_Name="이벤트_재화소비티켓_재화 소모" tier="C" category="material" groupId="Material_SpendEvent" canLevelUp="false" canEvolve="false" isStackable="true" canCombine="false" locked="false" iconResourcePath="/Game/UI/TEX/Item/Material/Material_EventTicket_01.Material_EventTicket_01" sellingId="Gold" sellingPrice="50" immediateItem="false">
+    <LevelUp maxLevel="20" baseExp="200" stuffType="Currency" stuffId="Gold" stuffAmount="200" />
+  </Item>
+  <Item id="Material_EventTicket_02" templateId="1100067" dev_Name="이벤트_재화소비티켓_이벤트 던전" tier="C" category="material" groupId="Material_EventDungeon" canLevelUp="false" canEvolve="false" isStackable="true" canCombine="false" locked="false" iconResourcePath="/Game/UI/TEX/Item/Currency/Currency_Event_Pyran.Currency_Event_Pyran" sellingId="Gold" sellingPrice="50" immediateItem="false">
+    <LevelUp maxLevel="20" baseExp="200" stuffType="Currency" stuffId="Gold" stuffAmount="200" />
+  </Item>
+</ItemData>

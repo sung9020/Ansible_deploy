@@ -1,0 +1,161 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<GuildData>
+  <EstablishCost stuffType="Currency" stuffId="gold" stuffAmount="10000" />
+  <InitData level="1" skillPoint="4" policyId="Friendship" joinType="Instantly" />
+  <CommonData openConditionId="Guild">
+    <Member memberCount="30" subMasterCount="1" />
+    <Volunteer maxVolunteerCount="30" volunteerExpireDay="3" maxVolunteerCountForUser="30" />
+    <NameChangeCost stuffType="Currency" stuffId="Gem_Free" stuffAmount="100" />
+    <Resting limitDay="14" />
+    <GuildLog maxLogCount="20" logExpireDay="30" />
+    <SkillResetCost stuffType="Currency" stuffId="Gem_Free" stuffAmount="100" />
+    <Setting maxNameLength="10" maxIntroduceLength="80" maxAnnounceLength="80" />
+    <NotiMailId masterChange="NotifyMasterChange" masterDismiss="NotifyMasterDismiss" subMasterAppoint="NotifySubMasterAppoint" subMasterDismiss="NotifySubMasterDismiss" />
+  </CommonData>
+  <LevelData>
+    <Level guildLevel="1" requireGuildExp="0" getSkillPoint="0" attendRewardGuildExp="10">
+      <AttendReward stuffType="Currency" stuffId="Gold" stuffAmount="2000" />
+      <AttendReward stuffType="Currency" stuffId="Token_Adventure" stuffAmount="23" />
+    </Level>
+    <Level guildLevel="2" requireGuildExp="1050" getSkillPoint="4" attendRewardGuildExp="15">
+      <AttendReward stuffType="Currency" stuffId="Gold" stuffAmount="3000" />
+      <AttendReward stuffType="Currency" stuffId="Token_Adventure" stuffAmount="26" />
+    </Level>
+    <Level guildLevel="3" requireGuildExp="4725" getSkillPoint="4" attendRewardGuildExp="20">
+      <AttendReward stuffType="Currency" stuffId="Gold" stuffAmount="4000" />
+      <AttendReward stuffType="Currency" stuffId="Token_Adventure" stuffAmount="29" />
+    </Level>
+    <Level guildLevel="4" requireGuildExp="18000" getSkillPoint="4" attendRewardGuildExp="25">
+      <AttendReward stuffType="Currency" stuffId="Gold" stuffAmount="5000" />
+      <AttendReward stuffType="Currency" stuffId="Token_Adventure" stuffAmount="32" />
+    </Level>
+    <Level guildLevel="5" requireGuildExp="45000" getSkillPoint="4" attendRewardGuildExp="30">
+      <AttendReward stuffType="Currency" stuffId="Gold" stuffAmount="6000" />
+      <AttendReward stuffType="Currency" stuffId="Token_Adventure" stuffAmount="35" />
+    </Level>
+    <Level guildLevel="6" requireGuildExp="90000" getSkillPoint="4" attendRewardGuildExp="35">
+      <AttendReward stuffType="Currency" stuffId="Gold" stuffAmount="7000" />
+      <AttendReward stuffType="Currency" stuffId="Token_Adventure" stuffAmount="38" />
+    </Level>
+    <Level guildLevel="7" requireGuildExp="168000" getSkillPoint="4" attendRewardGuildExp="40">
+      <AttendReward stuffType="Currency" stuffId="Gold" stuffAmount="8000" />
+      <AttendReward stuffType="Currency" stuffId="Token_Adventure" stuffAmount="41" />
+    </Level>
+    <Level guildLevel="8" requireGuildExp="264000" getSkillPoint="4" attendRewardGuildExp="45">
+      <AttendReward stuffType="Currency" stuffId="Gold" stuffAmount="9000" />
+      <AttendReward stuffType="Currency" stuffId="Token_Adventure" stuffAmount="44" />
+    </Level>
+    <Level guildLevel="9" requireGuildExp="405000" getSkillPoint="4" attendRewardGuildExp="50">
+      <AttendReward stuffType="Currency" stuffId="Gold" stuffAmount="10000" />
+      <AttendReward stuffType="Currency" stuffId="Token_Adventure" stuffAmount="47" />
+    </Level>
+    <Level guildLevel="10" requireGuildExp="600000" getSkillPoint="4" attendRewardGuildExp="0">
+      <AttendReward stuffType="Currency" stuffId="Gold" stuffAmount="11000" />
+      <AttendReward stuffType="Currency" stuffId="Token_Adventure" stuffAmount="50" />
+    </Level>
+  </LevelData>
+  <Recommend viewCount="10" initScore="200" masterFactor="20" memberFactor="5" randomFactor="10" />
+  <Emblem>
+    <EdgeData>
+      <Edge templateId="1" iconResourcePath="/Game/UI/TEX/GuildIcon/Guild_Edge_01.Guild_Edge_01" />
+      <Edge templateId="2" iconResourcePath="/Game/UI/TEX/GuildIcon/Guild_Edge_02.Guild_Edge_02" />
+      <Edge templateId="3" iconResourcePath="/Game/UI/TEX/GuildIcon/Guild_Edge_03.Guild_Edge_03" />
+      <Edge templateId="4" iconResourcePath="/Game/UI/TEX/GuildIcon/Guild_Edge_04.Guild_Edge_04" />
+      <Edge templateId="5" iconResourcePath="/Game/UI/TEX/GuildIcon/Guild_Edge_05.Guild_Edge_05" />
+      <Edge templateId="6" iconResourcePath="/Game/UI/TEX/GuildIcon/Guild_Edge_06.Guild_Edge_06" />
+      <Edge templateId="7" iconResourcePath="/Game/UI/TEX/GuildIcon/Guild_Edge_07.Guild_Edge_07" />
+      <Edge templateId="8" iconResourcePath="/Game/UI/TEX/GuildIcon/Guild_Edge_08.Guild_Edge_08" />
+      <Edge templateId="9" iconResourcePath="/Game/UI/TEX/GuildIcon/Guild_Edge_09.Guild_Edge_09" />
+      <Edge templateId="10" iconResourcePath="/Game/UI/TEX/GuildIcon/Guild_Edge_10.Guild_Edge_10" />
+      <Edge templateId="11" iconResourcePath="/Game/UI/TEX/GuildIcon/Guild_Edge_11.Guild_Edge_11" />
+      <Edge templateId="12" iconResourcePath="/Game/UI/TEX/GuildIcon/Guild_Edge_12.Guild_Edge_12" />
+      <Edge templateId="13" iconResourcePath="/Game/UI/TEX/GuildIcon/Guild_Edge_13.Guild_Edge_13" />
+      <Edge templateId="14" iconResourcePath="/Game/UI/TEX/GuildIcon/Guild_Edge_14.Guild_Edge_14" />
+      <Edge templateId="15" iconResourcePath="/Game/UI/TEX/GuildIcon/Guild_Edge_15.Guild_Edge_15" />
+      <Edge templateId="16" iconResourcePath="/Game/UI/TEX/GuildIcon/Guild_Edge_16.Guild_Edge_16" />
+      <Edge templateId="17" iconResourcePath="/Game/UI/TEX/GuildIcon/Guild_Edge_17.Guild_Edge_17" />
+      <Edge templateId="18" iconResourcePath="/Game/UI/TEX/GuildIcon/Guild_Edge_18.Guild_Edge_18" />
+    </EdgeData>
+    <SymbolData>
+      <Symbol templateId="1" iconResourcePath="/Game/UI/TEX/GuildIcon/Guild_Emblem_01.Guild_Emblem_01" />
+      <Symbol templateId="2" iconResourcePath="/Game/UI/TEX/GuildIcon/Guild_Emblem_02.Guild_Emblem_02" />
+      <Symbol templateId="3" iconResourcePath="/Game/UI/TEX/GuildIcon/Guild_Emblem_03.Guild_Emblem_03" />
+      <Symbol templateId="4" iconResourcePath="/Game/UI/TEX/GuildIcon/Guild_Emblem_04.Guild_Emblem_04" />
+      <Symbol templateId="5" iconResourcePath="/Game/UI/TEX/GuildIcon/Guild_Emblem_05.Guild_Emblem_05" />
+      <Symbol templateId="6" iconResourcePath="/Game/UI/TEX/GuildIcon/Guild_Emblem_06.Guild_Emblem_06" />
+      <Symbol templateId="7" iconResourcePath="/Game/UI/TEX/GuildIcon/Guild_Emblem_07.Guild_Emblem_07" />
+      <Symbol templateId="8" iconResourcePath="/Game/UI/TEX/GuildIcon/Guild_Emblem_08.Guild_Emblem_08" />
+      <Symbol templateId="9" iconResourcePath="/Game/UI/TEX/GuildIcon/Guild_Emblem_09.Guild_Emblem_09" />
+      <Symbol templateId="10" iconResourcePath="/Game/UI/TEX/GuildIcon/Guild_Emblem_10.Guild_Emblem_10" />
+      <Symbol templateId="11" iconResourcePath="/Game/UI/TEX/GuildIcon/Guild_Emblem_11.Guild_Emblem_11" />
+      <Symbol templateId="12" iconResourcePath="/Game/UI/TEX/GuildIcon/Guild_Emblem_12.Guild_Emblem_12" />
+      <Symbol templateId="13" iconResourcePath="/Game/UI/TEX/GuildIcon/Guild_Emblem_13.Guild_Emblem_13" />
+      <Symbol templateId="14" iconResourcePath="/Game/UI/TEX/GuildIcon/Guild_Emblem_14.Guild_Emblem_14" />
+      <Symbol templateId="15" iconResourcePath="/Game/UI/TEX/GuildIcon/Guild_Emblem_15.Guild_Emblem_15" />
+      <Symbol templateId="16" iconResourcePath="/Game/UI/TEX/GuildIcon/Guild_Emblem_16.Guild_Emblem_16" />
+      <Symbol templateId="17" iconResourcePath="/Game/UI/TEX/GuildIcon/Guild_Emblem_17.Guild_Emblem_17" />
+      <Symbol templateId="18" iconResourcePath="/Game/UI/TEX/GuildIcon/Guild_Emblem_18.Guild_Emblem_18" />
+    </SymbolData>
+    <ColorData>
+      <Color templateId="1" colorId="Image_Emblem_Guild_01" />
+      <Color templateId="2" colorId="Image_Emblem_Guild_02" />
+      <Color templateId="3" colorId="Image_Emblem_Guild_03" />
+      <Color templateId="4" colorId="Image_Emblem_Guild_04" />
+      <Color templateId="5" colorId="Image_Emblem_Guild_05" />
+      <Color templateId="6" colorId="Image_Emblem_Guild_06" />
+      <Color templateId="7" colorId="Image_Emblem_Guild_07" />
+      <Color templateId="8" colorId="Image_Emblem_Guild_08" />
+    </ColorData>
+  </Emblem>
+  <PolicyData>
+    <Policy id="GuildWar" templateId="1" />
+    <Policy id="Friendship" templateId="2" />
+  </PolicyData>
+  <SkillData>
+    <Skill id="GuildSkill_Goldup01" templateId="5710001" skillPointCost="1" accountPassivityId="Goldup01" displaySlotIndex="0" />
+    <Skill id="GuildSkill_Goldup02" templateId="5710002" skillPointCost="1" accountPassivityId="Goldup02" displaySlotIndex="0" preSkillId="GuildSkill_Goldup01" />
+    <Skill id="GuildSkill_Goldup03" templateId="5710003" skillPointCost="1" accountPassivityId="Goldup03" displaySlotIndex="0" preSkillId="GuildSkill_Goldup02" />
+    <Skill id="GuildSkill_Goldup04" templateId="5710004" skillPointCost="1" accountPassivityId="Goldup04" displaySlotIndex="0" preSkillId="GuildSkill_Goldup03" />
+    <Skill id="GuildSkill_Goldup05" templateId="5710005" skillPointCost="1" accountPassivityId="Goldup05" displaySlotIndex="0" preSkillId="GuildSkill_Goldup04" />
+    <Skill id="GuildSkill_Goldup06" templateId="5710006" skillPointCost="1" accountPassivityId="Goldup06" displaySlotIndex="0" preSkillId="GuildSkill_Goldup05" />
+    <Skill id="GuildSkill_Goldup07" templateId="5710007" skillPointCost="1" accountPassivityId="Goldup07" displaySlotIndex="0" preSkillId="GuildSkill_Goldup06" />
+    <Skill id="GuildSkill_Goldup08" templateId="5710008" skillPointCost="1" accountPassivityId="Goldup08" displaySlotIndex="0" preSkillId="GuildSkill_Goldup07" />
+    <Skill id="GuildSkill_Goldup09" templateId="5710009" skillPointCost="1" accountPassivityId="Goldup09" displaySlotIndex="0" preSkillId="GuildSkill_Goldup08" />
+    <Skill id="GuildSkill_Goldup10" templateId="5710010" skillPointCost="1" accountPassivityId="Goldup10" displaySlotIndex="0" preSkillId="GuildSkill_Goldup09" />
+    <Skill id="GuildSkill_HeroExp01" templateId="5710011" skillPointCost="1" accountPassivityId="HeroExp01" displaySlotIndex="1" />
+    <Skill id="GuildSkill_HeroExp02" templateId="5710012" skillPointCost="1" accountPassivityId="HeroExp02" displaySlotIndex="1" preSkillId="GuildSkill_HeroExp01" />
+    <Skill id="GuildSkill_HeroExp03" templateId="5710013" skillPointCost="1" accountPassivityId="HeroExp03" displaySlotIndex="1" preSkillId="GuildSkill_HeroExp02" />
+    <Skill id="GuildSkill_HeroExp04" templateId="5710014" skillPointCost="1" accountPassivityId="HeroExp04" displaySlotIndex="1" preSkillId="GuildSkill_HeroExp03" />
+    <Skill id="GuildSkill_HeroExp05" templateId="5710015" skillPointCost="1" accountPassivityId="HeroExp05" displaySlotIndex="1" preSkillId="GuildSkill_HeroExp04" />
+    <Skill id="GuildSkill_HeroExp06" templateId="5710016" skillPointCost="1" accountPassivityId="HeroExp06" displaySlotIndex="1" preSkillId="GuildSkill_HeroExp05" />
+    <Skill id="GuildSkill_HeroExp07" templateId="5710017" skillPointCost="1" accountPassivityId="HeroExp07" displaySlotIndex="1" preSkillId="GuildSkill_HeroExp06" />
+    <Skill id="GuildSkill_HeroExp08" templateId="5710018" skillPointCost="1" accountPassivityId="HeroExp08" displaySlotIndex="1" preSkillId="GuildSkill_HeroExp07" />
+    <Skill id="GuildSkill_HeroExp09" templateId="5710019" skillPointCost="1" accountPassivityId="HeroExp09" displaySlotIndex="1" preSkillId="GuildSkill_HeroExp08" />
+    <Skill id="GuildSkill_HeroExp10" templateId="5710020" skillPointCost="1" accountPassivityId="HeroExp10" displaySlotIndex="1" preSkillId="GuildSkill_HeroExp09" />
+    <Skill id="GuildSkill_HeroUP01" templateId="5710021" skillPointCost="1" accountPassivityId="HeroUP01" displaySlotIndex="2" />
+    <Skill id="GuildSkill_HeroUP02" templateId="5710022" skillPointCost="1" accountPassivityId="HeroUP02" displaySlotIndex="2" preSkillId="GuildSkill_HeroUP01" />
+    <Skill id="GuildSkill_HeroUP03" templateId="5710023" skillPointCost="1" accountPassivityId="HeroUP03" displaySlotIndex="2" preSkillId="GuildSkill_HeroUP02" />
+    <Skill id="GuildSkill_HeroUP04" templateId="5710024" skillPointCost="1" accountPassivityId="HeroUP04" displaySlotIndex="2" preSkillId="GuildSkill_HeroUP03" />
+    <Skill id="GuildSkill_HeroUP05" templateId="5710025" skillPointCost="1" accountPassivityId="HeroUP05" displaySlotIndex="2" preSkillId="GuildSkill_HeroUP04" />
+    <Skill id="GuildSkill_HeroUP06" templateId="5710026" skillPointCost="1" accountPassivityId="HeroUP06" displaySlotIndex="2" preSkillId="GuildSkill_HeroUP05" />
+    <Skill id="GuildSkill_HeroUP07" templateId="5710027" skillPointCost="1" accountPassivityId="HeroUP07" displaySlotIndex="2" preSkillId="GuildSkill_HeroUP06" />
+    <Skill id="GuildSkill_HeroUP08" templateId="5710028" skillPointCost="1" accountPassivityId="HeroUP08" displaySlotIndex="2" preSkillId="GuildSkill_HeroUP07" />
+    <Skill id="GuildSkill_HeroUP09" templateId="5710029" skillPointCost="1" accountPassivityId="HeroUP09" displaySlotIndex="2" preSkillId="GuildSkill_HeroUP08" />
+    <Skill id="GuildSkill_HeroUP10" templateId="5710030" skillPointCost="1" accountPassivityId="HeroUP10" displaySlotIndex="2" preSkillId="GuildSkill_HeroUP09" />
+    <Skill id="GuildSkill_EquipUp01" templateId="5710031" skillPointCost="1" accountPassivityId="EquipUp01" displaySlotIndex="3" />
+    <Skill id="GuildSkill_EquipUp02" templateId="5710032" skillPointCost="1" accountPassivityId="EquipUp02" displaySlotIndex="3" preSkillId="GuildSkill_EquipUp01" />
+    <Skill id="GuildSkill_EquipUp03" templateId="5710033" skillPointCost="1" accountPassivityId="EquipUp03" displaySlotIndex="3" preSkillId="GuildSkill_EquipUp02" />
+    <Skill id="GuildSkill_EquipUp04" templateId="5710034" skillPointCost="1" accountPassivityId="EquipUp04" displaySlotIndex="3" preSkillId="GuildSkill_EquipUp03" />
+    <Skill id="GuildSkill_EquipUp05" templateId="5710035" skillPointCost="1" accountPassivityId="EquipUp05" displaySlotIndex="3" preSkillId="GuildSkill_EquipUp04" />
+    <Skill id="GuildSkill_EquipUp06" templateId="5710036" skillPointCost="1" accountPassivityId="EquipUp06" displaySlotIndex="3" preSkillId="GuildSkill_EquipUp05" />
+    <Skill id="GuildSkill_EquipUp07" templateId="5710037" skillPointCost="1" accountPassivityId="EquipUp07" displaySlotIndex="3" preSkillId="GuildSkill_EquipUp06" />
+    <Skill id="GuildSkill_EquipUp08" templateId="5710038" skillPointCost="1" accountPassivityId="EquipUp08" displaySlotIndex="3" preSkillId="GuildSkill_EquipUp07" />
+    <Skill id="GuildSkill_EquipUp09" templateId="5710039" skillPointCost="1" accountPassivityId="EquipUp09" displaySlotIndex="3" preSkillId="GuildSkill_EquipUp08" />
+    <Skill id="GuildSkill_EquipUp10" templateId="5710040" skillPointCost="1" accountPassivityId="EquipUp10" displaySlotIndex="3" preSkillId="GuildSkill_EquipUp09" />
+  </SkillData>
+  <InternalData>
+    <AttendCost stuffType="Currency" stuffId="Token_Guild_Attend" stuffAmount="1" />
+    <SubMasterBanishCost stuffType="Currency" stuffId="Token_Guild_SubMaster_Banish" stuffAmount="1" />
+    <MasterBanishCost stuffType="Currency" stuffId="Token_Guild_Master_Banish" stuffAmount="1" />
+  </InternalData>
+</GuildData>

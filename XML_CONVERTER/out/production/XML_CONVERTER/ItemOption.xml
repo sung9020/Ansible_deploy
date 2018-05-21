@@ -1,0 +1,223 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ItemOption>
+  <Option id="MxHp_Up" templateId="1310001" devName="최대 생명력">
+    <Stat stat="MxHp">
+      <StatBalance maxLv="10" quality1="119" quality2="133" quality3="148" quality4="165" quality5="184" quality6="205" />
+      <StatBalance maxLv="20" quality1="150" quality2="167" quality3="186" quality4="207" quality5="231" quality6="257" />
+      <StatBalance maxLv="30" quality1="150" quality2="167" quality3="186" quality4="207" quality5="231" quality6="257" />
+      <StatBalance maxLv="40" quality1="189" quality2="210" quality3="234" quality4="260" quality5="289" quality6="322" />
+      <StatBalance maxLv="50" quality1="235" quality2="262" quality3="292" quality4="325" quality5="362" quality6="403" />
+      <StatBalance maxLv="60" quality1="296" quality2="329" quality3="366" quality4="407" quality5="453" quality6="504" />
+      <StatBalance maxLv="70" quality1="371" quality2="413" quality3="459" quality4="510" quality5="567" quality6="630" />
+    </Stat>
+  </Option>
+  <Option id="Atk_Up" templateId="1310002" devName="공격력">
+    <Stat stat="AtkP">
+      <StatBalance maxLv="10" quality1="45" quality2="51" quality3="57" quality4="64" quality5="72" quality6="81" />
+      <StatBalance maxLv="20" quality1="57" quality2="64" quality3="72" quality4="81" quality5="91" quality6="102" />
+      <StatBalance maxLv="30" quality1="73" quality2="82" quality3="92" quality4="103" quality5="115" quality6="128" />
+      <StatBalance maxLv="40" quality1="93" quality2="104" quality3="116" quality4="129" quality5="144" quality6="160" />
+      <StatBalance maxLv="50" quality1="117" quality2="130" quality3="145" quality4="162" quality5="180" quality6="200" />
+      <StatBalance maxLv="60" quality1="145" quality2="162" quality3="181" quality4="202" quality5="225" quality6="250" />
+      <StatBalance maxLv="70" quality1="182" quality2="203" quality3="226" quality4="252" quality5="281" quality6="313" />
+    </Stat>
+  </Option>
+  <Option id="Def_Up" templateId="1310003" devName="방어력">
+    <Stat stat="DefP">
+      <StatBalance maxLv="10" quality1="19" quality2="22" quality3="25" quality4="28" quality5="32" quality6="36" />
+      <StatBalance maxLv="20" quality1="34" quality2="38" quality3="43" quality4="48" quality5="54" quality6="61" />
+      <StatBalance maxLv="30" quality1="34" quality2="38" quality3="43" quality4="48" quality5="54" quality6="61" />
+      <StatBalance maxLv="40" quality1="58" quality2="65" quality3="73" quality4="82" quality5="92" quality6="103" />
+      <StatBalance maxLv="50" quality1="99" quality2="111" quality3="124" quality4="138" quality5="154" quality6="172" />
+      <StatBalance maxLv="60" quality1="169" quality2="188" quality3="209" quality4="233" quality5="259" quality6="288" />
+      <StatBalance maxLv="70" quality1="282" quality2="314" quality3="349" quality4="388" quality5="432" quality6="480" />
+    </Stat>
+  </Option>
+  <Option id="PenFixed" templateId="1310004" devName="고정 관통">
+    <Stat stat="PenI">
+      <StatBalance maxLv="10" quality1="24" quality2="27" quality3="31" quality4="35" quality5="39" quality6="44" />
+      <StatBalance maxLv="20" quality1="32" quality2="36" quality3="40" quality4="45" quality5="50" quality6="56" />
+      <StatBalance maxLv="30" quality1="32" quality2="36" quality3="40" quality4="45" quality5="50" quality6="56" />
+      <StatBalance maxLv="40" quality1="40" quality2="45" quality3="50" quality4="56" quality5="63" quality6="70" />
+      <StatBalance maxLv="50" quality1="50" quality2="56" quality3="63" quality4="71" quality5="79" quality6="88" />
+      <StatBalance maxLv="60" quality1="64" quality2="72" quality3="80" quality4="89" quality5="99" quality6="110" />
+      <StatBalance maxLv="70" quality1="80" quality2="89" quality3="99" quality4="111" quality5="124" quality6="138" />
+    </Stat>
+  </Option>
+  <Option id="PenRate" templateId="1310005" devName="비율 관통">
+    <Stat stat="PenR">
+      <StatBalance maxLv="10" quality1="0.01" quality2="0.01" quality3="0.01" quality4="0.01" quality5="0.02" quality6="0.03" />
+      <StatBalance maxLv="20" quality1="0.01" quality2="0.01" quality3="0.01" quality4="0.02" quality5="0.03" quality6="0.04" />
+      <StatBalance maxLv="30" quality1="0.01" quality2="0.01" quality3="0.01" quality4="0.02" quality5="0.03" quality6="0.04" />
+      <StatBalance maxLv="40" quality1="0.01" quality2="0.01" quality3="0.02" quality4="0.03" quality5="0.04" quality6="0.05" />
+      <StatBalance maxLv="50" quality1="0.01" quality2="0.02" quality3="0.03" quality4="0.04" quality5="0.05" quality6="0.06" />
+      <StatBalance maxLv="60" quality1="0.02" quality2="0.03" quality3="0.04" quality4="0.05" quality5="0.06" quality6="0.07" />
+      <StatBalance maxLv="70" quality1="0.03" quality2="0.04" quality3="0.05" quality4="0.06" quality5="0.07" quality6="0.08" />
+    </Stat>
+  </Option>
+  <Option id="AtkSpd_Up" templateId="1310006" devName="공격 속도">
+    <Stat stat="ASpd">
+      <StatBalance maxLv="10" quality1="1" quality2="1" quality3="1" quality4="2" quality5="3" quality6="4" />
+      <StatBalance maxLv="20" quality1="1" quality2="1" quality3="2" quality4="3" quality5="4" quality6="5" />
+      <StatBalance maxLv="30" quality1="1" quality2="1" quality3="2" quality4="3" quality5="4" quality6="5" />
+      <StatBalance maxLv="40" quality1="2" quality2="3" quality3="4" quality4="5" quality5="6" quality6="7" />
+      <StatBalance maxLv="50" quality1="4" quality2="5" quality3="6" quality4="7" quality5="8" quality6="9" />
+      <StatBalance maxLv="60" quality1="6" quality2="7" quality3="8" quality4="9" quality5="10" quality6="12" />
+      <StatBalance maxLv="70" quality1="7" quality2="8" quality3="9" quality4="11" quality5="13" quality6="15" />
+    </Stat>
+  </Option>
+  <Option id="CriPer" templateId="1310007" devName="치명타 확률">
+    <Stat stat="CriP">
+      <StatBalance maxLv="10" quality1="0.01" quality2="0.01" quality3="0.01" quality4="0.01" quality5="0.01" quality6="0.02" />
+      <StatBalance maxLv="20" quality1="0.01" quality2="0.01" quality3="0.01" quality4="0.01" quality5="0.02" quality6="0.03" />
+      <StatBalance maxLv="30" quality1="0.01" quality2="0.01" quality3="0.01" quality4="0.01" quality5="0.02" quality6="0.03" />
+      <StatBalance maxLv="40" quality1="0.01" quality2="0.01" quality3="0.01" quality4="0.02" quality5="0.03" quality6="0.04" />
+      <StatBalance maxLv="50" quality1="0.01" quality2="0.01" quality3="0.02" quality4="0.03" quality5="0.04" quality6="0.05" />
+      <StatBalance maxLv="60" quality1="0.02" quality2="0.03" quality3="0.04" quality4="0.05" quality5="0.06" quality6="0.07" />
+      <StatBalance maxLv="70" quality1="0.04" quality2="0.05" quality3="0.06" quality4="0.07" quality5="0.08" quality6="0.09" />
+    </Stat>
+  </Option>
+  <Option id="CriRes" templateId="1310008" devName="치명타 저항 확률">
+    <Stat stat="CrRP">
+      <StatBalance maxLv="10" quality1="0.01" quality2="0.01" quality3="0.01" quality4="0.01" quality5="0.01" quality6="0" />
+      <StatBalance maxLv="20" quality1="0.01" quality2="0.01" quality3="0.01" quality4="0.01" quality5="0.01" quality6="0.01" />
+      <StatBalance maxLv="30" quality1="0.01" quality2="0.01" quality3="0.01" quality4="0.01" quality5="0.01" quality6="0.01" />
+      <StatBalance maxLv="40" quality1="0.01" quality2="0.01" quality3="0.01" quality4="0.01" quality5="0.01" quality6="0.02" />
+      <StatBalance maxLv="50" quality1="0.01" quality2="0.01" quality3="0.01" quality4="0.01" quality5="0.02" quality6="0.03" />
+      <StatBalance maxLv="60" quality1="0.01" quality2="0.01" quality3="0.01" quality4="0.02" quality5="0.03" quality6="0.04" />
+      <StatBalance maxLv="70" quality1="0.01" quality2="0.01" quality3="0.02" quality4="0.03" quality5="0.04" quality6="0.05" />
+    </Stat>
+  </Option>
+  <Option id="CriDmg" templateId="1310009" devName="치명타 대미지 배율">
+    <Stat stat="CrDR">
+      <StatBalance maxLv="10" quality1="0.01" quality2="0.01" quality3="0.01" quality4="0.02" quality5="0.03" quality6="0.04" />
+      <StatBalance maxLv="20" quality1="0.01" quality2="0.01" quality3="0.02" quality4="0.03" quality5="0.04" quality6="0.05" />
+      <StatBalance maxLv="30" quality1="0.01" quality2="0.01" quality3="0.02" quality4="0.03" quality5="0.04" quality6="0.05" />
+      <StatBalance maxLv="40" quality1="0.02" quality2="0.03" quality3="0.04" quality4="0.05" quality5="0.06" quality6="0.07" />
+      <StatBalance maxLv="50" quality1="0.04" quality2="0.05" quality3="0.06" quality4="0.07" quality5="0.08" quality6="0.09" />
+      <StatBalance maxLv="60" quality1="0.07" quality2="0.08" quality3="0.09" quality4="0.1" quality5="0.11" quality6="0.12" />
+      <StatBalance maxLv="70" quality1="0.1" quality2="0.11" quality3="0.12" quality4="0.13" quality5="0.14" quality6="0.15" />
+    </Stat>
+  </Option>
+  <Option id="Block" templateId="1310010" devName="피해 차단 확률">
+    <Stat stat="BlcP">
+      <StatBalance maxLv="10" quality1="0.01" quality2="0.01" quality3="0.01" quality4="0.01" quality5="0.01" quality6="0.02" />
+      <StatBalance maxLv="20" quality1="0.01" quality2="0.01" quality3="0.01" quality4="0.01" quality5="0.02" quality6="0.03" />
+      <StatBalance maxLv="30" quality1="0.01" quality2="0.01" quality3="0.01" quality4="0.01" quality5="0.02" quality6="0.03" />
+      <StatBalance maxLv="40" quality1="0.01" quality2="0.01" quality3="0.01" quality4="0.02" quality5="0.03" quality6="0.04" />
+      <StatBalance maxLv="50" quality1="0.01" quality2="0.01" quality3="0.02" quality4="0.03" quality5="0.04" quality6="0.05" />
+      <StatBalance maxLv="60" quality1="0.01" quality2="0.02" quality3="0.03" quality4="0.04" quality5="0.05" quality6="0.06" />
+      <StatBalance maxLv="70" quality1="0.02" quality2="0.03" quality3="0.04" quality4="0.05" quality5="0.06" quality6="0.07" />
+    </Stat>
+  </Option>
+  <Option id="Counter" templateId="1310011" devName="반격 확률">
+    <Stat stat="CntP">
+      <StatBalance maxLv="10" quality1="0.01" quality2="0.01" quality3="0.01" quality4="0.01" quality5="0.01" quality6="0.02" />
+      <StatBalance maxLv="20" quality1="0.01" quality2="0.01" quality3="0.01" quality4="0.01" quality5="0.02" quality6="0.03" />
+      <StatBalance maxLv="30" quality1="0.01" quality2="0.01" quality3="0.01" quality4="0.01" quality5="0.02" quality6="0.03" />
+      <StatBalance maxLv="40" quality1="0.01" quality2="0.01" quality3="0.01" quality4="0.02" quality5="0.03" quality6="0.04" />
+      <StatBalance maxLv="50" quality1="0.01" quality2="0.02" quality3="0.03" quality4="0.04" quality5="0.05" quality6="0.06" />
+      <StatBalance maxLv="60" quality1="0.03" quality2="0.04" quality3="0.05" quality4="0.06" quality5="0.07" quality6="0.08" />
+      <StatBalance maxLv="70" quality1="0.06" quality2="0.07" quality3="0.08" quality4="0.09" quality5="0.1" quality6="0.11" />
+    </Stat>
+  </Option>
+  <Option id="Abnormal" templateId="1310012" devName="지속효과 적용 확률">
+    <Stat stat="AbnP">
+      <StatBalance maxLv="10" quality1="0.01" quality2="0.01" quality3="0.01" quality4="0.01" quality5="0.02" quality6="0.03" />
+      <StatBalance maxLv="20" quality1="0.01" quality2="0.01" quality3="0.01" quality4="0.02" quality5="0.03" quality6="0.04" />
+      <StatBalance maxLv="30" quality1="0.01" quality2="0.01" quality3="0.01" quality4="0.02" quality5="0.03" quality6="0.04" />
+      <StatBalance maxLv="40" quality1="0.01" quality2="0.02" quality3="0.03" quality4="0.04" quality5="0.05" quality6="0.06" />
+      <StatBalance maxLv="50" quality1="0.03" quality2="0.04" quality3="0.05" quality4="0.06" quality5="0.07" quality6="0.08" />
+      <StatBalance maxLv="60" quality1="0.06" quality2="0.07" quality3="0.08" quality4="0.09" quality5="0.1" quality6="0.11" />
+      <StatBalance maxLv="70" quality1="0.09" quality2="0.1" quality3="0.11" quality4="0.12" quality5="0.13" quality6="0.14" />
+    </Stat>
+  </Option>
+  <Option id="AbnRes" templateId="1310013" devName="지속효과 저항 확률">
+    <Stat stat="AbRP">
+      <StatBalance maxLv="10" quality1="0.01" quality2="0.01" quality3="0.01" quality4="0.02" quality5="0.03" quality6="0.04" />
+      <StatBalance maxLv="20" quality1="0.01" quality2="0.01" quality3="0.02" quality4="0.03" quality5="0.04" quality6="0.05" />
+      <StatBalance maxLv="30" quality1="0.01" quality2="0.01" quality3="0.02" quality4="0.03" quality5="0.04" quality6="0.05" />
+      <StatBalance maxLv="40" quality1="0.02" quality2="0.03" quality3="0.04" quality4="0.05" quality5="0.06" quality6="0.07" />
+      <StatBalance maxLv="50" quality1="0.04" quality2="0.05" quality3="0.06" quality4="0.07" quality5="0.08" quality6="0.09" />
+      <StatBalance maxLv="60" quality1="0.07" quality2="0.08" quality3="0.09" quality4="0.1" quality5="0.11" quality6="0.12" />
+      <StatBalance maxLv="70" quality1="0.1" quality2="0.11" quality3="0.12" quality4="0.13" quality5="0.14" quality6="0.15" />
+    </Stat>
+  </Option>
+  <Option id="Cooltime" templateId="1310014" devName="스킬 로컬 쿨타임 감소">
+    <Stat stat="Cool">
+      <StatBalance maxLv="10" quality1="0.01" quality2="0.01" quality3="0.01" quality4="0.02" quality5="0.03" quality6="0.04" />
+      <StatBalance maxLv="20" quality1="0.01" quality2="0.01" quality3="0.02" quality4="0.03" quality5="0.04" quality6="0.05" />
+      <StatBalance maxLv="30" quality1="0.01" quality2="0.01" quality3="0.02" quality4="0.03" quality5="0.04" quality6="0.05" />
+      <StatBalance maxLv="40" quality1="0.02" quality2="0.03" quality3="0.04" quality4="0.05" quality5="0.06" quality6="0.07" />
+      <StatBalance maxLv="50" quality1="0.04" quality2="0.05" quality3="0.06" quality4="0.07" quality5="0.08" quality6="0.09" />
+      <StatBalance maxLv="60" quality1="0.07" quality2="0.08" quality3="0.09" quality4="0.1" quality5="0.11" quality6="0.12" />
+      <StatBalance maxLv="70" quality1="0.1" quality2="0.11" quality3="0.12" quality4="0.13" quality5="0.14" quality6="0.15" />
+    </Stat>
+  </Option>
+  <Option id="Skill_use" templateId="1310015" devName="스킬 사용 확률">
+    <Stat stat="SklP">
+      <StatBalance maxLv="10" quality1="0.01" quality2="0.01" quality3="0.01" quality4="0.02" quality5="0.03" quality6="0.04" />
+      <StatBalance maxLv="20" quality1="0.01" quality2="0.01" quality3="0.02" quality4="0.03" quality5="0.04" quality6="0.05" />
+      <StatBalance maxLv="30" quality1="0.01" quality2="0.01" quality3="0.02" quality4="0.03" quality5="0.04" quality6="0.05" />
+      <StatBalance maxLv="40" quality1="0.02" quality2="0.03" quality3="0.04" quality4="0.05" quality5="0.06" quality6="0.07" />
+      <StatBalance maxLv="50" quality1="0.04" quality2="0.05" quality3="0.06" quality4="0.07" quality5="0.08" quality6="0.09" />
+      <StatBalance maxLv="60" quality1="0.07" quality2="0.08" quality3="0.09" quality4="0.1" quality5="0.11" quality6="0.12" />
+      <StatBalance maxLv="70" quality1="0.1" quality2="0.11" quality3="0.12" quality4="0.13" quality5="0.14" quality6="0.15" />
+    </Stat>
+  </Option>
+  <Option id="HealEffect" templateId="1310016" devName="받는 힐량">
+    <Stat stat="Heal">
+      <StatBalance maxLv="10" quality1="0.01" quality2="0.01" quality3="0.01" quality4="0.01" quality5="0.01" quality6="0.02" />
+      <StatBalance maxLv="20" quality1="0.01" quality2="0.01" quality3="0.01" quality4="0.01" quality5="0.02" quality6="0.03" />
+      <StatBalance maxLv="30" quality1="0.01" quality2="0.01" quality3="0.01" quality4="0.01" quality5="0.02" quality6="0.03" />
+      <StatBalance maxLv="40" quality1="0.01" quality2="0.01" quality3="0.01" quality4="0.02" quality5="0.03" quality6="0.04" />
+      <StatBalance maxLv="50" quality1="0.01" quality2="0.02" quality3="0.03" quality4="0.04" quality5="0.05" quality6="0.06" />
+      <StatBalance maxLv="60" quality1="0.03" quality2="0.04" quality3="0.05" quality4="0.06" quality5="0.07" quality6="0.08" />
+      <StatBalance maxLv="70" quality1="0.05" quality2="0.06" quality3="0.07" quality4="0.08" quality5="0.09" quality6="0.1" />
+    </Stat>
+  </Option>
+  <Option id="HealPower" templateId="1310017" devName="주는 힐량">
+    <Stat stat="Hpow">
+      <StatBalance maxLv="10" quality1="0.01" quality2="0.01" quality3="0.02" quality4="0.03" quality5="0.04" quality6="0.05" />
+      <StatBalance maxLv="20" quality1="0.02" quality2="0.03" quality3="0.04" quality4="0.05" quality5="0.06" quality6="0.07" />
+      <StatBalance maxLv="30" quality1="0.02" quality2="0.03" quality3="0.04" quality4="0.05" quality5="0.06" quality6="0.07" />
+      <StatBalance maxLv="40" quality1="0.04" quality2="0.05" quality3="0.06" quality4="0.07" quality5="0.08" quality6="0.09" />
+      <StatBalance maxLv="50" quality1="0.07" quality2="0.08" quality3="0.09" quality4="0.1" quality5="0.11" quality6="0.12" />
+      <StatBalance maxLv="60" quality1="0.11" quality2="0.12" quality3="0.13" quality4="0.14" quality5="0.15" quality6="0.16" />
+      <StatBalance maxLv="70" quality1="0.15" quality2="0.16" quality3="0.17" quality4="0.18" quality5="0.19" quality6="0.2" />
+    </Stat>
+  </Option>
+  <Option id="Test_Option1" templateId="1319001" devName="헤스티아 패시브">
+    <Skill>
+      <SkillBalance maxLv="10" quality1="Hestia_G6_Passive" quality2="Hestia_G6_Passive" quality3="Hestia_G6_Passive" quality4="Hestia_G6_Passive" quality5="Hestia_G6_Passive" quality6="Hestia_G6_Passive" />
+      <SkillBalance maxLv="20" quality1="Hestia_G6_Passive" quality2="Hestia_G6_Passive" quality3="Hestia_G6_Passive" quality4="Hestia_G6_Passive" quality5="Hestia_G6_Passive" quality6="Hestia_G6_Passive" />
+      <SkillBalance maxLv="30" quality1="Hestia_G6_Passive" quality2="Hestia_G6_Passive" quality3="Hestia_G6_Passive" quality4="Hestia_G6_Passive" quality5="Hestia_G6_Passive" quality6="Hestia_G6_Passive" />
+      <SkillBalance maxLv="40" quality1="Hestia_G6_Passive" quality2="Hestia_G6_Passive" quality3="Hestia_G6_Passive" quality4="Hestia_G6_Passive" quality5="Hestia_G6_Passive" quality6="Hestia_G6_Passive" />
+      <SkillBalance maxLv="50" quality1="Hestia_G6_Passive" quality2="Hestia_G6_Passive" quality3="Hestia_G6_Passive" quality4="Hestia_G6_Passive" quality5="Hestia_G6_Passive" quality6="Hestia_G6_Passive" />
+      <SkillBalance maxLv="60" quality1="Hestia_G6_Passive" quality2="Hestia_G6_Passive" quality3="Hestia_G6_Passive" quality4="Hestia_G6_Passive" quality5="Hestia_G6_Passive" quality6="Hestia_G6_Passive" />
+      <SkillBalance maxLv="70" quality1="Hestia_G6_Passive" quality2="Hestia_G6_Passive" quality3="Hestia_G6_Passive" quality4="Hestia_G6_Passive" quality5="Hestia_G6_Passive" quality6="Hestia_G6_Passive" />
+    </Skill>
+  </Option>
+  <Option id="Test_Option2" templateId="1319002" devName="노사 패시브">
+    <Skill>
+      <SkillBalance maxLv="10" quality1="Nosa_G6_Passive" quality2="Nosa_G6_Passive" quality3="Nosa_G6_Passive" quality4="Nosa_G6_Passive" quality5="Nosa_G6_Passive" quality6="Nosa_G6_Passive" />
+      <SkillBalance maxLv="20" quality1="Nosa_G6_Passive" quality2="Nosa_G6_Passive" quality3="Nosa_G6_Passive" quality4="Nosa_G6_Passive" quality5="Nosa_G6_Passive" quality6="Nosa_G6_Passive" />
+      <SkillBalance maxLv="30" quality1="Nosa_G6_Passive" quality2="Nosa_G6_Passive" quality3="Nosa_G6_Passive" quality4="Nosa_G6_Passive" quality5="Nosa_G6_Passive" quality6="Nosa_G6_Passive" />
+      <SkillBalance maxLv="40" quality1="Nosa_G6_Passive" quality2="Nosa_G6_Passive" quality3="Nosa_G6_Passive" quality4="Nosa_G6_Passive" quality5="Nosa_G6_Passive" quality6="Nosa_G6_Passive" />
+      <SkillBalance maxLv="50" quality1="Nosa_G6_Passive" quality2="Nosa_G6_Passive" quality3="Nosa_G6_Passive" quality4="Nosa_G6_Passive" quality5="Nosa_G6_Passive" quality6="Nosa_G6_Passive" />
+      <SkillBalance maxLv="60" quality1="Nosa_G6_Passive" quality2="Nosa_G6_Passive" quality3="Nosa_G6_Passive" quality4="Nosa_G6_Passive" quality5="Nosa_G6_Passive" quality6="Nosa_G6_Passive" />
+      <SkillBalance maxLv="70" quality1="Nosa_G6_Passive" quality2="Nosa_G6_Passive" quality3="Nosa_G6_Passive" quality4="Nosa_G6_Passive" quality5="Nosa_G6_Passive" quality6="Nosa_G6_Passive" />
+    </Skill>
+  </Option>
+  <Option id="Test_Option3" templateId="1319003" devName="호프 패시브">
+    <Skill>
+      <SkillBalance maxLv="10" quality1="Hope_G6_Passive" quality2="Hope_G6_Passive" quality3="Hope_G6_Passive" quality4="Hope_G6_Passive" quality5="Hope_G6_Passive" quality6="Hope_G6_Passive" />
+      <SkillBalance maxLv="20" quality1="Hope_G6_Passive" quality2="Hope_G6_Passive" quality3="Hope_G6_Passive" quality4="Hope_G6_Passive" quality5="Hope_G6_Passive" quality6="Hope_G6_Passive" />
+      <SkillBalance maxLv="30" quality1="Hope_G6_Passive" quality2="Hope_G6_Passive" quality3="Hope_G6_Passive" quality4="Hope_G6_Passive" quality5="Hope_G6_Passive" quality6="Hope_G6_Passive" />
+      <SkillBalance maxLv="40" quality1="Hope_G6_Passive" quality2="Hope_G6_Passive" quality3="Hope_G6_Passive" quality4="Hope_G6_Passive" quality5="Hope_G6_Passive" quality6="Hope_G6_Passive" />
+      <SkillBalance maxLv="50" quality1="Hope_G6_Passive" quality2="Hope_G6_Passive" quality3="Hope_G6_Passive" quality4="Hope_G6_Passive" quality5="Hope_G6_Passive" quality6="Hope_G6_Passive" />
+      <SkillBalance maxLv="60" quality1="Hope_G6_Passive" quality2="Hope_G6_Passive" quality3="Hope_G6_Passive" quality4="Hope_G6_Passive" quality5="Hope_G6_Passive" quality6="Hope_G6_Passive" />
+      <SkillBalance maxLv="70" quality1="Hope_G6_Passive" quality2="Hope_G6_Passive" quality3="Hope_G6_Passive" quality4="Hope_G6_Passive" quality5="Hope_G6_Passive" quality6="Hope_G6_Passive" />
+    </Skill>
+  </Option>
+</ItemOption>

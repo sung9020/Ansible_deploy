@@ -1,0 +1,213 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="GuildData">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="EstablishCost">
+          <xs:complexType>
+            <xs:attribute name="stuffType" type="xs:string" use="required" />
+            <xs:attribute name="stuffId" type="xs:string" use="required" />
+            <xs:attribute name="stuffAmount" type="xs:unsignedShort" use="required" />
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="InitData">
+          <xs:complexType>
+            <xs:attribute name="level" type="xs:unsignedByte" use="required" />
+            <xs:attribute name="skillPoint" type="xs:unsignedByte" use="required" />
+            <xs:attribute name="policyId" type="xs:string" use="required" />
+            <xs:attribute name="joinType" type="xs:string" use="required" />
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="CommonData">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Member">
+                <xs:complexType>
+                  <xs:attribute name="memberCount" type="xs:unsignedByte" use="required" />
+                  <xs:attribute name="subMasterCount" type="xs:unsignedByte" use="required" />
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="Volunteer">
+                <xs:complexType>
+                  <xs:attribute name="maxVolunteerCount" type="xs:unsignedByte" use="required" />
+                  <xs:attribute name="volunteerExpireDay" type="xs:unsignedByte" use="required" />
+                  <xs:attribute name="maxVolunteerCountForUser" type="xs:unsignedByte" use="required" />
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="NameChangeCost">
+                <xs:complexType>
+                  <xs:attribute name="stuffType" type="xs:string" use="required" />
+                  <xs:attribute name="stuffId" type="xs:string" use="required" />
+                  <xs:attribute name="stuffAmount" type="xs:unsignedByte" use="required" />
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="Resting">
+                <xs:complexType>
+                  <xs:attribute name="limitDay" type="xs:unsignedByte" use="required" />
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="GuildLog">
+                <xs:complexType>
+                  <xs:attribute name="maxLogCount" type="xs:unsignedByte" use="required" />
+                  <xs:attribute name="logExpireDay" type="xs:unsignedByte" use="required" />
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="SkillResetCost">
+                <xs:complexType>
+                  <xs:attribute name="stuffType" type="xs:string" use="required" />
+                  <xs:attribute name="stuffId" type="xs:string" use="required" />
+                  <xs:attribute name="stuffAmount" type="xs:unsignedByte" use="required" />
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="Setting">
+                <xs:complexType>
+                  <xs:attribute name="maxNameLength" type="xs:unsignedByte" use="required" />
+                  <xs:attribute name="maxIntroduceLength" type="xs:unsignedByte" use="required" />
+                  <xs:attribute name="maxAnnounceLength" type="xs:unsignedByte" use="required" />
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="NotiMailId">
+                <xs:complexType>
+                  <xs:attribute name="masterChange" type="xs:string" use="required" />
+                  <xs:attribute name="masterDismiss" type="xs:string" use="required" />
+                  <xs:attribute name="subMasterAppoint" type="xs:string" use="required" />
+                  <xs:attribute name="subMasterDismiss" type="xs:string" use="required" />
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+            <xs:attribute name="openConditionId" type="xs:string" use="required" />
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="LevelData">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element maxOccurs="unbounded" name="Level">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element maxOccurs="unbounded" name="AttendReward">
+                      <xs:complexType>
+                        <xs:attribute name="stuffType" type="xs:string" use="required" />
+                        <xs:attribute name="stuffId" type="xs:string" use="required" />
+                        <xs:attribute name="stuffAmount" type="xs:unsignedShort" use="required" />
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                  <xs:attribute name="guildLevel" type="xs:unsignedByte" use="required" />
+                  <xs:attribute name="requireGuildExp" type="xs:unsignedInt" use="required" />
+                  <xs:attribute name="getSkillPoint" type="xs:unsignedByte" use="required" />
+                  <xs:attribute name="attendRewardGuildExp" type="xs:unsignedByte" use="required" />
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Recommend">
+          <xs:complexType>
+            <xs:attribute name="viewCount" type="xs:unsignedByte" use="required" />
+            <xs:attribute name="initScore" type="xs:unsignedByte" use="required" />
+            <xs:attribute name="masterFactor" type="xs:unsignedByte" use="required" />
+            <xs:attribute name="memberFactor" type="xs:unsignedByte" use="required" />
+            <xs:attribute name="randomFactor" type="xs:unsignedByte" use="required" />
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Emblem">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="EdgeData">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element maxOccurs="unbounded" name="Edge">
+                      <xs:complexType>
+                        <xs:attribute name="templateId" type="xs:unsignedByte" use="required" />
+                        <xs:attribute name="iconResourcePath" type="xs:string" use="required" />
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="SymbolData">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element maxOccurs="unbounded" name="Symbol">
+                      <xs:complexType>
+                        <xs:attribute name="templateId" type="xs:unsignedByte" use="required" />
+                        <xs:attribute name="iconResourcePath" type="xs:string" use="required" />
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="ColorData">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element maxOccurs="unbounded" name="Color">
+                      <xs:complexType>
+                        <xs:attribute name="templateId" type="xs:unsignedByte" use="required" />
+                        <xs:attribute name="colorId" type="xs:string" use="required" />
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="PolicyData">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element maxOccurs="unbounded" name="Policy">
+                <xs:complexType>
+                  <xs:attribute name="id" type="xs:string" use="required" />
+                  <xs:attribute name="templateId" type="xs:unsignedByte" use="required" />
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="SkillData">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element maxOccurs="unbounded" name="Skill">
+                <xs:complexType>
+                  <xs:attribute name="id" type="xs:string" use="required" />
+                  <xs:attribute name="templateId" type="xs:unsignedInt" use="required" />
+                  <xs:attribute name="skillPointCost" type="xs:unsignedByte" use="required" />
+                  <xs:attribute name="accountPassivityId" type="xs:string" use="required" />
+                  <xs:attribute name="displaySlotIndex" type="xs:unsignedByte" use="required" />
+                  <xs:attribute name="preSkillId" type="xs:string" use="optional" />
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="InternalData">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="AttendCost">
+                <xs:complexType>
+                  <xs:attribute name="stuffType" type="xs:string" use="required" />
+                  <xs:attribute name="stuffId" type="xs:string" use="required" />
+                  <xs:attribute name="stuffAmount" type="xs:unsignedByte" use="required" />
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="SubMasterBanishCost">
+                <xs:complexType>
+                  <xs:attribute name="stuffType" type="xs:string" use="required" />
+                  <xs:attribute name="stuffId" type="xs:string" use="required" />
+                  <xs:attribute name="stuffAmount" type="xs:unsignedByte" use="required" />
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="MasterBanishCost">
+                <xs:complexType>
+                  <xs:attribute name="stuffType" type="xs:string" use="required" />
+                  <xs:attribute name="stuffId" type="xs:string" use="required" />
+                  <xs:attribute name="stuffAmount" type="xs:unsignedByte" use="required" />
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

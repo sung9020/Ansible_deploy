@@ -1,0 +1,1287 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<MailRewardData>
+  <MailReward id="mailReward_001" templateId="1004">
+    <Reward StuffType="Currency" StuffId="Gold" StuffAmount="500000" devName="골드 50만" />
+  </MailReward>
+  <MailReward id="mailReward_002" templateId="1005">
+    <Reward StuffType="Currency" StuffId="Gem_Free" StuffAmount="2000" devName="프리젬 2천" />
+  </MailReward>
+  <MailReward id="mailReward_003" templateId="1006">
+    <Reward StuffType="Currency" StuffId="SemiGem" StuffAmount="4000" devName="세미젬 4천" />
+  </MailReward>
+  <MailReward id="mailReward_004" templateId="1007">
+    <Reward StuffType="Currency" StuffId="Token_Adventure" StuffAmount="200" devName="모험포인트 2백" />
+  </MailReward>
+  <MailReward id="mailReward_005" templateId="1008">
+    <Reward StuffType="Currency" StuffId="Gold" StuffAmount="500000" devName="재화 4종 세트" />
+    <Reward StuffType="Currency" StuffId="Gem_Free" StuffAmount="2000" />
+    <Reward StuffType="Currency" StuffId="SemiGem" StuffAmount="4000" />
+    <Reward StuffType="Currency" StuffId="Token_Adventure" StuffAmount="200" />
+  </MailReward>
+  <MailReward id="mailReward_006" templateId="1009">
+    <Reward StuffType="Item" StuffId="Material_EquipEvolve_G1" StuffAmount="10" devName="장비 진화재료 5종 세트" />
+    <Reward StuffType="Item" StuffId="Material_EquipEvolve_G2" StuffAmount="10" />
+    <Reward StuffType="Item" StuffId="Material_EquipEvolve_G3" StuffAmount="10" />
+    <Reward StuffType="Item" StuffId="Material_EquipEvolve_G4" StuffAmount="10" />
+    <Reward StuffType="Item" StuffId="Material_EquipEvolve_G5" StuffAmount="10" />
+  </MailReward>
+  <MailReward id="mailReward_007" templateId="1010">
+    <Reward StuffType="Currency" StuffId="Gold" StuffAmount="10000" devName="2성 영웅 가챠" />
+  </MailReward>
+  <MailReward id="mailReward_008" templateId="1011">
+    <Reward StuffType="Currency" StuffId="Gold" StuffAmount="10000" devName="3성 영웅 가챠" />
+  </MailReward>
+  <MailReward id="mailReward_009" templateId="1012">
+    <Reward StuffType="Currency" StuffId="Gold" StuffAmount="10000" devName="4성 영웅 가챠" />
+  </MailReward>
+  <MailReward id="mailReward_010" templateId="1013">
+    <Reward StuffType="Currency" StuffId="Gold" StuffAmount="10000" devName="5성 영웅 가챠" />
+  </MailReward>
+  <MailReward id="mailReward_011" templateId="1014">
+    <Reward StuffType="Gacha" StuffId="heroCombine2" StuffAmount="1" devName="영웅 가챠 세트 (2성 ~ 5성 각 1종씩)" />
+    <Reward StuffType="Gacha" StuffId="heroCombine3" StuffAmount="1" />
+    <Reward StuffType="Gacha" StuffId="heroCombine4" StuffAmount="1" />
+    <Reward StuffType="Gacha" StuffId="heroCombine5" StuffAmount="1" />
+  </MailReward>
+  <MailReward id="mailReward_012" templateId="1015">
+    <Reward StuffType="Gacha" StuffId="Gacha_PremiumHero_Bonus" StuffAmount="1" devName="영웅 가챠 세트 (4성 가챠 5개)" />
+    <Reward StuffType="Gacha" StuffId="Gacha_PremiumHero_Bonus" StuffAmount="1" />
+    <Reward StuffType="Gacha" StuffId="Gacha_PremiumHero_Bonus" StuffAmount="1" />
+    <Reward StuffType="Gacha" StuffId="Gacha_PremiumHero_Bonus" StuffAmount="1" />
+    <Reward StuffType="Gacha" StuffId="Gacha_PremiumHero_Bonus" StuffAmount="1" />
+  </MailReward>
+  <MailReward id="mailReward_013" templateId="1016">
+    <Reward StuffType="Gacha" StuffId="Equip_Reward_R01" StuffAmount="1" devName="장비 가챠(모험용)" />
+    <Reward StuffType="Gacha" StuffId="Equip_Reward_R02" StuffAmount="1" />
+    <Reward StuffType="Gacha" StuffId="Equip_Reward_R03" StuffAmount="1" />
+    <Reward StuffType="Gacha" StuffId="Equip_Reward_R04" StuffAmount="1" />
+  </MailReward>
+  <MailReward id="mailReward_014" templateId="1017">
+    <Reward StuffType="Gacha" StuffId="Raid_Reward_R01" StuffAmount="1" devName="장비 가챠(레이드 저단계 용)" />
+    <Reward StuffType="Gacha" StuffId="Raid_Reward_R02" StuffAmount="1" />
+    <Reward StuffType="Gacha" StuffId="Raid_Reward_R03" StuffAmount="1" />
+    <Reward StuffType="Gacha" StuffId="Raid_Reward_R04" StuffAmount="1" />
+  </MailReward>
+  <MailReward id="mailReward_015" templateId="1018">
+    <Reward StuffType="Gacha" StuffId="Equip_Reward_R05_Lo" StuffAmount="1" devName="장비 가챠(레이드 고단계 용)" />
+    <Reward StuffType="Gacha" StuffId="Equip_Reward_R06_Lo_3" StuffAmount="1" />
+    <Reward StuffType="Gacha" StuffId="Equip_Reward_R05_Ri" StuffAmount="1" />
+    <Reward StuffType="Gacha" StuffId="Equip_Reward_R06_Ri" StuffAmount="1" />
+  </MailReward>
+  <MailReward id="mailReward_016" templateId="1019">
+    <Reward StuffType="Gacha" StuffId="HeroEvolve_G1" StuffAmount="1" devName="클래스 진화재료" />
+    <Reward StuffType="Gacha" StuffId="HeroEvolve_G2" StuffAmount="1" />
+    <Reward StuffType="Gacha" StuffId="HeroEvolve_G3" StuffAmount="1" />
+    <Reward StuffType="Gacha" StuffId="HeroEvolve_G4" StuffAmount="1" />
+    <Reward StuffType="Gacha" StuffId="HeroEvolve_G5" StuffAmount="1" />
+  </MailReward>
+  <MailReward id="mailReward_FGT01" templateId="1020">
+    <Reward StuffType="Hero" StuffId="Arin_G6" StuffAmount="1" devName="태그레이드 1팀 세트" />
+    <Reward StuffType="Hero" StuffId="Syana_G6" StuffAmount="1" />
+    <Reward StuffType="Hero" StuffId="Buggy_G6" StuffAmount="1" />
+    <Reward StuffType="Hero" StuffId="Rimoo_G6" StuffAmount="1" />
+    <Reward StuffType="Hero" StuffId="Elizabeth_G6" StuffAmount="1" />
+  </MailReward>
+  <MailReward id="mailReward_FGT02" templateId="1021">
+    <Reward StuffType="Hero" StuffId="Ashu_G6" StuffAmount="1" devName="태그레이드 2팀 세트" />
+    <Reward StuffType="Hero" StuffId="Marugan_G6" StuffAmount="1" />
+    <Reward StuffType="Hero" StuffId="Harima_G6" StuffAmount="1" />
+    <Reward StuffType="Hero" StuffId="Saion_G6" StuffAmount="1" />
+    <Reward StuffType="Hero" StuffId="Tara_G6" StuffAmount="1" />
+  </MailReward>
+  <MailReward id="mailReward_017" templateId="1022">
+    <Reward StuffType="Currency" StuffId="Gold" StuffAmount="10000" devName="태그레이드 1등 아이템 가챠" />
+    <Reward StuffType="Currency" StuffId="Gold" StuffAmount="10000" devName="태그레이드 2등 아이템 가챠" />
+    <Reward StuffType="Currency" StuffId="Gold" StuffAmount="10000" devName="태그레이드 3등 아이템 가챠" />
+  </MailReward>
+  <MailReward id="mailReward_018" templateId="1023">
+    <Reward StuffType="Currency" StuffId="Gold" StuffAmount="10000" devName="2성 영웅 가챠" />
+    <Reward StuffType="Currency" StuffId="Gold" StuffAmount="10000" devName="3성 영웅 가챠" />
+    <Reward StuffType="Currency" StuffId="Gold" StuffAmount="10000" devName="4성 영웅 가챠" />
+  </MailReward>
+  <MailReward id="mailReward_019" templateId="1024">
+    <Reward StuffType="Currency" StuffId="SemiGem" StuffAmount="5" devName="우정 영웅 사용 보상" />
+  </MailReward>
+  <MailReward id="mailReward_020" templateId="1025">
+    <Reward StuffType="Currency" StuffId="SemiGem" StuffAmount="5" devName="우정 영웅 제공 보상" />
+  </MailReward>
+  <MailReward id="mailReward_021" templateId="1026">
+    <Reward StuffType="Gacha" StuffId="Gacha_PremiumHero" StuffAmount="1" devName="우편 연출 테스트용 보상" />
+    <Reward StuffType="Gacha" StuffId="Equip_Reward_R01" StuffAmount="1" />
+    <Reward StuffType="Currency" StuffId="Gold" StuffAmount="10000" />
+    <Reward StuffType="Currency" StuffId="SemiGem" StuffAmount="300" />
+    <Reward StuffType="Currency" StuffId="Gem_Free" StuffAmount="500" />
+    <Reward StuffType="Item" StuffId="M_Weapon_R01_02_D" StuffAmount="1" />
+    <Reward StuffType="Hero" StuffId="Saion_G6" StuffAmount="1" />
+  </MailReward>
+  <MailReward id="mailReward_022" templateId="1027">
+    <Reward StuffType="Currency" StuffId="SemiGem" StuffAmount="200" devName="CBT 1일차 온타임 저녁 보상 (탱커 진화)" />
+    <Reward StuffType="Item" StuffId="Material_TankerEvolve_G4" StuffAmount="5" />
+    <Reward StuffType="Item" StuffId="Material_EvolveTypeA_G4" StuffAmount="5" />
+    <Reward StuffType="Item" StuffId="Material_EvolveType0_G4" StuffAmount="10" />
+    <Reward StuffType="Hero" StuffId="DancingFairy_G1" StuffAmount="1" />
+    <Reward StuffType="Hero" StuffId="DancingFairy_G3" StuffAmount="1" />
+    <Reward StuffType="Gacha" StuffId="Gacha_PremiumHero" StuffAmount="1" />
+    <Reward StuffType="Gacha" StuffId="Gacha_PremiumHero" StuffAmount="1" />
+  </MailReward>
+  <MailReward id="mailReward_023" templateId="1028">
+    <Reward StuffType="Currency" StuffId="Token_Adventure" StuffAmount="30" devName="CBT 2일차 온타임 점심 보상 (파이터 진화)" />
+    <Reward StuffType="Currency" StuffId="Gold" StuffAmount="30000" />
+    <Reward StuffType="Hero" StuffId="Kirr_G4" StuffAmount="1" />
+    <Reward StuffType="Item" StuffId="Material_fighterEvolve_G4" StuffAmount="5" />
+    <Reward StuffType="Item" StuffId="Material_EvolveTypeA_G4" StuffAmount="5" />
+    <Reward StuffType="Item" StuffId="Material_EvolveType0_G4" StuffAmount="10" />
+  </MailReward>
+  <MailReward id="mailReward_024" templateId="1029">
+    <Reward StuffType="Gacha" StuffId="Gacha_PremiumHero_Bonus" StuffAmount="1" devName="CBT 2일차 온타임 저녁 보상 (마법사 진화)" />
+    <Reward StuffType="Gacha" StuffId="Gacha_PremiumHero_Bonus" StuffAmount="1" />
+    <Reward StuffType="Item" StuffId="Material_MageEvolve_G4" StuffAmount="5" />
+    <Reward StuffType="Item" StuffId="Material_EvolveTypeB_G4" StuffAmount="5" />
+    <Reward StuffType="Item" StuffId="Material_EvolveType0_G4" StuffAmount="10" />
+    <Reward StuffType="Hero" StuffId="DancingFairy_G1" StuffAmount="1" />
+    <Reward StuffType="Hero" StuffId="DancingFairy_G3" StuffAmount="1" />
+    <Reward StuffType="Currency" StuffId="SemiGem" StuffAmount="200" />
+  </MailReward>
+  <MailReward id="mailReward_025" templateId="1030">
+    <Reward StuffType="Currency" StuffId="Token_Adventure" StuffAmount="30" devName="CBT 3일차 온타임 점심 보상 (레인저 진화)" />
+    <Reward StuffType="Currency" StuffId="Gold" StuffAmount="50000" />
+    <Reward StuffType="Item" StuffId="Material_RangerEvolve_G4" StuffAmount="5" />
+    <Reward StuffType="Item" StuffId="Material_EvolveTypeA_G4" StuffAmount="5" />
+    <Reward StuffType="Item" StuffId="Material_EvolveType0_G4" StuffAmount="10" />
+  </MailReward>
+  <MailReward id="mailReward_026" templateId="1031">
+    <Reward StuffType="Currency" StuffId="SemiGem" StuffAmount="200" devName="CBT 3일차 온타임 저녁 보상 (서포터 진화)" />
+    <Reward StuffType="Item" StuffId="Material_SupporterEvolve_G4" StuffAmount="5" />
+    <Reward StuffType="Item" StuffId="Material_EvolveTypeB_G4" StuffAmount="5" />
+    <Reward StuffType="Item" StuffId="Material_EvolveType0_G4" StuffAmount="10" />
+    <Reward StuffType="Hero" StuffId="DancingFairy_G1" StuffAmount="1" />
+    <Reward StuffType="Hero" StuffId="DancingFairy_G3" StuffAmount="1" />
+    <Reward StuffType="Currency" StuffId="Gem_Free" StuffAmount="300" />
+  </MailReward>
+  <MailReward id="mailReward_027" templateId="1032">
+    <Reward StuffType="Currency" StuffId="Token_Adventure" StuffAmount="30" devName="CBT 4일차 온타임 점심 보상" />
+    <Reward StuffType="Currency" StuffId="Gem_Free" StuffAmount="1000" />
+    <Reward StuffType="Gacha" StuffId="Attendance_Reward_Hero_G6_A" StuffAmount="1" />
+  </MailReward>
+  <MailReward id="mailReward_028" templateId="1033">
+    <Reward StuffType="Currency" StuffId="Camp_Point" StuffAmount="200" devName="진영전 승리 보상" />
+    <Reward StuffType="Currency" StuffId="Gold" StuffAmount="10000" />
+    <Reward StuffType="Currency" StuffId="SemiGem" StuffAmount="200" />
+  </MailReward>
+  <MailReward id="mailReward_029" templateId="1034">
+    <Reward StuffType="Currency" StuffId="Camp_Point" StuffAmount="100" devName="진영전 패배 보상" />
+    <Reward StuffType="Currency" StuffId="Gold" StuffAmount="6000" />
+    <Reward StuffType="Currency" StuffId="SemiGem" StuffAmount="100" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Gem_Free_10" templateId="1035">
+    <Reward StuffType="Currency" StuffId="Gem_Free" StuffAmount="10" devName="10젬" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Gem_Free_20" templateId="1036">
+    <Reward StuffType="Currency" StuffId="Gem_Free" StuffAmount="20" devName="20젬" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Gem_Free_30" templateId="1037">
+    <Reward StuffType="Currency" StuffId="Gem_Free" StuffAmount="30" devName="30젬" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Gem_Free_40" templateId="1038">
+    <Reward StuffType="Currency" StuffId="Gem_Free" StuffAmount="40" devName="40젬" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Gem_Free_50" templateId="1039">
+    <Reward StuffType="Currency" StuffId="Gem_Free" StuffAmount="50" devName="50젬" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Gem_Free_60" templateId="1040">
+    <Reward StuffType="Currency" StuffId="Gem_Free" StuffAmount="60" devName="60젬" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Gem_Free_70" templateId="1041">
+    <Reward StuffType="Currency" StuffId="Gem_Free" StuffAmount="70" devName="70젬" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Gem_Free_80" templateId="1042">
+    <Reward StuffType="Currency" StuffId="Gem_Free" StuffAmount="80" devName="80젬" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Gem_Free_90" templateId="1043">
+    <Reward StuffType="Currency" StuffId="Gem_Free" StuffAmount="90" devName="90젬" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Gem_Free_100" templateId="1044">
+    <Reward StuffType="Currency" StuffId="Gem_Free" StuffAmount="100" devName="100젬" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Gem_Free_200" templateId="1045">
+    <Reward StuffType="Currency" StuffId="Gem_Free" StuffAmount="200" devName="200젬" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Gem_Free_300" templateId="1046">
+    <Reward StuffType="Currency" StuffId="Gem_Free" StuffAmount="300" devName="300젬" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Gem_Free_400" templateId="1047">
+    <Reward StuffType="Currency" StuffId="Gem_Free" StuffAmount="400" devName="400젬" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Gem_Free_500" templateId="1048">
+    <Reward StuffType="Currency" StuffId="Gem_Free" StuffAmount="500" devName="500젬" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Gem_Free_600" templateId="1049">
+    <Reward StuffType="Currency" StuffId="Gem_Free" StuffAmount="600" devName="600젬" />
+  </MailReward>
+  <MailReward id="mailReward_CS_SemiGem_100" templateId="1050">
+    <Reward StuffType="Currency" StuffId="SemiGem" StuffAmount="100" devName="100큐브" />
+  </MailReward>
+  <MailReward id="mailReward_CS_SemiGem_200" templateId="1051">
+    <Reward StuffType="Currency" StuffId="SemiGem" StuffAmount="200" devName="200큐브" />
+  </MailReward>
+  <MailReward id="mailReward_CS_SemiGem_300" templateId="1052">
+    <Reward StuffType="Currency" StuffId="SemiGem" StuffAmount="300" devName="300큐브" />
+  </MailReward>
+  <MailReward id="mailReward_CS_SemiGem_400" templateId="1053">
+    <Reward StuffType="Currency" StuffId="SemiGem" StuffAmount="400" devName="400큐브" />
+  </MailReward>
+  <MailReward id="mailReward_CS_SemiGem_500" templateId="1054">
+    <Reward StuffType="Currency" StuffId="SemiGem" StuffAmount="500" devName="500큐브" />
+  </MailReward>
+  <MailReward id="mailReward_CS_SemiGem_600" templateId="1055">
+    <Reward StuffType="Currency" StuffId="SemiGem" StuffAmount="600" devName="600큐브" />
+  </MailReward>
+  <MailReward id="mailReward_CS_SemiGem_700" templateId="1056">
+    <Reward StuffType="Currency" StuffId="SemiGem" StuffAmount="700" devName="700큐브" />
+  </MailReward>
+  <MailReward id="mailReward_CS_SemiGem_800" templateId="1057">
+    <Reward StuffType="Currency" StuffId="SemiGem" StuffAmount="800" devName="800큐브" />
+  </MailReward>
+  <MailReward id="mailReward_CS_SemiGem_900" templateId="1058">
+    <Reward StuffType="Currency" StuffId="SemiGem" StuffAmount="900" devName="900큐브" />
+  </MailReward>
+  <MailReward id="mailReward_CS_SemiGem_1000" templateId="1059">
+    <Reward StuffType="Currency" StuffId="SemiGem" StuffAmount="1000" devName="1000큐브" />
+  </MailReward>
+  <MailReward id="mailReward_CS_SemiGem_2000" templateId="1060">
+    <Reward StuffType="Currency" StuffId="SemiGem" StuffAmount="2000" devName="2000큐브" />
+  </MailReward>
+  <MailReward id="mailReward_CS_SemiGem_3000" templateId="1061">
+    <Reward StuffType="Currency" StuffId="SemiGem" StuffAmount="3000" devName="3000큐브" />
+  </MailReward>
+  <MailReward id="mailReward_CS_SemiGem_4000" templateId="1062">
+    <Reward StuffType="Currency" StuffId="SemiGem" StuffAmount="4000" devName="4000큐브" />
+  </MailReward>
+  <MailReward id="mailReward_CS_SemiGem_5000" templateId="1063">
+    <Reward StuffType="Currency" StuffId="SemiGem" StuffAmount="5000" devName="5000큐브" />
+  </MailReward>
+  <MailReward id="mailReward_CS_SemiGem_6000" templateId="1064">
+    <Reward StuffType="Currency" StuffId="SemiGem" StuffAmount="6000" devName="6000큐브" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Gold_1000" templateId="1065">
+    <Reward StuffType="Currency" StuffId="Gold" StuffAmount="1000" devName="1000골드" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Gold_2000" templateId="1066">
+    <Reward StuffType="Currency" StuffId="Gold" StuffAmount="2000" devName="2000골드" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Gold_3000" templateId="1067">
+    <Reward StuffType="Currency" StuffId="Gold" StuffAmount="3000" devName="3000골드" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Gold_4000" templateId="1068">
+    <Reward StuffType="Currency" StuffId="Gold" StuffAmount="4000" devName="4000골드" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Gold_5000" templateId="1069">
+    <Reward StuffType="Currency" StuffId="Gold" StuffAmount="5000" devName="5000골드" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Gold_6000" templateId="1070">
+    <Reward StuffType="Currency" StuffId="Gold" StuffAmount="6000" devName="6000골드" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Gold_7000" templateId="1071">
+    <Reward StuffType="Currency" StuffId="Gold" StuffAmount="7000" devName="7000골드" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Gold_8000" templateId="1072">
+    <Reward StuffType="Currency" StuffId="Gold" StuffAmount="8000" devName="8000골드" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Gold_9000" templateId="1073">
+    <Reward StuffType="Currency" StuffId="Gold" StuffAmount="9000" devName="9000골드" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Gold_10000" templateId="1074">
+    <Reward StuffType="Currency" StuffId="Gold" StuffAmount="10000" devName="10000골드" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Gold_20000" templateId="1075">
+    <Reward StuffType="Currency" StuffId="Gold" StuffAmount="20000" devName="20000골드" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Gold_30000" templateId="1076">
+    <Reward StuffType="Currency" StuffId="Gold" StuffAmount="30000" devName="30000골드" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Gold_40000" templateId="1077">
+    <Reward StuffType="Currency" StuffId="Gold" StuffAmount="40000" devName="40000골드" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Gold_50000" templateId="1078">
+    <Reward StuffType="Currency" StuffId="Gold" StuffAmount="50000" devName="50000골드" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Gold_60000" templateId="1079">
+    <Reward StuffType="Currency" StuffId="Gold" StuffAmount="60000" devName="60000골드" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Gold_70000" templateId="1080">
+    <Reward StuffType="Currency" StuffId="Gold" StuffAmount="70000" devName="70000골드" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Gold_80000" templateId="1081">
+    <Reward StuffType="Currency" StuffId="Gold" StuffAmount="80000" devName="80000골드" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Gold_90000" templateId="1082">
+    <Reward StuffType="Currency" StuffId="Gold" StuffAmount="90000" devName="90000골드" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Gold_100000" templateId="1083">
+    <Reward StuffType="Currency" StuffId="Gold" StuffAmount="100000" devName="100000골드" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Token_Adventure_10" templateId="1084">
+    <Reward StuffType="Currency" StuffId="Token_Adventure" StuffAmount="10" devName="10모험포인트" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Token_Adventure_20" templateId="1085">
+    <Reward StuffType="Currency" StuffId="Token_Adventure" StuffAmount="20" devName="20모험포인트" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Token_Adventure_30" templateId="1086">
+    <Reward StuffType="Currency" StuffId="Token_Adventure" StuffAmount="30" devName="30모험포인트" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Token_Adventure_40" templateId="1087">
+    <Reward StuffType="Currency" StuffId="Token_Adventure" StuffAmount="40" devName="40모험포인트" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Token_Adventure_50" templateId="1088">
+    <Reward StuffType="Currency" StuffId="Token_Adventure" StuffAmount="50" devName="50모험포인트" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Token_Adventure_60" templateId="1089">
+    <Reward StuffType="Currency" StuffId="Token_Adventure" StuffAmount="60" devName="60모험포인트" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Token_Adventure_70" templateId="1090">
+    <Reward StuffType="Currency" StuffId="Token_Adventure" StuffAmount="70" devName="70모험포인트" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Token_Adventure_80" templateId="1091">
+    <Reward StuffType="Currency" StuffId="Token_Adventure" StuffAmount="80" devName="80모험포인트" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Token_Adventure_90" templateId="1092">
+    <Reward StuffType="Currency" StuffId="Token_Adventure" StuffAmount="90" devName="90모험포인트" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Token_Adventure_100" templateId="1093">
+    <Reward StuffType="Currency" StuffId="Token_Adventure" StuffAmount="100" devName="100모험포인트" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Token_Adventure_200" templateId="1094">
+    <Reward StuffType="Currency" StuffId="Token_Adventure" StuffAmount="200" devName="200모험포인트" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Token_Adventure_300" templateId="1095">
+    <Reward StuffType="Currency" StuffId="Token_Adventure" StuffAmount="300" devName="300모험포인트" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Token_Adventure_400" templateId="1096">
+    <Reward StuffType="Currency" StuffId="Token_Adventure" StuffAmount="400" devName="400모험포인트" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Token_Adventure_500" templateId="1097">
+    <Reward StuffType="Currency" StuffId="Token_Adventure" StuffAmount="500" devName="500모험포인트" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Token_Adventure_600" templateId="1098">
+    <Reward StuffType="Currency" StuffId="Token_Adventure" StuffAmount="600" devName="600모험포인트" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Token_Adventure_700" templateId="1099">
+    <Reward StuffType="Currency" StuffId="Token_Adventure" StuffAmount="700" devName="700모험포인트" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Token_Adventure_800" templateId="1100">
+    <Reward StuffType="Currency" StuffId="Token_Adventure" StuffAmount="800" devName="800모험포인트" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Token_Adventure_900" templateId="1101">
+    <Reward StuffType="Currency" StuffId="Token_Adventure" StuffAmount="900" devName="900모험포인트" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Token_Adventure_1000" templateId="1102">
+    <Reward StuffType="Currency" StuffId="Token_Adventure" StuffAmount="1000" devName="1000모험포인트" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Camp_Point_10" templateId="1103">
+    <Reward StuffType="Currency" StuffId="Camp_Point" StuffAmount="10" devName="10진영포인트" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Camp_Point_20" templateId="1104">
+    <Reward StuffType="Currency" StuffId="Camp_Point" StuffAmount="20" devName="20진영포인트" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Camp_Point_30" templateId="1105">
+    <Reward StuffType="Currency" StuffId="Camp_Point" StuffAmount="30" devName="30진영포인트" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Camp_Point_40" templateId="1106">
+    <Reward StuffType="Currency" StuffId="Camp_Point" StuffAmount="40" devName="40진영포인트" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Camp_Point_50" templateId="1107">
+    <Reward StuffType="Currency" StuffId="Camp_Point" StuffAmount="50" devName="50진영포인트" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Camp_Point_60" templateId="1108">
+    <Reward StuffType="Currency" StuffId="Camp_Point" StuffAmount="60" devName="60진영포인트" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Camp_Point_70" templateId="1109">
+    <Reward StuffType="Currency" StuffId="Camp_Point" StuffAmount="70" devName="70진영포인트" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Camp_Point_80" templateId="1110">
+    <Reward StuffType="Currency" StuffId="Camp_Point" StuffAmount="80" devName="80진영포인트" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Camp_Point_90" templateId="1111">
+    <Reward StuffType="Currency" StuffId="Camp_Point" StuffAmount="90" devName="90진영포인트" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Camp_Point_100" templateId="1112">
+    <Reward StuffType="Currency" StuffId="Camp_Point" StuffAmount="100" devName="100진영포인트" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Camp_Point_200" templateId="1113">
+    <Reward StuffType="Currency" StuffId="Camp_Point" StuffAmount="200" devName="200진영포인트" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Camp_Point_300" templateId="1114">
+    <Reward StuffType="Currency" StuffId="Camp_Point" StuffAmount="300" devName="300진영포인트" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Camp_Point_400" templateId="1115">
+    <Reward StuffType="Currency" StuffId="Camp_Point" StuffAmount="400" devName="400진영포인트" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Camp_Point_500" templateId="1116">
+    <Reward StuffType="Currency" StuffId="Camp_Point" StuffAmount="500" devName="500진영포인트" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Camp_Point_600" templateId="1117">
+    <Reward StuffType="Currency" StuffId="Camp_Point" StuffAmount="600" devName="600진영포인트" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Camp_Point_700" templateId="1118">
+    <Reward StuffType="Currency" StuffId="Camp_Point" StuffAmount="700" devName="700진영포인트" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Camp_Point_800" templateId="1119">
+    <Reward StuffType="Currency" StuffId="Camp_Point" StuffAmount="800" devName="800진영포인트" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Camp_Point_900" templateId="1120">
+    <Reward StuffType="Currency" StuffId="Camp_Point" StuffAmount="900" devName="900진영포인트" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Camp_Point_1000" templateId="1121">
+    <Reward StuffType="Currency" StuffId="Camp_Point" StuffAmount="1000" devName="1000진영포인트" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Skadi_G4" templateId="1122">
+    <Reward StuffType="Hero" StuffId="Skadi_G4" StuffAmount="1" devName="4성 스카디" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Skadi_G5" templateId="1123">
+    <Reward StuffType="Hero" StuffId="Skadi_G5" StuffAmount="1" devName="5성 스카디" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Skadi_G6" templateId="1124">
+    <Reward StuffType="Hero" StuffId="Skadi_G6" StuffAmount="1" devName="6성 스카디" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Aknal_G4" templateId="1125">
+    <Reward StuffType="Hero" StuffId="Aknal_G4" StuffAmount="1" devName="4성 아크날" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Aknal_G5" templateId="1126">
+    <Reward StuffType="Hero" StuffId="Aknal_G5" StuffAmount="1" devName="5성 아크날" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Aknal_G6" templateId="1127">
+    <Reward StuffType="Hero" StuffId="Aknal_G6" StuffAmount="1" devName="6성 아크날" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Luna_G4" templateId="1128">
+    <Reward StuffType="Hero" StuffId="Luna_G4" StuffAmount="1" devName="4성 루나" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Luna_G5" templateId="1129">
+    <Reward StuffType="Hero" StuffId="Luna_G5" StuffAmount="1" devName="5성 루나" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Luna_G6" templateId="1130">
+    <Reward StuffType="Hero" StuffId="Luna_G6" StuffAmount="1" devName="6성 루나" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Teze_G4" templateId="1131">
+    <Reward StuffType="Hero" StuffId="Teze_G4" StuffAmount="1" devName="4성 테제" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Teze_G5" templateId="1132">
+    <Reward StuffType="Hero" StuffId="Teze_G5" StuffAmount="1" devName="5성 테제" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Teze_G6" templateId="1133">
+    <Reward StuffType="Hero" StuffId="Teze_G6" StuffAmount="1" devName="6성 테제" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Yggdrasil_G4" templateId="1134">
+    <Reward StuffType="Hero" StuffId="Yggdrasil_G4" StuffAmount="1" devName="4성 유그드라실" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Yggdrasil_G5" templateId="1135">
+    <Reward StuffType="Hero" StuffId="Yggdrasil_G5" StuffAmount="1" devName="5성 유그드라실" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Yggdrasil_G6" templateId="1136">
+    <Reward StuffType="Hero" StuffId="Yggdrasil_G6" StuffAmount="1" devName="6성 유그드라실" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Haru_G4" templateId="1137">
+    <Reward StuffType="Hero" StuffId="Haru_G4" StuffAmount="1" devName="4성 하루" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Haru_G5" templateId="1138">
+    <Reward StuffType="Hero" StuffId="Haru_G5" StuffAmount="1" devName="5성 하루" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Haru_G6" templateId="1139">
+    <Reward StuffType="Hero" StuffId="Haru_G6" StuffAmount="1" devName="6성 하루" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Beatrix_G4" templateId="1140">
+    <Reward StuffType="Hero" StuffId="Beatrix_G4" StuffAmount="1" devName="4성 베아트릭스" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Beatrix_G5" templateId="1141">
+    <Reward StuffType="Hero" StuffId="Beatrix_G5" StuffAmount="1" devName="5성 베아트릭스" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Beatrix_G6" templateId="1142">
+    <Reward StuffType="Hero" StuffId="Beatrix_G6" StuffAmount="1" devName="6성 베아트릭스" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Brahms_G4" templateId="1143">
+    <Reward StuffType="Hero" StuffId="Brahms_G4" StuffAmount="1" devName="4성 브람스" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Brahms_G5" templateId="1144">
+    <Reward StuffType="Hero" StuffId="Brahms_G5" StuffAmount="1" devName="5성 브람스" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Brahms_G6" templateId="1145">
+    <Reward StuffType="Hero" StuffId="Brahms_G6" StuffAmount="1" devName="6성 브람스" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Ophelia_G4" templateId="1146">
+    <Reward StuffType="Hero" StuffId="Ophelia_G4" StuffAmount="1" devName="4성 오필리아" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Ophelia_G5" templateId="1147">
+    <Reward StuffType="Hero" StuffId="Ophelia_G5" StuffAmount="1" devName="5성 오필리아" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Ophelia_G6" templateId="1148">
+    <Reward StuffType="Hero" StuffId="Ophelia_G6" StuffAmount="1" devName="6성 오필리아" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Anemone_G4" templateId="1149">
+    <Reward StuffType="Hero" StuffId="Anemone_G4" StuffAmount="1" devName="4성 아네모네" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Anemone_G5" templateId="1150">
+    <Reward StuffType="Hero" StuffId="Anemone_G5" StuffAmount="1" devName="5성 아네모네" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Anemone_G6" templateId="1151">
+    <Reward StuffType="Hero" StuffId="Anemone_G6" StuffAmount="1" devName="6성 아네모네" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Arin_G4" templateId="1152">
+    <Reward StuffType="Hero" StuffId="Arin_G4" StuffAmount="1" devName="4성 아린" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Arin_G5" templateId="1153">
+    <Reward StuffType="Hero" StuffId="Arin_G5" StuffAmount="1" devName="5성 아린" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Arin_G6" templateId="1154">
+    <Reward StuffType="Hero" StuffId="Arin_G6" StuffAmount="1" devName="6성 아린" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Syana_G4" templateId="1155">
+    <Reward StuffType="Hero" StuffId="Syana_G4" StuffAmount="1" devName="4성 샤나" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Syana_G5" templateId="1156">
+    <Reward StuffType="Hero" StuffId="Syana_G5" StuffAmount="1" devName="5성 샤나" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Syana_G6" templateId="1157">
+    <Reward StuffType="Hero" StuffId="Syana_G6" StuffAmount="1" devName="6성 샤나" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Ashu_G4" templateId="1158">
+    <Reward StuffType="Hero" StuffId="Ashu_G4" StuffAmount="1" devName="4성 앗슈" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Ashu_G5" templateId="1159">
+    <Reward StuffType="Hero" StuffId="Ashu_G5" StuffAmount="1" devName="5성 앗슈" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Ashu_G6" templateId="1160">
+    <Reward StuffType="Hero" StuffId="Ashu_G6" StuffAmount="1" devName="6성 앗슈" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Rimoo_G4" templateId="1161">
+    <Reward StuffType="Hero" StuffId="Rimoo_G4" StuffAmount="1" devName="4성 리무" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Rimoo_G5" templateId="1162">
+    <Reward StuffType="Hero" StuffId="Rimoo_G5" StuffAmount="1" devName="5성 리무" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Rimoo_G6" templateId="1163">
+    <Reward StuffType="Hero" StuffId="Rimoo_G6" StuffAmount="1" devName="6성 리무" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Saion_G4" templateId="1164">
+    <Reward StuffType="Hero" StuffId="Saion_G4" StuffAmount="1" devName="4성 사이온" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Saion_G5" templateId="1165">
+    <Reward StuffType="Hero" StuffId="Saion_G5" StuffAmount="1" devName="5성 사이온" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Saion_G6" templateId="1166">
+    <Reward StuffType="Hero" StuffId="Saion_G6" StuffAmount="1" devName="6성 사이온" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Marugan_G4" templateId="1167">
+    <Reward StuffType="Hero" StuffId="Marugan_G4" StuffAmount="1" devName="4성 마루간" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Marugan_G5" templateId="1168">
+    <Reward StuffType="Hero" StuffId="Marugan_G5" StuffAmount="1" devName="5성 마루간" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Marugan_G6" templateId="1169">
+    <Reward StuffType="Hero" StuffId="Marugan_G6" StuffAmount="1" devName="6성 마루간" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Esta_G4" templateId="1170">
+    <Reward StuffType="Hero" StuffId="Esta_G4" StuffAmount="1" devName="4성 에스타" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Esta_G5" templateId="1171">
+    <Reward StuffType="Hero" StuffId="Esta_G5" StuffAmount="1" devName="5성 에스타" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Esta_G6" templateId="1172">
+    <Reward StuffType="Hero" StuffId="Esta_G6" StuffAmount="1" devName="6성 에스타" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Frey_G4" templateId="1173">
+    <Reward StuffType="Hero" StuffId="Frey_G4" StuffAmount="1" devName="4성 프레이" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Frey_G5" templateId="1174">
+    <Reward StuffType="Hero" StuffId="Frey_G5" StuffAmount="1" devName="5성 프레이" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Frey_G6" templateId="1175">
+    <Reward StuffType="Hero" StuffId="Frey_G6" StuffAmount="1" devName="6성 프레이" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Pyran_G4" templateId="1176">
+    <Reward StuffType="Hero" StuffId="Pyran_G4" StuffAmount="1" devName="4성 파이란" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Pyran_G5" templateId="1177">
+    <Reward StuffType="Hero" StuffId="Pyran_G5" StuffAmount="1" devName="5성 파이란" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Pyran_G6" templateId="1178">
+    <Reward StuffType="Hero" StuffId="Pyran_G6" StuffAmount="1" devName="6성 파이란" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Kirr_G4" templateId="1179">
+    <Reward StuffType="Hero" StuffId="Kirr_G4" StuffAmount="1" devName="4성 키르" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Kirr_G5" templateId="1180">
+    <Reward StuffType="Hero" StuffId="Kirr_G5" StuffAmount="1" devName="5성 키르" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Kirr_G6" templateId="1181">
+    <Reward StuffType="Hero" StuffId="Kirr_G6" StuffAmount="1" devName="6성 키르" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Seris_G4" templateId="1182">
+    <Reward StuffType="Hero" StuffId="Seris_G4" StuffAmount="1" devName="4성 세리스" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Seris_G5" templateId="1183">
+    <Reward StuffType="Hero" StuffId="Seris_G5" StuffAmount="1" devName="5성 세리스" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Seris_G6" templateId="1184">
+    <Reward StuffType="Hero" StuffId="Seris_G6" StuffAmount="1" devName="6성 세리스" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Hestia_G4" templateId="1185">
+    <Reward StuffType="Hero" StuffId="Hestia_G4" StuffAmount="1" devName="4성 헤스티아" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Hestia_G5" templateId="1186">
+    <Reward StuffType="Hero" StuffId="Hestia_G5" StuffAmount="1" devName="5성 헤스티아" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Hestia_G6" templateId="1187">
+    <Reward StuffType="Hero" StuffId="Hestia_G6" StuffAmount="1" devName="6성 헤스티아" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Gleck_G4" templateId="1188">
+    <Reward StuffType="Hero" StuffId="Gleck_G4" StuffAmount="1" devName="4성 글렉" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Gleck_G5" templateId="1189">
+    <Reward StuffType="Hero" StuffId="Gleck_G5" StuffAmount="1" devName="5성 글렉" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Gleck_G6" templateId="1190">
+    <Reward StuffType="Hero" StuffId="Gleck_G6" StuffAmount="1" devName="6성 글렉" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Nosa_G4" templateId="1191">
+    <Reward StuffType="Hero" StuffId="Nosa_G4" StuffAmount="1" devName="4성 노사" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Nosa_G5" templateId="1192">
+    <Reward StuffType="Hero" StuffId="Nosa_G5" StuffAmount="1" devName="5성 노사" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Nosa_G6" templateId="1193">
+    <Reward StuffType="Hero" StuffId="Nosa_G6" StuffAmount="1" devName="6성 노사" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Rairee_G4" templateId="1194">
+    <Reward StuffType="Hero" StuffId="Rairee_G4" StuffAmount="1" devName="4성 라이리" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Rairee_G5" templateId="1195">
+    <Reward StuffType="Hero" StuffId="Rairee_G5" StuffAmount="1" devName="5성 라이리" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Rairee_G6" templateId="1196">
+    <Reward StuffType="Hero" StuffId="Rairee_G6" StuffAmount="1" devName="6성 라이리" />
+  </MailReward>
+  <MailReward id="mailReward_CS_MoonShadow_G4" templateId="1197">
+    <Reward StuffType="Hero" StuffId="MoonShadow_G4" StuffAmount="1" devName="4성 월영" />
+  </MailReward>
+  <MailReward id="mailReward_CS_MoonShadow_G5" templateId="1198">
+    <Reward StuffType="Hero" StuffId="MoonShadow_G5" StuffAmount="1" devName="5성 월영" />
+  </MailReward>
+  <MailReward id="mailReward_CS_MoonShadow_G6" templateId="1199">
+    <Reward StuffType="Hero" StuffId="MoonShadow_G6" StuffAmount="1" devName="6성 월영" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Blossom_G4" templateId="1200">
+    <Reward StuffType="Hero" StuffId="Blossom_G4" StuffAmount="1" devName="4성 블로섬" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Blossom_G5" templateId="1201">
+    <Reward StuffType="Hero" StuffId="Blossom_G5" StuffAmount="1" devName="5성 블로섬" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Blossom_G6" templateId="1202">
+    <Reward StuffType="Hero" StuffId="Blossom_G6" StuffAmount="1" devName="6성 블로섬" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Hope_G4" templateId="1203">
+    <Reward StuffType="Hero" StuffId="Hope_G4" StuffAmount="1" devName="4성 호프" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Hope_G5" templateId="1204">
+    <Reward StuffType="Hero" StuffId="Hope_G5" StuffAmount="1" devName="5성 호프" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Hope_G6" templateId="1205">
+    <Reward StuffType="Hero" StuffId="Hope_G6" StuffAmount="1" devName="6성 호프" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Nat_G4" templateId="1206">
+    <Reward StuffType="Hero" StuffId="Nat_G4" StuffAmount="1" devName="4성 나트" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Nat_G5" templateId="1207">
+    <Reward StuffType="Hero" StuffId="Nat_G5" StuffAmount="1" devName="5성 나트" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Nat_G6" templateId="1208">
+    <Reward StuffType="Hero" StuffId="Nat_G6" StuffAmount="1" devName="6성 나트" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Miach_G4" templateId="1209">
+    <Reward StuffType="Hero" StuffId="Miach_G4" StuffAmount="1" devName="4성 마이아크" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Miach_G5" templateId="1210">
+    <Reward StuffType="Hero" StuffId="Miach_G5" StuffAmount="1" devName="5성 마이아크" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Miach_G6" templateId="1211">
+    <Reward StuffType="Hero" StuffId="Miach_G6" StuffAmount="1" devName="6성 마이아크" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Reiz_G4" templateId="1212">
+    <Reward StuffType="Hero" StuffId="Reiz_G4" StuffAmount="1" devName="4성 레이즈" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Reiz_G5" templateId="1213">
+    <Reward StuffType="Hero" StuffId="Reiz_G5" StuffAmount="1" devName="5성 레이즈" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Reiz_G6" templateId="1214">
+    <Reward StuffType="Hero" StuffId="Reiz_G6" StuffAmount="1" devName="6성 레이즈" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Stona_G4" templateId="1215">
+    <Reward StuffType="Hero" StuffId="Stona_G4" StuffAmount="1" devName="4성 스토나" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Stona_G5" templateId="1216">
+    <Reward StuffType="Hero" StuffId="Stona_G5" StuffAmount="1" devName="5성 스토나" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Stona_G6" templateId="1217">
+    <Reward StuffType="Hero" StuffId="Stona_G6" StuffAmount="1" devName="6성 스토나" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Wiglaf_G4" templateId="1218">
+    <Reward StuffType="Hero" StuffId="Wiglaf_G4" StuffAmount="1" devName="4성 위그라프" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Wiglaf_G5" templateId="1219">
+    <Reward StuffType="Hero" StuffId="Wiglaf_G5" StuffAmount="1" devName="5성 위그라프" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Wiglaf_G6" templateId="1220">
+    <Reward StuffType="Hero" StuffId="Wiglaf_G6" StuffAmount="1" devName="6성 위그라프" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Daphne_G4" templateId="1221">
+    <Reward StuffType="Hero" StuffId="Daphne_G4" StuffAmount="1" devName="4성 다프네" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Daphne_G5" templateId="1222">
+    <Reward StuffType="Hero" StuffId="Daphne_G5" StuffAmount="1" devName="5성 다프네" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Daphne_G6" templateId="1223">
+    <Reward StuffType="Hero" StuffId="Daphne_G6" StuffAmount="1" devName="6성 다프네" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Bati_G4" templateId="1224">
+    <Reward StuffType="Hero" StuffId="Bati_G4" StuffAmount="1" devName="4성 바티" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Bati_G5" templateId="1225">
+    <Reward StuffType="Hero" StuffId="Bati_G5" StuffAmount="1" devName="5성 바티" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Bati_G6" templateId="1226">
+    <Reward StuffType="Hero" StuffId="Bati_G6" StuffAmount="1" devName="6성 바티" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Elizabeth_G4" templateId="1227">
+    <Reward StuffType="Hero" StuffId="Elizabeth_G4" StuffAmount="1" devName="4성 엘리자베스" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Elizabeth_G5" templateId="1228">
+    <Reward StuffType="Hero" StuffId="Elizabeth_G5" StuffAmount="1" devName="5성 엘리자베스" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Elizabeth_G6" templateId="1229">
+    <Reward StuffType="Hero" StuffId="Elizabeth_G6" StuffAmount="1" devName="6성 엘리자베스" />
+  </MailReward>
+  <MailReward id="mailReward_CS_ElderBanshee_G4" templateId="1230">
+    <Reward StuffType="Hero" StuffId="ElderBanshee_G4" StuffAmount="1" devName="4성 엘더벤시" />
+  </MailReward>
+  <MailReward id="mailReward_CS_ElderBanshee_G5" templateId="1231">
+    <Reward StuffType="Hero" StuffId="ElderBanshee_G5" StuffAmount="1" devName="5성 엘더벤시" />
+  </MailReward>
+  <MailReward id="mailReward_CS_ElderBanshee_G6" templateId="1232">
+    <Reward StuffType="Hero" StuffId="ElderBanshee_G6" StuffAmount="1" devName="6성 엘더벤시" />
+  </MailReward>
+  <MailReward id="mailReward_CS_HolyGhost_G4" templateId="1233">
+    <Reward StuffType="Hero" StuffId="HolyGhost_G4" StuffAmount="1" devName="4성 홀리고스트" />
+  </MailReward>
+  <MailReward id="mailReward_CS_HolyGhost_G5" templateId="1234">
+    <Reward StuffType="Hero" StuffId="HolyGhost_G5" StuffAmount="1" devName="5성 홀리고스트" />
+  </MailReward>
+  <MailReward id="mailReward_CS_HolyGhost_G6" templateId="1235">
+    <Reward StuffType="Hero" StuffId="HolyGhost_G6" StuffAmount="1" devName="6성 홀리고스트" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Harima_G4" templateId="1236">
+    <Reward StuffType="Hero" StuffId="Harima_G4" StuffAmount="1" devName="4성 하리마" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Harima_G5" templateId="1237">
+    <Reward StuffType="Hero" StuffId="Harima_G5" StuffAmount="1" devName="5성 하리마" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Harima_G6" templateId="1238">
+    <Reward StuffType="Hero" StuffId="Harima_G6" StuffAmount="1" devName="6성 하리마" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Alcon_G4" templateId="1239">
+    <Reward StuffType="Hero" StuffId="Alcon_G4" StuffAmount="1" devName="4성 알콘" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Alcon_G5" templateId="1240">
+    <Reward StuffType="Hero" StuffId="Alcon_G5" StuffAmount="1" devName="5성 알콘" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Alcon_G6" templateId="1241">
+    <Reward StuffType="Hero" StuffId="Alcon_G6" StuffAmount="1" devName="6성 알콘" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Machaon_G4" templateId="1242">
+    <Reward StuffType="Hero" StuffId="Machaon_G4" StuffAmount="1" devName="4성 마카온" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Machaon_G5" templateId="1243">
+    <Reward StuffType="Hero" StuffId="Machaon_G5" StuffAmount="1" devName="5성 마카온" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Machaon_G6" templateId="1244">
+    <Reward StuffType="Hero" StuffId="Machaon_G6" StuffAmount="1" devName="6성 마카온" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Surt_G4" templateId="1245">
+    <Reward StuffType="Hero" StuffId="Surt_G4" StuffAmount="1" devName="4성 수르트" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Surt_G5" templateId="1246">
+    <Reward StuffType="Hero" StuffId="Surt_G5" StuffAmount="1" devName="5성 수르트" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Surt_G6" templateId="1247">
+    <Reward StuffType="Hero" StuffId="Surt_G6" StuffAmount="1" devName="6성 수르트" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Niflheim_G4" templateId="1248">
+    <Reward StuffType="Hero" StuffId="Niflheim_G4" StuffAmount="1" devName="4성 니블헤임" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Niflheim_G5" templateId="1249">
+    <Reward StuffType="Hero" StuffId="Niflheim_G5" StuffAmount="1" devName="5성 니블헤임" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Niflheim_G6" templateId="1250">
+    <Reward StuffType="Hero" StuffId="Niflheim_G6" StuffAmount="1" devName="6성 니블헤임" />
+  </MailReward>
+  <MailReward id="mailReward_CS_DarkHell_G4" templateId="1251">
+    <Reward StuffType="Hero" StuffId="DarkHell_G4" StuffAmount="1" devName="4성 다크헬" />
+  </MailReward>
+  <MailReward id="mailReward_CS_DarkHell_G5" templateId="1252">
+    <Reward StuffType="Hero" StuffId="DarkHell_G5" StuffAmount="1" devName="5성 다크헬" />
+  </MailReward>
+  <MailReward id="mailReward_CS_DarkHell_G6" templateId="1253">
+    <Reward StuffType="Hero" StuffId="DarkHell_G6" StuffAmount="1" devName="6성 다크헬" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Ratatos_G4" templateId="1254">
+    <Reward StuffType="Hero" StuffId="Ratatos_G4" StuffAmount="1" devName="4성 라타토스" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Ratatos_G5" templateId="1255">
+    <Reward StuffType="Hero" StuffId="Ratatos_G5" StuffAmount="1" devName="5성 라타토스" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Ratatos_G6" templateId="1256">
+    <Reward StuffType="Hero" StuffId="Ratatos_G6" StuffAmount="1" devName="6성 라타토스" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Ratatos2_G4" templateId="1257">
+    <Reward StuffType="Hero" StuffId="Ratatos2_G4" StuffAmount="1" devName="4성 라타토스2" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Ratatos2_G5" templateId="1258">
+    <Reward StuffType="Hero" StuffId="Ratatos2_G5" StuffAmount="1" devName="5성 라타토스2" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Ratatos2_G6" templateId="1259">
+    <Reward StuffType="Hero" StuffId="Ratatos2_G6" StuffAmount="1" devName="6성 라타토스2" />
+  </MailReward>
+  <MailReward id="mailReward_CS_ShiningGolem_G4" templateId="1260">
+    <Reward StuffType="Hero" StuffId="ShiningGolem_G4" StuffAmount="1" devName="4성 샤이닝골렘" />
+  </MailReward>
+  <MailReward id="mailReward_CS_ShiningGolem_G5" templateId="1261">
+    <Reward StuffType="Hero" StuffId="ShiningGolem_G5" StuffAmount="1" devName="5성 샤이닝골렘" />
+  </MailReward>
+  <MailReward id="mailReward_CS_ShiningGolem_G6" templateId="1262">
+    <Reward StuffType="Hero" StuffId="ShiningGolem_G6" StuffAmount="1" devName="6성 샤이닝골렘" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Gigamachina_G4" templateId="1263">
+    <Reward StuffType="Hero" StuffId="Gigamachina_G4" StuffAmount="1" devName="4성 기가마키나" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Gigamachina_G5" templateId="1264">
+    <Reward StuffType="Hero" StuffId="Gigamachina_G5" StuffAmount="1" devName="5성 기가마키나" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Gigamachina_G6" templateId="1265">
+    <Reward StuffType="Hero" StuffId="Gigamachina_G6" StuffAmount="1" devName="6성 기가마키나" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Redmachina_G4" templateId="1266">
+    <Reward StuffType="Hero" StuffId="Redmachina_G4" StuffAmount="1" devName="4성 레드마키나" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Redmachina_G5" templateId="1267">
+    <Reward StuffType="Hero" StuffId="Redmachina_G5" StuffAmount="1" devName="5성 레드마키나" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Redmachina_G6" templateId="1268">
+    <Reward StuffType="Hero" StuffId="Redmachina_G6" StuffAmount="1" devName="6성 레드마키나" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Teramachina_G4" templateId="1269">
+    <Reward StuffType="Hero" StuffId="Teramachina_G4" StuffAmount="1" devName="4성 테라마키나" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Teramachina_G5" templateId="1270">
+    <Reward StuffType="Hero" StuffId="Teramachina_G5" StuffAmount="1" devName="5성 테라마키나" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Teramachina_G6" templateId="1271">
+    <Reward StuffType="Hero" StuffId="Teramachina_G6" StuffAmount="1" devName="6성 테라마키나" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Brunhild_G4" templateId="1272">
+    <Reward StuffType="Hero" StuffId="Brunhild_G4" StuffAmount="1" devName="4성 브룬힐드" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Brunhild_G5" templateId="1273">
+    <Reward StuffType="Hero" StuffId="Brunhild_G5" StuffAmount="1" devName="5성 브룬힐드" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Brunhild_G6" templateId="1274">
+    <Reward StuffType="Hero" StuffId="Brunhild_G6" StuffAmount="1" devName="6성 브룬힐드" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Victoria_G4" templateId="1275">
+    <Reward StuffType="Hero" StuffId="Victoria_G4" StuffAmount="1" devName="4성 빅토리아" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Victoria_G5" templateId="1276">
+    <Reward StuffType="Hero" StuffId="Victoria_G5" StuffAmount="1" devName="5성 빅토리아" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Victoria_G6" templateId="1277">
+    <Reward StuffType="Hero" StuffId="Victoria_G6" StuffAmount="1" devName="6성 빅토리아" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Amati_G4" templateId="1278">
+    <Reward StuffType="Hero" StuffId="Amati_G4" StuffAmount="1" devName="4성 아마티" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Amati_G5" templateId="1279">
+    <Reward StuffType="Hero" StuffId="Amati_G5" StuffAmount="1" devName="5성 아마티" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Amati_G6" templateId="1280">
+    <Reward StuffType="Hero" StuffId="Amati_G6" StuffAmount="1" devName="6성 아마티" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Rion_G4" templateId="1281">
+    <Reward StuffType="Hero" StuffId="Rion_G4" StuffAmount="1" devName="4성 리온" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Rion_G5" templateId="1282">
+    <Reward StuffType="Hero" StuffId="Rion_G5" StuffAmount="1" devName="5성 리온" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Rion_G6" templateId="1283">
+    <Reward StuffType="Hero" StuffId="Rion_G6" StuffAmount="1" devName="6성 리온" />
+  </MailReward>
+  <MailReward id="mailReward_CS_DancingFairy_G1" templateId="1284">
+    <Reward StuffType="Hero" StuffId="DancingFairy_G1" StuffAmount="1" devName="1성 성장의 빛" />
+  </MailReward>
+  <MailReward id="mailReward_CS_DancingFairy_G2" templateId="1285">
+    <Reward StuffType="Hero" StuffId="DancingFairy_G2" StuffAmount="1" devName="2성 성장의 빛" />
+  </MailReward>
+  <MailReward id="mailReward_CS_DancingFairy_G3" templateId="1286">
+    <Reward StuffType="Hero" StuffId="DancingFairy_G3" StuffAmount="1" devName="3성 성장의 빛" />
+  </MailReward>
+  <MailReward id="mailReward_CS_DancingFairy_G4" templateId="1287">
+    <Reward StuffType="Hero" StuffId="DancingFairy_G4" StuffAmount="1" devName="4성 성장의 빛" />
+  </MailReward>
+  <MailReward id="mailReward_CS_DancingFairy_G5" templateId="1288">
+    <Reward StuffType="Hero" StuffId="DancingFairy_G5" StuffAmount="1" devName="5성 성장의 빛" />
+  </MailReward>
+  <MailReward id="mailReward_CS_DancingFairy_G6" templateId="1289">
+    <Reward StuffType="Hero" StuffId="DancingFairy_G6" StuffAmount="1" devName="6성 성장의 빛" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Airship_Reward_Weapon_R04" templateId="1290">
+    <Reward StuffType="Gacha" StuffId="Airship_Reward_Weapon_R04" StuffAmount="1" devName="4등급 무기 상자" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Airship_Reward_Armor_R04" templateId="1291">
+    <Reward StuffType="Gacha" StuffId="Airship_Reward_Armor_R04" StuffAmount="1" devName="4등급 방어구 상자" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Airship_Reward_Weapon_R05" templateId="1292">
+    <Reward StuffType="Gacha" StuffId="Airship_Reward_Weapon_R05" StuffAmount="1" devName="5등급 무기 상자" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Airship_Reward_Armor_R05" templateId="1293">
+    <Reward StuffType="Gacha" StuffId="Airship_Reward_Armor_R05" StuffAmount="1" devName="5등급 갑옷 상자" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Airship_Reward_Weapon_R02" templateId="1294">
+    <Reward StuffType="Gacha" StuffId="Airship_Reward_Weapon_R02" StuffAmount="1" devName="A급 2단계 무기" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Airship_Reward_Armor_R02" templateId="1295">
+    <Reward StuffType="Gacha" StuffId="Airship_Reward_Armor_R02" StuffAmount="1" devName="A급 2단계 방어구" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Airship_Reward_Weapon_R03" templateId="1296">
+    <Reward StuffType="Gacha" StuffId="Airship_Reward_Weapon_R03" StuffAmount="1" devName="A급 3단계 무기" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Airship_Reward_Armor_R03" templateId="1297">
+    <Reward StuffType="Gacha" StuffId="Airship_Reward_Armor_R03" StuffAmount="1" devName="A급 3단계 방어구" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Airship_Reward_Armor_R06" templateId="1298">
+    <Reward StuffType="Gacha" StuffId="Airship_Reward_Armor_R06" StuffAmount="1" devName="A급 6단계 방어구" />
+  </MailReward>
+  <MailReward id="mailReward_CS_L_Weapon_R05_91_S" templateId="1299">
+    <Reward StuffType="Item" StuffId="L_Weapon_R05_91_S" StuffAmount="1" devName="5성 성장의 무기" />
+  </MailReward>
+  <MailReward id="mailReward_CS_L_Weapon_R04_91_S" templateId="1300">
+    <Reward StuffType="Item" StuffId="L_Weapon_R04_91_S" StuffAmount="1" devName="4성 성장의 무기" />
+  </MailReward>
+  <MailReward id="mailReward_CS_L_Weapon_R03_91_S" templateId="1301">
+    <Reward StuffType="Item" StuffId="L_Weapon_R03_91_S" StuffAmount="1" devName="3성 성장의 무기" />
+  </MailReward>
+  <MailReward id="mailReward_CS_L_Weapon_R02_91_S" templateId="1302">
+    <Reward StuffType="Item" StuffId="L_Weapon_R02_91_S" StuffAmount="1" devName="2성 성장의 무기" />
+  </MailReward>
+  <MailReward id="mailReward_CS_L_Weapon_R01_91_S" templateId="1303">
+    <Reward StuffType="Item" StuffId="L_Weapon_R01_91_S" StuffAmount="1" devName="1성 성장의 무기" />
+  </MailReward>
+  <MailReward id="mailReward_CS_L_Mail_R05_91_S" templateId="1304">
+    <Reward StuffType="Item" StuffId="L_Mail_R05_91_S" StuffAmount="1" devName="5성 성장의 방패" />
+  </MailReward>
+  <MailReward id="mailReward_CS_L_Mail_R04_91_S" templateId="1305">
+    <Reward StuffType="Item" StuffId="L_Mail_R04_91_S" StuffAmount="1" devName="4성 성장의 방패" />
+  </MailReward>
+  <MailReward id="mailReward_CS_L_Mail_R03_91_S" templateId="1306">
+    <Reward StuffType="Item" StuffId="L_Mail_R03_91_S" StuffAmount="1" devName="3성 성장의 방패" />
+  </MailReward>
+  <MailReward id="mailReward_CS_L_Mail_R02_91_S" templateId="1307">
+    <Reward StuffType="Item" StuffId="L_Mail_R02_91_S" StuffAmount="1" devName="2성 성장의 방패" />
+  </MailReward>
+  <MailReward id="mailReward_CS_L_Mail_R01_91_S" templateId="1308">
+    <Reward StuffType="Item" StuffId="L_Mail_R01_91_S" StuffAmount="1" devName="1성 성장의 방패" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Material_TankerEvolve_G3_5" templateId="1309">
+    <Reward StuffType="Item" StuffId="Material_TankerEvolve_G3" StuffAmount="5" devName="3성 수호의 원천 5" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Material_TankerEvolve_G3_10" templateId="1310">
+    <Reward StuffType="Item" StuffId="Material_TankerEvolve_G3" StuffAmount="10" devName="3성 수호의 원천 10" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Material_TankerEvolve_G4_5" templateId="1311">
+    <Reward StuffType="Item" StuffId="Material_TankerEvolve_G4" StuffAmount="5" devName="4성 수호의 원천 5" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Material_TankerEvolve_G4_10" templateId="1312">
+    <Reward StuffType="Item" StuffId="Material_TankerEvolve_G4" StuffAmount="10" devName="4성 수호의 원천 10" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Material_TankerEvolve_G5_5" templateId="1313">
+    <Reward StuffType="Item" StuffId="Material_TankerEvolve_G5" StuffAmount="5" devName="5성 수호의 원천 5" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Material_TankerEvolve_G5_10" templateId="1314">
+    <Reward StuffType="Item" StuffId="Material_TankerEvolve_G5" StuffAmount="10" devName="5성 수호의 원천 10" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Material_FighterEvolve_G3_5" templateId="1315">
+    <Reward StuffType="Item" StuffId="Material_FighterEvolve_G3" StuffAmount="5" devName="3성 용기의 원천 5" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Material_FighterEvolve_G3_10" templateId="1316">
+    <Reward StuffType="Item" StuffId="Material_FighterEvolve_G3" StuffAmount="10" devName="3성 용기의 원천 10" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Material_FighterEvolve_G4_5" templateId="1317">
+    <Reward StuffType="Item" StuffId="Material_FighterEvolve_G4" StuffAmount="5" devName="4성 용기의 원천 5" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Material_FighterEvolve_G4_10" templateId="1318">
+    <Reward StuffType="Item" StuffId="Material_FighterEvolve_G4" StuffAmount="10" devName="4성 용기의 원천 10" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Material_FighterEvolve_G5_5" templateId="1319">
+    <Reward StuffType="Item" StuffId="Material_FighterEvolve_G5" StuffAmount="5" devName="5성 용기의 원천 5" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Material_FighterEvolve_G5_10" templateId="1320">
+    <Reward StuffType="Item" StuffId="Material_FighterEvolve_G5" StuffAmount="10" devName="5성 용기의 원천 10" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Material_MageEvolve_G3_5" templateId="1321">
+    <Reward StuffType="Item" StuffId="Material_MageEvolve_G3" StuffAmount="5" devName="3성 진리의 원천 5" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Material_MageEvolve_G3_10" templateId="1322">
+    <Reward StuffType="Item" StuffId="Material_MageEvolve_G3" StuffAmount="10" devName="3성 진리의 원천 10" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Material_MageEvolve_G4_5" templateId="1323">
+    <Reward StuffType="Item" StuffId="Material_MageEvolve_G4" StuffAmount="5" devName="4성 진리의 원천 5" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Material_MageEvolve_G4_10" templateId="1324">
+    <Reward StuffType="Item" StuffId="Material_MageEvolve_G4" StuffAmount="10" devName="4성 진리의 원천 10" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Material_MageEvolve_G5_5" templateId="1325">
+    <Reward StuffType="Item" StuffId="Material_MageEvolve_G5" StuffAmount="5" devName="5성 진리의 원천 5" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Material_MageEvolve_G5_10" templateId="1326">
+    <Reward StuffType="Item" StuffId="Material_MageEvolve_G5" StuffAmount="10" devName="5성 진리의 원천 10" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Material_RangerEvolve_G3_5" templateId="1327">
+    <Reward StuffType="Item" StuffId="Material_RangerEvolve_G3" StuffAmount="5" devName="3성 신속의 원천 5" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Material_RangerEvolve_G3_10" templateId="1328">
+    <Reward StuffType="Item" StuffId="Material_RangerEvolve_G3" StuffAmount="10" devName="3성 신속의 원천 10" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Material_RangerEvolve_G4_5" templateId="1329">
+    <Reward StuffType="Item" StuffId="Material_RangerEvolve_G4" StuffAmount="5" devName="4성 신속의 원천 5" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Material_RangerEvolve_G5_10" templateId="1330">
+    <Reward StuffType="Item" StuffId="Material_RangerEvolve_G5" StuffAmount="10" devName="5성 신속의 원천 10" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Material_SupporterEvolve_G3_5" templateId="1331">
+    <Reward StuffType="Item" StuffId="Material_SupporterEvolve_G3" StuffAmount="5" devName="3성 생명의 원천 5" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Material_SupporterEvolve_G3_10" templateId="1332">
+    <Reward StuffType="Item" StuffId="Material_SupporterEvolve_G3" StuffAmount="10" devName="3성 생명의 원천 10" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Material_SupporterEvolve_G4_5" templateId="1333">
+    <Reward StuffType="Item" StuffId="Material_SupporterEvolve_G4" StuffAmount="5" devName="4성 생명의 원천 5" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Material_SupporterEvolve_G4_10" templateId="1334">
+    <Reward StuffType="Item" StuffId="Material_SupporterEvolve_G4" StuffAmount="10" devName="4성 생명의 원천 10" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Material_SupporterEvolve_G5_5" templateId="1335">
+    <Reward StuffType="Item" StuffId="Material_SupporterEvolve_G5" StuffAmount="5" devName="5성 생명의 원천 5" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Material_SupporterEvolve_G5_10" templateId="1336">
+    <Reward StuffType="Item" StuffId="Material_SupporterEvolve_G5" StuffAmount="10" devName="5성 생명의 원천 10" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Material_EvolveTypeA_G3_5" templateId="1337">
+    <Reward StuffType="Item" StuffId="Material_EvolveTypeA_G3" StuffAmount="5" devName="3성 브레이브 스톤 5" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Material_EvolveTypeA_G3_10" templateId="1338">
+    <Reward StuffType="Item" StuffId="Material_EvolveTypeA_G3" StuffAmount="10" devName="3성 브레이브 스톤 10" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Material_EvolveTypeA_G4_5" templateId="1339">
+    <Reward StuffType="Item" StuffId="Material_EvolveTypeA_G4" StuffAmount="5" devName="4성 브레이브 스톤 5" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Material_EvolveTypeA_G4_10" templateId="1340">
+    <Reward StuffType="Item" StuffId="Material_EvolveTypeA_G4" StuffAmount="10" devName="4성 브레이브 스톤 10" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Material_EvolveTypeA_G5_5" templateId="1341">
+    <Reward StuffType="Item" StuffId="Material_EvolveTypeA_G5" StuffAmount="5" devName="5성 브레이브 스톤 5" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Material_EvolveTypeA_G5_10" templateId="1342">
+    <Reward StuffType="Item" StuffId="Material_EvolveTypeA_G5" StuffAmount="10" devName="5성 브레이브 스톤 10" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Material_EvolveTypeB_G3_5" templateId="1343">
+    <Reward StuffType="Item" StuffId="Material_EvolveTypeB_G3" StuffAmount="5" devName="3성 위즈덤 스톤 5" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Material_EvolveTypeB_G3_10" templateId="1344">
+    <Reward StuffType="Item" StuffId="Material_EvolveTypeB_G3" StuffAmount="10" devName="3성 위즈덤 스톤 10" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Material_EvolveTypeB_G4_5" templateId="1345">
+    <Reward StuffType="Item" StuffId="Material_EvolveTypeB_G4" StuffAmount="5" devName="4성 위즈덤 스톤 5" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Material_EvolveTypeB_G4_10" templateId="1346">
+    <Reward StuffType="Item" StuffId="Material_EvolveTypeB_G4" StuffAmount="10" devName="4성 위즈덤 스톤 10" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Material_EvolveTypeB_G5_5" templateId="1347">
+    <Reward StuffType="Item" StuffId="Material_EvolveTypeB_G5" StuffAmount="5" devName="5성 위즈덤 스톤 5" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Material_EvolveTypeB_G5_10" templateId="1348">
+    <Reward StuffType="Item" StuffId="Material_EvolveTypeB_G5" StuffAmount="10" devName="5성 위즈덤 스톤 10" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Material_EvolveType0_G3_5" templateId="1349">
+    <Reward StuffType="Item" StuffId="Material_EvolveType0_G3" StuffAmount="5" devName="3성 빛의 결정 5" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Material_EvolveType0_G3_10" templateId="1350">
+    <Reward StuffType="Item" StuffId="Material_EvolveType0_G3" StuffAmount="10" devName="3성 빛의 결정 10" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Material_EvolveType0_G3_15" templateId="1351">
+    <Reward StuffType="Item" StuffId="Material_EvolveType0_G3" StuffAmount="15" devName="3성 빛의 결정 15" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Material_EvolveType0_G3_20" templateId="1352">
+    <Reward StuffType="Item" StuffId="Material_EvolveType0_G3" StuffAmount="20" devName="3성 빛의 결정 20" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Material_EvolveType0_G4_5" templateId="1353">
+    <Reward StuffType="Item" StuffId="Material_EvolveType0_G4" StuffAmount="5" devName="4성 빛의 결정 5" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Material_EvolveType0_G4_10" templateId="1354">
+    <Reward StuffType="Item" StuffId="Material_EvolveType0_G4" StuffAmount="10" devName="4성 빛의 결정 10" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Material_EvolveType0_G4_15" templateId="1355">
+    <Reward StuffType="Item" StuffId="Material_EvolveType0_G4" StuffAmount="15" devName="4성 빛의 결정 15" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Material_EvolveType0_G4_20" templateId="1356">
+    <Reward StuffType="Item" StuffId="Material_EvolveType0_G4" StuffAmount="20" devName="4성 빛의 결정 20" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Material_EvolveType0_G5_5" templateId="1357">
+    <Reward StuffType="Item" StuffId="Material_EvolveType0_G5" StuffAmount="5" devName="5성 빛의 결정 5" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Material_EvolveType0_G5_10" templateId="1358">
+    <Reward StuffType="Item" StuffId="Material_EvolveType0_G5" StuffAmount="10" devName="5성 빛의 결정 10" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Material_EvolveType0_G5_15" templateId="1359">
+    <Reward StuffType="Item" StuffId="Material_EvolveType0_G5" StuffAmount="15" devName="5성 빛의 결정 15" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Material_EvolveType0_G5_20" templateId="1360">
+    <Reward StuffType="Item" StuffId="Material_EvolveType0_G5" StuffAmount="20" devName="5성 빛의 결정 20" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Material_StatTraining_01_1" templateId="1361">
+    <Reward StuffType="Item" StuffId="Material_StatTraining_01" StuffAmount="1" devName="비전서 1" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Material_StatTraining_01_5" templateId="1362">
+    <Reward StuffType="Item" StuffId="Material_StatTraining_01" StuffAmount="5" devName="비전서 5" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Material_StatTraining_01_10" templateId="1363">
+    <Reward StuffType="Item" StuffId="Material_StatTraining_01" StuffAmount="10" devName="비전서 10" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Event_Hero_3to6_01_1" templateId="1364">
+    <Reward StuffType="Gacha" StuffId="Event_Hero_3to6_01" StuffAmount="1" devName="3~6성 프리미엄 영웅 소환권 1" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Event_Hero_3to6_01_2" templateId="1365">
+    <Reward StuffType="Gacha" StuffId="Event_Hero_3to6_01" StuffAmount="1" devName="3~6성 프리미엄 영웅 소환권 2" />
+    <Reward StuffType="Gacha" StuffId="Event_Hero_3to6_01" StuffAmount="1" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Event_Hero_3to6_01_3" templateId="1366">
+    <Reward StuffType="Gacha" StuffId="Event_Hero_3to6_01" StuffAmount="1" devName="3~6성 프리미엄 영웅 소환권 3" />
+    <Reward StuffType="Gacha" StuffId="Event_Hero_3to6_01" StuffAmount="1" />
+    <Reward StuffType="Gacha" StuffId="Event_Hero_3to6_01" StuffAmount="1" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Event_Hero_3to6_01_4" templateId="1367">
+    <Reward StuffType="Gacha" StuffId="Event_Hero_3to6_01" StuffAmount="1" devName="3~6성 프리미엄 영웅 소환권 4" />
+    <Reward StuffType="Gacha" StuffId="Event_Hero_3to6_01" StuffAmount="1" />
+    <Reward StuffType="Gacha" StuffId="Event_Hero_3to6_01" StuffAmount="1" />
+    <Reward StuffType="Gacha" StuffId="Event_Hero_3to6_01" StuffAmount="1" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Event_Hero_3to6_01_5" templateId="1368">
+    <Reward StuffType="Gacha" StuffId="Event_Hero_3to6_01" StuffAmount="1" devName="3~6성 프리미엄 영웅 소환권 5" />
+    <Reward StuffType="Gacha" StuffId="Event_Hero_3to6_01" StuffAmount="1" />
+    <Reward StuffType="Gacha" StuffId="Event_Hero_3to6_01" StuffAmount="1" />
+    <Reward StuffType="Gacha" StuffId="Event_Hero_3to6_01" StuffAmount="1" />
+    <Reward StuffType="Gacha" StuffId="Event_Hero_3to6_01" StuffAmount="1" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Event_Hero_4to6_01_1" templateId="1369">
+    <Reward StuffType="Gacha" StuffId="Event_Hero_4to6_01" StuffAmount="1" devName="4~6성 프리미엄 영웅 소환권 1" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Event_Hero_4to6_01_2" templateId="1370">
+    <Reward StuffType="Gacha" StuffId="Event_Hero_4to6_01" StuffAmount="1" devName="4~6성 프리미엄 영웅 소환권 2" />
+    <Reward StuffType="Gacha" StuffId="Event_Hero_4to6_01" StuffAmount="1" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Event_Hero_4to6_01_3" templateId="1371">
+    <Reward StuffType="Gacha" StuffId="Event_Hero_4to6_01" StuffAmount="1" devName="4~6성 프리미엄 영웅 소환권 3" />
+    <Reward StuffType="Gacha" StuffId="Event_Hero_4to6_01" StuffAmount="1" />
+    <Reward StuffType="Gacha" StuffId="Event_Hero_4to6_01" StuffAmount="1" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Event_Hero_4to6_01_4" templateId="1372">
+    <Reward StuffType="Gacha" StuffId="Event_Hero_4to6_01" StuffAmount="1" devName="4~6성 프리미엄 영웅 소환권 4" />
+    <Reward StuffType="Gacha" StuffId="Event_Hero_4to6_01" StuffAmount="1" />
+    <Reward StuffType="Gacha" StuffId="Event_Hero_4to6_01" StuffAmount="1" />
+    <Reward StuffType="Gacha" StuffId="Event_Hero_4to6_01" StuffAmount="1" />
+  </MailReward>
+  <MailReward id="mailReward_CS_Event_Hero_4to6_01_5" templateId="1373">
+    <Reward StuffType="Gacha" StuffId="Event_Hero_4to6_01" StuffAmount="1" devName="4~6성 프리미엄 영웅 소환권 5" />
+    <Reward StuffType="Gacha" StuffId="Event_Hero_4to6_01" StuffAmount="1" />
+    <Reward StuffType="Gacha" StuffId="Event_Hero_4to6_01" StuffAmount="1" />
+    <Reward StuffType="Gacha" StuffId="Event_Hero_4to6_01" StuffAmount="1" />
+    <Reward StuffType="Gacha" StuffId="Event_Hero_4to6_01" StuffAmount="1" />
+  </MailReward>
+  <MailReward id="mailReward_Community_Event_0001" templateId="1374">
+    <Reward StuffType="Currency" StuffId="Token_Adventure" StuffAmount="20" devName="20모험포인트" />
+  </MailReward>
+  <MailReward id="mailReward_Community_Event_0002" templateId="1375">
+    <Reward StuffType="Gacha" StuffId="Event_Hero_3to6_01" StuffAmount="1" devName="3~6성 프리미엄 영웅 소환권 1" />
+  </MailReward>
+  <MailReward id="mailReward_Community_Event_0003" templateId="1376">
+    <Reward StuffType="Currency" StuffId="Token_Adventure" StuffAmount="30" devName="30모험포인트" />
+    <Reward StuffType="Currency" StuffId="Gold" StuffAmount="10000" devName="10000골드" />
+    <Reward StuffType="Hero" StuffId="DancingFairy_G3" StuffAmount="1" devName="3성 성장의 빛 2" />
+    <Reward StuffType="Hero" StuffId="DancingFairy_G3" StuffAmount="1" />
+    <Reward StuffType="Gacha" StuffId="Event_Hero_3to6_01" StuffAmount="1" devName="3~6성 프리미엄 영웅 소환권 1" />
+  </MailReward>
+  <MailReward id="mailReward_Community_Event_0004" templateId="1377">
+    <Reward StuffType="Currency" StuffId="SemiGem" StuffAmount="3000" devName="3000큐브" />
+  </MailReward>
+  <MailReward id="mailReward_OnTime_Event_001" templateId="1378">
+    <Reward StuffType="Currency" StuffId="Token_Adventure" StuffAmount="30" devName="30모험포인트" />
+  </MailReward>
+  <MailReward id="mailReward_OnTime_Event_002" templateId="1379">
+    <Reward StuffType="Currency" StuffId="Token_Adventure" StuffAmount="30" devName="30모험포인트" />
+    <Reward StuffType="Currency" StuffId="Gold" StuffAmount="1000" devName="1000골드" />
+  </MailReward>
+  <MailReward id="mailReward_OnTime_Event_003" templateId="1380">
+    <Reward StuffType="Currency" StuffId="Token_Adventure" StuffAmount="50" devName="50모험포인트" />
+    <Reward StuffType="Currency" StuffId="Gold" StuffAmount="1000" devName="1000골드" />
+  </MailReward>
+  <MailReward id="mailReward_Community_Event_0005" templateId="1381">
+    <Reward StuffType="Currency" StuffId="Gem_Free" StuffAmount="50" devName="50젬" />
+  </MailReward>
+  <MailReward id="mailReward_Community_Event_0006" templateId="1382">
+    <Reward StuffType="Currency" StuffId="SemiGem" StuffAmount="1000" devName="1000큐브" />
+  </MailReward>
+  <MailReward id="mailReward_Community_Event_0007" templateId="1383">
+    <Reward StuffType="Gacha" StuffId="Event_Hero_3to6_01" StuffAmount="1" devName="3~6성 프리미엄 영웅 소환권 3" />
+    <Reward StuffType="Gacha" StuffId="Event_Hero_3to6_01" StuffAmount="1" />
+    <Reward StuffType="Gacha" StuffId="Event_Hero_3to6_01" StuffAmount="1" />
+  </MailReward>
+  <MailReward id="mailReward_Community_Event_0008" templateId="1384">
+    <Reward StuffType="Currency" StuffId="Gem_Free" StuffAmount="100" devName="100젬" />
+  </MailReward>
+  <MailReward id="mailReward_Community_Event_0009" templateId="1385">
+    <Reward StuffType="Currency" StuffId="Gem_Free" StuffAmount="100" devName="100젬" />
+  </MailReward>
+  <MailReward id="mailReward_Community_Event_0010" templateId="1386">
+    <Reward StuffType="Currency" StuffId="Gem_Free" StuffAmount="100" devName="100젬" />
+  </MailReward>
+  <MailReward id="mailReward_Community_Event_0011" templateId="1387">
+    <Reward StuffType="Currency" StuffId="Gem_Free" StuffAmount="300" devName="300젬" />
+  </MailReward>
+  <MailReward id="mailReward_Community_Event_0012" templateId="1388">
+    <Reward StuffType="Gacha" StuffId="Event_Hero_3to6_01" StuffAmount="1" devName="3~6성 프리미엄 영웅 소환권 3" />
+    <Reward StuffType="Gacha" StuffId="Event_Hero_3to6_01" StuffAmount="1" />
+    <Reward StuffType="Gacha" StuffId="Event_Hero_3to6_01" StuffAmount="1" />
+    <Reward StuffType="Currency" StuffId="Gold" StuffAmount="20000" devName="20000골드" />
+    <Reward StuffType="Currency" StuffId="Gem_Free" StuffAmount="100" devName="100젬" />
+  </MailReward>
+  <MailReward id="mailReward_Community_Event_0013" templateId="1389">
+    <Reward StuffType="Gacha" StuffId="Event_Hero_3to6_01" StuffAmount="1" devName="3~6성 프리미엄 영웅 소환권 2" />
+    <Reward StuffType="Gacha" StuffId="Event_Hero_3to6_01" StuffAmount="1" />
+    <Reward StuffType="Currency" StuffId="Gold" StuffAmount="10000" devName="10000골드" />
+    <Reward StuffType="Currency" StuffId="Gem_Free" StuffAmount="50" devName="50젬" />
+  </MailReward>
+  <MailReward id="mailReward_Community_Event_0014" templateId="1390">
+    <Reward StuffType="Gacha" StuffId="Event_Hero_3to6_01" StuffAmount="1" devName="3~6성 프리미엄 영웅 소환권 1" />
+    <Reward StuffType="Currency" StuffId="Gold" StuffAmount="5000" devName="5000골드" />
+    <Reward StuffType="Currency" StuffId="Gem_Free" StuffAmount="30" devName="30젬" />
+  </MailReward>
+  <MailReward id="mailReward_PreRegister01" templateId="1391">
+    <Reward StuffType="Currency" StuffId="SemiGem" StuffAmount="300" devName="사전예약 - 닉네임 선점 이벤트 보상" />
+  </MailReward>
+  <MailReward id="mailReward_PreRegister02" templateId="1392">
+    <Reward StuffType="Gacha" StuffId="Event_Hero_3to6_01" StuffAmount="1" devName="사전예약 - 길드 선점 이벤트 보상" />
+  </MailReward>
+</MailRewardData>

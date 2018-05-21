@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<StatSetting>
+  <GrowthByLevel>
+    <Stat type="MxHp" value="0.12" />
+    <Stat type="AtkP" value="0.056" />
+    <Stat type="DefP" value="0.034" />
+    <Stat type="PenI" value="0" />
+    <Stat type="PenR" value="0" />
+    <Stat type="ASpd" value="0" />
+    <Stat type="CriP" value="0" />
+    <Stat type="CrRP" value="0" />
+    <Stat type="CrDR" value="0" />
+    <Stat type="BlcP" value="0" />
+    <Stat type="CntP" value="0" />
+    <Stat type="AbnP" value="0" />
+    <Stat type="AbRP" value="0" />
+    <Stat type="Cool" value="0" />
+    <Stat type="Heal" value="0" />
+    <Stat type="HPow" value="0" />
+  </GrowthByLevel>
+  <GrowthByEnchant>
+    <Stat type="MxHp" value="0.5" />
+    <Stat type="AtkP" value="0.25" />
+    <Stat type="DefP" value="0.25" />
+    <Stat type="PenI" value="0" />
+    <Stat type="PenR" value="0" />
+    <Stat type="ASpd" value="0" />
+    <Stat type="CriP" value="0" />
+    <Stat type="CrRP" value="0" />
+    <Stat type="CrDR" value="0" />
+    <Stat type="BlcP" value="0" />
+    <Stat type="CntP" value="0" />
+    <Stat type="AbnP" value="0" />
+    <Stat type="AbRP" value="0" />
+    <Stat type="Cool" value="0" />
+    <Stat type="Heal" value="0" />
+    <Stat type="HPow" value="0" />
+  </GrowthByEnchant>
+  <GrowthByLimitBreak>
+    <Stat type="MxHp" value="0.36" />
+    <Stat type="AtkP" value="0.2" />
+    <Stat type="DefP" value="0.12" />
+    <Stat type="PenI" value="0" />
+    <Stat type="PenR" value="0" />
+    <Stat type="ASpd" value="0" />
+    <Stat type="CriP" value="0" />
+    <Stat type="CrRP" value="0" />
+    <Stat type="CrDR" value="0" />
+    <Stat type="BlcP" value="0" />
+    <Stat type="CntP" value="0" />
+    <Stat type="AbnP" value="0" />
+    <Stat type="AbRP" value="0" />
+    <Stat type="Cool" value="0" />
+    <Stat type="Heal" value="0" />
+    <Stat type="HPow" value="0" />
+  </GrowthByLimitBreak>
+  <StatTraining>
+    <Stat type="MxHp" value="0.068" />
+    <Stat type="AtkP" value="0.034" />
+    <Stat type="DefP" value="0.034" />
+    <Stat type="PenI" value="0" />
+    <Stat type="PenR" value="0" />
+    <Stat type="ASpd" value="0" />
+    <Stat type="CriP" value="0" />
+    <Stat type="CrRP" value="0" />
+    <Stat type="CrDR" value="0" />
+    <Stat type="BlcP" value="0" />
+    <Stat type="CntP" value="0" />
+    <Stat type="AbnP" value="0" />
+    <Stat type="AbRP" value="0" />
+    <Stat type="Cool" value="0" />
+    <Stat type="Heal" value="0" />
+    <Stat type="HPow" value="0" />
+  </StatTraining>
+  <StatTrainingByLimitBreak>
+    <Stat type="MxHp" value="0.24" />
+    <Stat type="AtkP" value="0.12" />
+    <Stat type="DefP" value="0.12" />
+    <Stat type="PenI" value="0" />
+    <Stat type="PenR" value="0" />
+    <Stat type="ASpd" value="0" />
+    <Stat type="CriP" value="0" />
+    <Stat type="CrRP" value="0" />
+    <Stat type="CrDR" value="0" />
+    <Stat type="BlcP" value="0" />
+    <Stat type="CntP" value="0" />
+    <Stat type="AbnP" value="0" />
+    <Stat type="AbRP" value="0" />
+    <Stat type="Cool" value="0" />
+    <Stat type="Heal" value="0" />
+    <Stat type="HPow" value="0" />
+  </StatTrainingByLimitBreak>
+  <StatLimits>
+    <Limit type="MxHp" minMulValue="0.5" maxMulValue="1.5" />
+    <Limit type="AtkP" minValue="1" minMulValue="0.5" maxMulValue="1.5" />
+    <Limit type="DefP" minValue="1" minMulValue="0.2" maxMulValue="2" />
+    <Limit type="ASpd" minValue="1" minMulValue="0.2" maxMulValue="2" />
+    <Limit type="PenI" minValue="0" maxValue="2000" />
+    <Limit type="PenR" minValue="0" maxValue="0.5" />
+    <Limit type="CriP" minValue="0" maxValue="0.6" />
+    <Limit type="CrRP" minValue="0" maxValue="0.3" />
+    <Limit type="CrDR" minValue="0" maxValue="3" />
+    <Limit type="BlcP" minValue="0" maxValue="0.5" />
+    <Limit type="CntP" minValue="0" maxValue="0.5" />
+    <Limit type="AbnP" minValue="-0.8" maxValue="0.8" />
+    <Limit type="AbRP" minValue="-0.8" maxValue="0.8" />
+    <Limit type="Cool" minValue="0" maxValue="0.25" />
+    <Limit type="Heal" minValue="0" maxValue="1.5" />
+    <Limit type="IDRR" minValue="0" maxValue="0.8" />
+    <Limit type="SklP" minValue="0.2" maxValue="5" />
+    <Limit type="HitP" minValue="0.2" maxValue="1" />
+    <Limit type="HPow" minValue="0.2" maxValue="2" />
+    <Limit type="RDRR" minValue="-0.8" maxValue="0.8" />
+    <Limit type="DmgR" minValue="-0.5" maxValue="0.5" />
+    <Limit type="DmdR" minValue="-0.5" maxValue="0.5" />
+  </StatLimits>
+</StatSetting>

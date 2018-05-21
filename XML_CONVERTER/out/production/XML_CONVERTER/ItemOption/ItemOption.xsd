@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="ItemOption">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" name="Option">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element minOccurs="0" name="Skill">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element maxOccurs="unbounded" name="SkillBalance">
+                      <xs:complexType>
+                        <xs:attribute name="maxLv" type="xs:unsignedByte" use="required" />
+                        <xs:attribute name="quality1" type="xs:string" use="required" />
+                        <xs:attribute name="quality2" type="xs:string" use="required" />
+                        <xs:attribute name="quality3" type="xs:string" use="required" />
+                        <xs:attribute name="quality4" type="xs:string" use="required" />
+                        <xs:attribute name="quality5" type="xs:string" use="required" />
+                        <xs:attribute name="quality6" type="xs:string" use="required" />
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element minOccurs="0" name="Stat">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element maxOccurs="unbounded" name="StatBalance">
+                      <xs:complexType>
+                        <xs:attribute name="maxLv" type="xs:unsignedByte" use="required" />
+                        <xs:attribute name="quality1" type="xs:decimal" use="required" />
+                        <xs:attribute name="quality2" type="xs:decimal" use="required" />
+                        <xs:attribute name="quality3" type="xs:decimal" use="required" />
+                        <xs:attribute name="quality4" type="xs:decimal" use="required" />
+                        <xs:attribute name="quality5" type="xs:decimal" use="required" />
+                        <xs:attribute name="quality6" type="xs:decimal" use="required" />
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                  <xs:attribute name="stat" type="xs:string" use="required" />
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+            <xs:attribute name="id" type="xs:string" use="required" />
+            <xs:attribute name="templateId" type="xs:unsignedInt" use="required" />
+            <xs:attribute name="devName" type="xs:string" use="required" />
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

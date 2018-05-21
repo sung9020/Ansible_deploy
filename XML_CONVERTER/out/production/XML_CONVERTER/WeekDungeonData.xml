@@ -1,0 +1,173 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<WeekDungeonData>
+  <CommonData openConditionId="WeekDungeon">
+    <EnterCost stuffType="Currency" stuffId="Token_Adventure" stuffAmount="0">
+      <InternalEnterCost stuffType="Currency" stuffId="Token_WeekDungeon" stuffAmount="1" />
+    </EnterCost>
+    <ContinueCost>
+      <Cost id="Easy" stuffType="Currency" stuffId="Gem_Free" stuffAmount="10" continueCountLimit="1" />
+      <Cost id="Normal" stuffType="Currency" stuffId="Gem_Free" stuffAmount="10" continueCountLimit="1" />
+      <Cost id="Hard" stuffType="Currency" stuffId="Gem_Free" stuffAmount="10" continueCountLimit="1" />
+      <Cost id="Extreme" stuffType="Currency" stuffId="Gem_Free" stuffAmount="10" continueCountLimit="1" />
+    </ContinueCost>
+    <AdditionalEnterCost stuffType="Currency" stuffId="Gem_Free" stuffAmount="50">
+      <InternalAdditionalEnterCost stuffType="Currency" stuffId="Token_WeekDungeon_Add" stuffAmount="1" />
+    </AdditionalEnterCost>
+  </CommonData>
+  <WeekDungeonInfo>
+    <WeekDungeon id="Monday" templateId="2300000" openConditionId="WeekDungeon_Monday" stageImage="/Game/UI/TEX/ArtBG/AdventureMap/Theme_02/Level_06_E01.Level_06_E01" entryScenario="CON_WD_Mon_Start_01" exitScenario="CON_WD_Mon_End_01">
+      <Difficulty templateId="2300001" id="Easy" battleLevelId="WeekDungeon_Monday_Easy">
+        <ClearReward prob="1" stuffType="item" stuffId="Material_TankerEvolve_G2" devName="탱커진화재료_2성" stuffAmount="3" />
+        <ClearReward prob="1" stuffType="item" stuffId="Material_EvolveTypeA_G2" devName="물리 진화재료" stuffAmount="3" />
+        <ClearReward prob="1" stuffType="item" stuffId="Material_EvolveType0_G2" devName="공용 진화재료" stuffAmount="4" />
+      </Difficulty>
+      <Difficulty templateId="2300101" id="Normal" battleLevelId="WeekDungeon_Monday_Normal">
+        <ClearReward prob="1" stuffType="item" stuffId="Material_TankerEvolve_G2" devName="탱커진화재료_3성" stuffAmount="8" />
+        <ClearReward prob="1" stuffType="item" stuffId="Material_EvolveTypeA_G2" devName="물리 진화재료" stuffAmount="8" />
+        <ClearReward prob="1" stuffType="item" stuffId="Material_EvolveType0_G3" devName="공용 진화재료" stuffAmount="4" />
+      </Difficulty>
+      <Difficulty templateId="2300201" id="Hard" battleLevelId="WeekDungeon_Monday_Hard">
+        <ClearReward prob="1" stuffType="item" stuffId="Material_TankerEvolve_G3" devName="탱커진화재료_3성" stuffAmount="3" />
+        <ClearReward prob="1" stuffType="item" stuffId="Material_EvolveTypeA_G3" devName="물리 진화재료" stuffAmount="3" />
+        <ClearReward prob="1" stuffType="item" stuffId="Material_EvolveType0_G3" devName="공용 진화재료" stuffAmount="4" />
+      </Difficulty>
+      <Difficulty templateId="2300301" id="Extreme" battleLevelId="WeekDungeon_Monday_Master">
+        <ClearReward prob="1" stuffType="item" stuffId="Material_TankerEvolve_G4" devName="탱커진화재료_4성" stuffAmount="1" />
+        <ClearReward prob="1" stuffType="item" stuffId="Material_EvolveTypeA_G4" devName="물리 진화재료" stuffAmount="1" />
+        <ClearReward prob="1" stuffType="item" stuffId="Material_EvolveType0_G4" devName="공용 진화재료" stuffAmount="2" />
+      </Difficulty>
+    </WeekDungeon>
+    <WeekDungeon id="Tuesday" templateId="2300010" openConditionId="WeekDungeon_Tuesday" stageImage="/Game/UI/TEX/ArtBG/AdventureMap/Theme_03/Theme03_BG_03.Theme03_BG_03" entryScenario="CON_WD_Tue_Start_01" exitScenario="CON_WD_Tue_End_01">
+      <Difficulty templateId="2300011" id="Easy" battleLevelId="WeekDungeon_Tuesday_Easy">
+        <ClearReward prob="1" stuffType="item" stuffId="Material_MageEvolve_G2" devName="메이지진화재료_2성" stuffAmount="3" />
+        <ClearReward prob="1" stuffType="item" stuffId="Material_EvolveTypeB_G2" devName="마법 진화재료" stuffAmount="3" />
+        <ClearReward prob="1" stuffType="item" stuffId="Material_EvolveType0_G2" devName="공용 진화재료" stuffAmount="4" />
+      </Difficulty>
+      <Difficulty templateId="2300111" id="Normal" battleLevelId="WeekDungeon_Tuesday_Normal">
+        <ClearReward prob="1" stuffType="item" stuffId="Material_MageEvolve_G2" devName="메이지진화재료_3성" stuffAmount="8" />
+        <ClearReward prob="1" stuffType="item" stuffId="Material_EvolveTypeB_G2" devName="마법 진화재료" stuffAmount="8" />
+        <ClearReward prob="1" stuffType="item" stuffId="Material_EvolveType0_G3" devName="공용 진화재료" stuffAmount="4" />
+      </Difficulty>
+      <Difficulty templateId="2300211" id="Hard" battleLevelId="WeekDungeon_Tuesday_Hard">
+        <ClearReward prob="1" stuffType="item" stuffId="Material_MageEvolve_G3" devName="메이지진화재료_3성" stuffAmount="3" />
+        <ClearReward prob="1" stuffType="item" stuffId="Material_EvolveTypeB_G3" devName="마법 진화재료" stuffAmount="3" />
+        <ClearReward prob="1" stuffType="item" stuffId="Material_EvolveType0_G3" devName="공용 진화재료" stuffAmount="4" />
+      </Difficulty>
+      <Difficulty templateId="2300311" id="Extreme" battleLevelId="WeekDungeon_Tuesday_Master">
+        <ClearReward prob="1" stuffType="item" stuffId="Material_MageEvolve_G4" devName="메이지진화재료_4성" stuffAmount="1" />
+        <ClearReward prob="1" stuffType="item" stuffId="Material_EvolveTypeB_G4" devName="마법 진화재료" stuffAmount="1" />
+        <ClearReward prob="1" stuffType="item" stuffId="Material_EvolveType0_G4" devName="공용 진화재료" stuffAmount="2" />
+      </Difficulty>
+    </WeekDungeon>
+    <WeekDungeon id="Wednesday" templateId="2300020" openConditionId="WeekDungeon_Wednesday" stageImage="/Game/UI/TEX/ArtBG/AdventureMap/Theme_03/Theme03_BG_01.Theme03_BG_01" entryScenario="CON_WD_Wed_Start_01" exitScenario="CON_WD_Wed_End_01">
+      <Difficulty templateId="2300021" id="Easy" battleLevelId="WeekDungeon_Wednesday_Easy">
+        <ClearReward prob="1" stuffType="item" stuffId="Material_FighterEvolve_G2" devName="파이터진화재료_2성" stuffAmount="3" />
+        <ClearReward prob="1" stuffType="item" stuffId="Material_EvolveTypeA_G2" devName="물리 진화재료" stuffAmount="3" />
+        <ClearReward prob="1" stuffType="item" stuffId="Material_EvolveType0_G2" devName="공용 진화재료" stuffAmount="4" />
+      </Difficulty>
+      <Difficulty templateId="2300121" id="Normal" battleLevelId="WeekDungeon_Wednesday_Normal">
+        <ClearReward prob="1" stuffType="item" stuffId="Material_FighterEvolve_G2" devName="파이터진화재료_3성" stuffAmount="8" />
+        <ClearReward prob="1" stuffType="item" stuffId="Material_EvolveTypeA_G2" devName="물리 진화재료" stuffAmount="8" />
+        <ClearReward prob="1" stuffType="item" stuffId="Material_EvolveType0_G3" devName="공용 진화재료" stuffAmount="4" />
+      </Difficulty>
+      <Difficulty templateId="2300221" id="Hard" battleLevelId="WeekDungeon_Wednesday_Hard">
+        <ClearReward prob="1" stuffType="item" stuffId="Material_FighterEvolve_G3" devName="파이터진화재료_3성" stuffAmount="3" />
+        <ClearReward prob="1" stuffType="item" stuffId="Material_EvolveTypeA_G3" devName="물리 진화재료" stuffAmount="3" />
+        <ClearReward prob="1" stuffType="item" stuffId="Material_EvolveType0_G3" devName="공용 진화재료" stuffAmount="4" />
+      </Difficulty>
+      <Difficulty templateId="2300321" id="Extreme" battleLevelId="WeekDungeon_Wednesday_Master">
+        <ClearReward prob="1" stuffType="item" stuffId="Material_FighterEvolve_G4" devName="파이터진화재료_4성" stuffAmount="1" />
+        <ClearReward prob="1" stuffType="item" stuffId="Material_EvolveTypeA_G4" devName="물리 진화재료" stuffAmount="1" />
+        <ClearReward prob="1" stuffType="item" stuffId="Material_EvolveType0_G4" devName="공용 진화재료" stuffAmount="2" />
+      </Difficulty>
+    </WeekDungeon>
+    <WeekDungeon id="Thursday" templateId="2300030" openConditionId="WeekDungeon_Thursday" stageImage="/Game/UI/TEX/ArtBG/AdventureMap/Theme_01/Level_05_E02_B.Level_05_E02_B" entryScenario="CON_WD_Thu_Start_01" exitScenario="CON_WD_Thu_End_01">
+      <Difficulty templateId="2300031" id="Easy" battleLevelId="WeekDungeon_Thursday_Easy">
+        <ClearReward prob="1" stuffType="item" stuffId="Material_SupporterEvolve_G2" devName="서포터진화재료_2성" stuffAmount="3" />
+        <ClearReward prob="1" stuffType="item" stuffId="Material_EvolveTypeB_G2" devName="마법 진화재료" stuffAmount="3" />
+        <ClearReward prob="1" stuffType="item" stuffId="Material_EvolveType0_G2" devName="공용 진화재료" stuffAmount="4" />
+      </Difficulty>
+      <Difficulty templateId="2300131" id="Normal" battleLevelId="WeekDungeon_Thursday_Normal">
+        <ClearReward prob="1" stuffType="item" stuffId="Material_SupporterEvolve_G2" devName="서포터진화재료_3성" stuffAmount="8" />
+        <ClearReward prob="1" stuffType="item" stuffId="Material_EvolveTypeB_G2" devName="마법 진화재료" stuffAmount="8" />
+        <ClearReward prob="1" stuffType="item" stuffId="Material_EvolveType0_G3" devName="공용 진화재료" stuffAmount="4" />
+      </Difficulty>
+      <Difficulty templateId="2300231" id="Hard" battleLevelId="WeekDungeon_Thursday_Hard">
+        <ClearReward prob="1" stuffType="item" stuffId="Material_SupporterEvolve_G3" devName="서포터진화재료_3성" stuffAmount="3" />
+        <ClearReward prob="1" stuffType="item" stuffId="Material_EvolveTypeB_G3" devName="마법 진화재료" stuffAmount="3" />
+        <ClearReward prob="1" stuffType="item" stuffId="Material_EvolveType0_G3" devName="공용 진화재료" stuffAmount="4" />
+      </Difficulty>
+      <Difficulty templateId="2300331" id="Extreme" battleLevelId="WeekDungeon_Thursday_Master">
+        <ClearReward prob="1" stuffType="item" stuffId="Material_SupporterEvolve_G4" devName="서포터진화재료_4성" stuffAmount="1" />
+        <ClearReward prob="1" stuffType="item" stuffId="Material_EvolveTypeB_G4" devName="마법 진화재료" stuffAmount="1" />
+        <ClearReward prob="1" stuffType="item" stuffId="Material_EvolveType0_G4" devName="공용 진화재료" stuffAmount="2" />
+      </Difficulty>
+    </WeekDungeon>
+    <WeekDungeon id="Friday" templateId="2300040" openConditionId="WeekDungeon_Friday" stageImage="/Game/UI/TEX/ArtBG/AdventureMap/Theme_03/Theme03_BG_05.Theme03_BG_05" entryScenario="CON_WD_Fri_Start_01" exitScenario="CON_WD_Fri_End_01">
+      <Difficulty templateId="2300041" id="Easy" battleLevelId="WeekDungeon_Friday_Easy">
+        <ClearReward prob="1" stuffType="item" stuffId="Material_RangerEvolve_G2" devName="레인저진화재료_2성" stuffAmount="3" />
+        <ClearReward prob="1" stuffType="item" stuffId="Material_EvolveTypeA_G2" devName="물리 진화재료" stuffAmount="3" />
+        <ClearReward prob="1" stuffType="item" stuffId="Material_EvolveType0_G2" devName="공용 진화재료" stuffAmount="4" />
+      </Difficulty>
+      <Difficulty templateId="2300141" id="Normal" battleLevelId="WeekDungeon_Friday_Normal">
+        <ClearReward prob="1" stuffType="item" stuffId="Material_RangerEvolve_G2" devName="레인저진화재료_3성" stuffAmount="8" />
+        <ClearReward prob="1" stuffType="item" stuffId="Material_EvolveTypeA_G2" devName="물리 진화재료" stuffAmount="8" />
+        <ClearReward prob="1" stuffType="item" stuffId="Material_EvolveType0_G3" devName="공용 진화재료" stuffAmount="4" />
+      </Difficulty>
+      <Difficulty templateId="2300241" id="Hard" battleLevelId="WeekDungeon_Friday_Hard">
+        <ClearReward prob="1" stuffType="item" stuffId="Material_RangerEvolve_G3" devName="레인저진화재료_3성" stuffAmount="3" />
+        <ClearReward prob="1" stuffType="item" stuffId="Material_EvolveTypeA_G3" devName="물리 진화재료" stuffAmount="3" />
+        <ClearReward prob="1" stuffType="item" stuffId="Material_EvolveType0_G3" devName="공용 진화재료" stuffAmount="4" />
+      </Difficulty>
+      <Difficulty templateId="2300341" id="Extreme" battleLevelId="WeekDungeon_Friday_Master">
+        <ClearReward prob="1" stuffType="item" stuffId="Material_RangerEvolve_G4" devName="레인저진화재료_4성" stuffAmount="1" />
+        <ClearReward prob="1" stuffType="item" stuffId="Material_EvolveTypeA_G4" devName="물리 진화재료" stuffAmount="1" />
+        <ClearReward prob="1" stuffType="item" stuffId="Material_EvolveType0_G4" devName="공용 진화재료" stuffAmount="2" />
+      </Difficulty>
+    </WeekDungeon>
+    <WeekDungeon id="Saturday" templateId="2300050" openConditionId="WeekDungeon_Saturday" stageImage="/Game/UI/TEX/ArtBG/AdventureMap/Theme_01/Level_07_E03.Level_07_E03" entryScenario="CON_WD_Sat_Start_01" exitScenario="CON_WD_Sat_End_01">
+      <Difficulty templateId="2300051" id="Easy" battleLevelId="WeekDungeon_Saturday_Easy">
+        <ClearReward prob="1" stuffType="Hero" stuffId="DancingFairy_G1" devName="엘더 라이트" stuffAmount="1" />
+        <ClearReward prob="1" stuffType="item" stuffId="Material_EvolveTypeB_G2" devName="마법 진화재료" stuffAmount="3" />
+        <ClearReward prob="1" stuffType="item" stuffId="Material_EvolveType0_G2" devName="공용 진화재료" stuffAmount="4" />
+      </Difficulty>
+      <Difficulty templateId="2300151" id="Normal" battleLevelId="WeekDungeon_Saturday_Normal">
+        <ClearReward prob="1" stuffType="Hero" stuffId="DancingFairy_G1" devName="엘더 라이트" stuffAmount="2" />
+        <ClearReward prob="1" stuffType="item" stuffId="Material_EvolveTypeB_G2" devName="마법 진화재료" stuffAmount="8" />
+        <ClearReward prob="1" stuffType="item" stuffId="Material_EvolveType0_G3" devName="공용 진화재료" stuffAmount="4" />
+      </Difficulty>
+      <Difficulty templateId="2300251" id="Hard" battleLevelId="WeekDungeon_Saturday_Hard">
+        <ClearReward prob="1" stuffType="Hero" stuffId="DancingFairy_G3" devName="에이션트 라이트" stuffAmount="1" />
+        <ClearReward prob="1" stuffType="item" stuffId="Material_EvolveTypeB_G3" devName="마법 진화재료" stuffAmount="3" />
+        <ClearReward prob="1" stuffType="item" stuffId="Material_EvolveType0_G3" devName="공용 진화재료" stuffAmount="4" />
+      </Difficulty>
+      <Difficulty templateId="2300351" id="Extreme" battleLevelId="WeekDungeon_Saturday_Master">
+        <ClearReward prob="1" stuffType="Hero" stuffId="DancingFairy_G3" devName="에이션트 라이트" stuffAmount="2" />
+        <ClearReward prob="1" stuffType="item" stuffId="Material_EvolveTypeB_G4" devName="마법 진화재료" stuffAmount="1" />
+        <ClearReward prob="1" stuffType="item" stuffId="Material_EvolveType0_G4" devName="공용 진화재료" stuffAmount="2" />
+      </Difficulty>
+    </WeekDungeon>
+    <WeekDungeon id="Sunday" templateId="2300060" openConditionId="WeekDungeon_Sunday" stageImage="/Game/UI/TEX/ArtBG/AdventureMap/Theme_02/Level_07_E01.Level_07_E01" entryScenario="CON_WD_Sun_Start_01" exitScenario="CON_WD_Sun_End_01">
+      <Difficulty templateId="2300061" id="Easy" battleLevelId="WeekDungeon_Sunday_Easy">
+        <ClearReward prob="1" stuffType="Item" stuffId="L_Weapon_R01_91_S" devName="경험치 무기" stuffAmount="1" />
+        <ClearReward prob="1" stuffType="Item" stuffId="L_Mail_R01_91_S" devName="경험치 갑옷" stuffAmount="1" />
+        <ClearReward prob="1" stuffType="item" stuffId="Material_EvolveType0_G2" devName="공용 진화재료" stuffAmount="4" />
+      </Difficulty>
+      <Difficulty templateId="2300161" id="Normal" battleLevelId="WeekDungeon_Sunday_Normal">
+        <ClearReward prob="1" stuffType="Item" stuffId="L_Weapon_R01_91_S" devName="경험치 무기" stuffAmount="2" />
+        <ClearReward prob="1" stuffType="Item" stuffId="L_Mail_R01_91_S" devName="경험치 갑옷" stuffAmount="2" />
+        <ClearReward prob="1" stuffType="item" stuffId="Material_EvolveType0_G3" devName="공용 진화재료" stuffAmount="4" />
+      </Difficulty>
+      <Difficulty templateId="2300261" id="Hard" battleLevelId="WeekDungeon_Sunday_Hard">
+        <ClearReward prob="1" stuffType="Item" stuffId="L_Weapon_R03_91_S" devName="경험치 무기" stuffAmount="1" />
+        <ClearReward prob="1" stuffType="Item" stuffId="L_Mail_R03_91_S" devName="경험치 갑옷" stuffAmount="1" />
+        <ClearReward prob="1" stuffType="item" stuffId="Material_EvolveType0_G3" devName="공용 진화재료" stuffAmount="4" />
+      </Difficulty>
+      <Difficulty templateId="2300361" id="Extreme" battleLevelId="WeekDungeon_Sunday_Master">
+        <ClearReward prob="1" stuffType="Item" stuffId="L_Weapon_R03_91_S" devName="경험치 무기" stuffAmount="2" />
+        <ClearReward prob="1" stuffType="Item" stuffId="L_Mail_R03_91_S" devName="경험치 갑옷" stuffAmount="2" />
+        <ClearReward prob="1" stuffType="item" stuffId="Material_EvolveType0_G4" devName="공용 진화재료" stuffAmount="2" />
+      </Difficulty>
+    </WeekDungeon>
+  </WeekDungeonInfo>
+</WeekDungeonData>

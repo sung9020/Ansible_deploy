@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="Heroes">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" name="Hero">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Cost">
+                <xs:complexType>
+                  <xs:attribute name="stuffType" type="xs:string" use="required" />
+                  <xs:attribute name="stuffId" type="xs:string" use="required" />
+                  <xs:attribute name="stuffAmount" type="xs:unsignedShort" use="required" />
+                </xs:complexType>
+              </xs:element>
+              <xs:element maxOccurs="unbounded" name="Stat">
+                <xs:complexType>
+                  <xs:attribute name="type" type="xs:string" use="required" />
+                  <xs:attribute name="value" type="xs:decimal" use="required" />
+                </xs:complexType>
+              </xs:element>
+              <xs:element maxOccurs="unbounded" name="Skill">
+                <xs:complexType>
+                  <xs:attribute name="id" type="xs:string" use="required" />
+                  <xs:attribute name="slot" type="xs:unsignedByte" use="required" />
+                  <xs:attribute name="index" type="xs:byte" use="required" />
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+            <xs:attribute name="id" type="xs:string" use="required" />
+            <xs:attribute name="templateId" type="xs:unsignedInt" use="required" />
+            <xs:attribute name="groupId" type="xs:string" use="required" />
+            <xs:attribute name="groupTemplateId" type="xs:unsignedInt" use="required" />
+            <xs:attribute name="grade" type="xs:unsignedByte" use="required" />
+            <xs:attribute name="devName" type="xs:string" use="required" />
+            <xs:attribute name="blockReactionId" type="xs:string" use="required" />
+            <xs:attribute name="defaultShapeId" type="xs:string" use="required" />
+            <xs:attribute name="sectionChangeRotSpeed" type="xs:unsignedShort" use="required" />
+            <xs:attribute name="canCombine" type="xs:boolean" use="required" />
+            <xs:attribute name="canEnchant" type="xs:boolean" use="required" />
+            <xs:attribute name="canEvolve" type="xs:boolean" use="required" />
+            <xs:attribute name="canLimitBreak" type="xs:boolean" use="required" />
+            <xs:attribute name="leader" type="xs:boolean" use="required" />
+            <xs:attribute name="tier" type="xs:string" use="required" />
+            <xs:attribute name="scenario" type="xs:boolean" use="required" />
+            <xs:attribute name="isLocked" type="xs:boolean" use="required" />
+            <xs:attribute name="categoryType" type="xs:string" use="required" />
+            <xs:attribute name="combatType" type="xs:string" use="required" />
+            <xs:attribute name="rangeType" type="xs:string" use="required" />
+            <xs:attribute name="elementType" type="xs:string" use="required" />
+            <xs:attribute name="nationalityType" type="xs:string" use="required" />
+            <xs:attribute name="genderType" type="xs:string" use="required" />
+            <xs:attribute name="factionType" type="xs:string" use="required" />
+            <xs:attribute name="generatedExp" type="xs:unsignedShort" use="required" />
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

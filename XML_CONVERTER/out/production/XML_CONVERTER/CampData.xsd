@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="CampData">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="CommonData">
+          <xs:complexType>
+            <xs:attribute name="openConditionId" type="xs:string" use="required" />
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="CampSwitch">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="SwitchCost">
+                <xs:complexType>
+                  <xs:attribute name="stuffType" type="xs:string" use="required" />
+                  <xs:attribute name="stuffId" type="xs:string" use="required" />
+                  <xs:attribute name="stuffAmount" type="xs:unsignedShort" use="required" />
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+            <xs:attribute name="coolTimeDay" type="xs:unsignedByte" use="required" />
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="CampList">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element maxOccurs="unbounded" name="Camp">
+                <xs:complexType>
+                  <xs:attribute name="id" type="xs:string" use="required" />
+                  <xs:attribute name="templateId" type="xs:unsignedByte" use="required" />
+                  <xs:attribute name="enableJoin" type="xs:boolean" use="required" />
+                  <xs:attribute name="recommendWeight" type="xs:decimal" use="required" />
+                  <xs:attribute name="iconResourcePath" type="xs:string" use="required" />
+                  <xs:attribute name="smallIconResourcePath" type="xs:string" use="required" />
+                  <xs:attribute name="color" type="xs:string" use="required" />
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="CampGradeList">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element maxOccurs="unbounded" name="CampGrade">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element maxOccurs="unbounded" name="AchieveReward">
+                      <xs:complexType>
+                        <xs:attribute name="stuffType" type="xs:string" use="required" />
+                        <xs:attribute name="stuffId" type="xs:string" use="required" />
+                        <xs:attribute name="stuffAmount" type="xs:unsignedShort" use="required" />
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element maxOccurs="unbounded" name="IconResourcePath">
+                      <xs:complexType>
+                        <xs:attribute name="campId" type="xs:string" use="required" />
+                        <xs:attribute name="path" type="xs:string" use="required" />
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                  <xs:attribute name="id" type="xs:string" use="required" />
+                  <xs:attribute name="templateId" type="xs:unsignedInt" use="required" />
+                  <xs:attribute name="additionalStatId" type="xs:string" use="required" />
+                  <xs:attribute name="requireCampGradeExp" type="xs:unsignedShort" use="required" />
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="CampClassList">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element maxOccurs="unbounded" name="CampClass">
+                <xs:complexType>
+                  <xs:attribute name="id" type="xs:string" use="required" />
+                  <xs:attribute name="templateId" type="xs:unsignedByte" use="required" />
+                  <xs:attribute name="requireGuildWarRank" type="xs:unsignedByte" use="required" />
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

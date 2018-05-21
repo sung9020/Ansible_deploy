@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="StageData">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" name="Chapter">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element maxOccurs="unbounded" name="Stage">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element maxOccurs="unbounded" name="StageReward">
+                      <xs:complexType>
+                        <xs:attribute name="prob" type="xs:decimal" use="required" />
+                        <xs:attribute name="stuffType" type="xs:string" use="required" />
+                        <xs:attribute name="stuffId" type="xs:string" use="required" />
+                        <xs:attribute name="devName" type="xs:string" use="required" />
+                        <xs:attribute name="stuffAmount" type="xs:unsignedShort" use="required" />
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element minOccurs="0" name="FirstClearReward">
+                      <xs:complexType>
+                        <xs:attribute name="stuffType" type="xs:string" use="required" />
+                        <xs:attribute name="stuffId" type="xs:string" use="required" />
+                        <xs:attribute name="devName" type="xs:string" use="required" />
+                        <xs:attribute name="stuffAmount" type="xs:unsignedByte" use="required" />
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                  <xs:attribute name="id" type="xs:string" use="required" />
+                  <xs:attribute name="templateId" type="xs:unsignedInt" use="required" />
+                  <xs:attribute name="name" type="xs:string" use="required" />
+                  <xs:attribute name="type" type="xs:string" use="required" />
+                  <xs:attribute name="beforeEnterBattle" type="xs:string" use="optional" />
+                  <xs:attribute name="stageImage" type="xs:string" use="required" />
+                  <xs:attribute name="battleLevelIdBeforeClear" type="xs:string" use="required" />
+                  <xs:attribute name="battleLevelId" type="xs:string" use="required" />
+                  <xs:attribute name="requiredCurrencyId" type="xs:string" use="required" />
+                  <xs:attribute name="requiredCurrencyAmount" type="xs:unsignedByte" use="required" />
+                  <xs:attribute name="returnFromBattle" type="xs:string" use="optional" />
+                  <xs:attribute name="canRepeatPlay" type="xs:boolean" use="required" />
+                  <xs:attribute name="preStageId" type="xs:string" use="optional" />
+                </xs:complexType>
+              </xs:element>
+              <xs:element maxOccurs="unbounded" name="StarReward">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="Reward">
+                      <xs:complexType>
+                        <xs:attribute name="stuffType" type="xs:string" use="required" />
+                        <xs:attribute name="stuffId" type="xs:string" use="required" />
+                        <xs:attribute name="devName" type="xs:string" use="required" />
+                        <xs:attribute name="stuffAmount" type="xs:unsignedShort" use="required" />
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                  <xs:attribute name="star" type="xs:unsignedByte" use="required" />
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="RepeatReward">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="FirstRepeatReward">
+                      <xs:complexType>
+                        <xs:attribute name="stuffType" type="xs:string" use="required" />
+                        <xs:attribute name="stuffId" type="xs:string" use="required" />
+                        <xs:attribute name="devName" type="xs:string" use="required" />
+                        <xs:attribute name="stuffAmount" type="xs:unsignedByte" use="required" />
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="DefaultRepeatReward">
+                      <xs:complexType>
+                        <xs:attribute name="stuffType" type="xs:string" use="required" />
+                        <xs:attribute name="stuffId" type="xs:string" use="required" />
+                        <xs:attribute name="devName" type="xs:string" use="required" />
+                        <xs:attribute name="stuffAmount" type="xs:unsignedByte" use="required" />
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                  <xs:attribute name="repeatRewardCount" type="xs:unsignedByte" use="required" />
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+            <xs:attribute name="id" type="xs:string" use="required" />
+            <xs:attribute name="groupId" type="xs:string" use="required" />
+            <xs:attribute name="templateId" type="xs:unsignedInt" use="required" />
+            <xs:attribute name="name" type="xs:string" use="required" />
+            <xs:attribute name="stageRewardHeroExp" type="xs:unsignedByte" use="required" />
+            <xs:attribute name="entranceCostType" type="xs:string" use="required" />
+            <xs:attribute name="entranceCostAmount" type="xs:unsignedByte" use="required" />
+            <xs:attribute name="continueCostType" type="xs:string" use="required" />
+            <xs:attribute name="continueCostAmount" type="xs:unsignedByte" use="required" />
+            <xs:attribute name="firstStageId" type="xs:string" use="required" />
+            <xs:attribute name="lastStageId" type="xs:string" use="required" />
+            <xs:attribute name="bgLevel" type="xs:string" use="required" />
+            <xs:attribute name="bgImage" type="xs:string" use="required" />
+            <xs:attribute name="widgetPath" type="xs:string" use="required" />
+            <xs:attribute name="selectBg" type="xs:string" use="required" />
+            <xs:attribute name="preChapterId" type="xs:string" use="optional" />
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

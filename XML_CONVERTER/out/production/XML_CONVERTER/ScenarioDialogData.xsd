@@ -1,0 +1,185 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="ScenarioDialogData">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" name="Data">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Setting">
+                <xs:complexType>
+                  <xs:attribute name="emptyVoiceDelayTime" type="xs:unsignedByte" use="required" />
+                  <xs:attribute name="autoPlayWaitTime" type="xs:decimal" use="required" />
+                  <xs:attribute name="startFadeTime" type="xs:decimal" use="required" />
+                  <xs:attribute name="endFadeTime" type="xs:decimal" use="required" />
+                  <xs:attribute name="lightData" type="xs:string" use="required" />
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="ActorLocations">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element maxOccurs="unbounded" name="ActorLocation">
+                      <xs:complexType>
+                        <xs:attribute name="actorLocId" type="xs:unsignedByte" use="required" />
+                        <xs:attribute name="pos" type="xs:string" use="required" />
+                        <xs:attribute name="rot" type="xs:string" use="required" />
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="Cameras">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element maxOccurs="unbounded" name="Camera">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="DOF">
+                            <xs:complexType>
+                              <xs:attribute name="focalDistance" type="xs:unsignedShort" use="required" />
+                              <xs:attribute name="focalRegion" type="xs:unsignedShort" use="required" />
+                              <xs:attribute name="nearBlurSize" type="xs:decimal" use="required" />
+                              <xs:attribute name="farBlurSize" type="xs:decimal" use="required" />
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:sequence>
+                        <xs:attribute name="cameraId" type="xs:unsignedByte" use="required" />
+                        <xs:attribute name="pos" type="xs:string" use="required" />
+                        <xs:attribute name="rot" type="xs:string" use="required" />
+                        <xs:attribute name="fov" type="xs:unsignedByte" use="required" />
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="StartHeroes">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element maxOccurs="unbounded" name="Hero">
+                      <xs:complexType>
+                        <xs:attribute name="actorLocId" type="xs:unsignedByte" use="required" />
+                        <xs:attribute name="mesh" type="xs:string" use="required" />
+                        <xs:attribute name="anim" type="xs:string" use="required" />
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="ScenarioTextData">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element maxOccurs="unbounded" name="ScenarioText">
+                      <xs:complexType>
+                        <xs:attribute name="id" type="xs:string" use="required" />
+                        <xs:attribute name="speakerId" type="xs:string" use="required" />
+                        <xs:attribute name="speakerName" type="xs:string" use="required" />
+                        <xs:attribute name="speakerNameMemo" type="xs:string" use="required" />
+                        <xs:attribute name="speakerNickName" type="xs:string" use="required" />
+                        <xs:attribute name="textMemo" type="xs:string" use="required" />
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="ScenarioVoiceData">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element maxOccurs="unbounded" name="ScenarioVoice">
+                      <xs:complexType>
+                        <xs:attribute name="id" type="xs:string" use="required" />
+                        <xs:attribute name="asset" type="xs:string" use="required" />
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="ScenarioDialogs">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element maxOccurs="unbounded" name="ScenarioDialog">
+                      <xs:complexType>
+                        <xs:attribute name="index" type="xs:unsignedByte" use="required" />
+                        <xs:attribute name="mesh_1" type="xs:string" use="required" />
+                        <xs:attribute name="anim_1" type="xs:string" use="required" />
+                        <xs:attribute name="rotate_1" type="xs:short" use="required" />
+                        <xs:attribute name="mesh_2" type="xs:string" use="optional" />
+                        <xs:attribute name="anim_2" type="xs:string" use="optional" />
+                        <xs:attribute name="rotate_2" type="xs:decimal" use="optional" />
+                        <xs:attribute name="mesh_3" type="xs:string" use="optional" />
+                        <xs:attribute name="anim_3" type="xs:string" use="optional" />
+                        <xs:attribute name="rotate_3" type="xs:short" use="optional" />
+                        <xs:attribute name="mesh_4" type="xs:string" use="optional" />
+                        <xs:attribute name="anim_4" type="xs:string" use="optional" />
+                        <xs:attribute name="rotate_4" type="xs:short" use="optional" />
+                        <xs:attribute name="mesh_5" type="xs:string" use="optional" />
+                        <xs:attribute name="anim_5" type="xs:string" use="optional" />
+                        <xs:attribute name="rotate_5" type="xs:short" use="optional" />
+                        <xs:attribute name="mesh_6" type="xs:string" use="optional" />
+                        <xs:attribute name="anim_6" type="xs:string" use="optional" />
+                        <xs:attribute name="rotate_6" type="xs:short" use="optional" />
+                        <xs:attribute name="mesh_7" type="xs:string" use="optional" />
+                        <xs:attribute name="anim_7" type="xs:string" use="optional" />
+                        <xs:attribute name="rotate_7" type="xs:short" use="optional" />
+                        <xs:attribute name="mesh_8" type="xs:string" use="optional" />
+                        <xs:attribute name="anim_8" type="xs:string" use="optional" />
+                        <xs:attribute name="rotate_8" type="xs:byte" use="optional" />
+                        <xs:attribute name="textId" type="xs:string" use="required" />
+                        <xs:attribute name="cameraStart" type="xs:unsignedByte" use="required" />
+                        <xs:attribute name="cameraEnd" type="xs:unsignedByte" use="required" />
+                        <xs:attribute name="cameraMoveDuration" type="xs:decimal" use="required" />
+                        <xs:attribute name="dofInterpMethod" type="xs:string" use="required" />
+                        <xs:attribute name="voiceId" type="xs:string" use="required" />
+                        <xs:attribute name="mesh_9" type="xs:string" use="optional" />
+                        <xs:attribute name="anim_9" type="xs:string" use="optional" />
+                        <xs:attribute name="rotate_9" type="xs:unsignedByte" use="optional" />
+                        <xs:attribute name="mesh_10" type="xs:string" use="optional" />
+                        <xs:attribute name="anim_10" type="xs:string" use="optional" />
+                        <xs:attribute name="rotate_10" type="xs:unsignedByte" use="optional" />
+                        <xs:attribute name="mesh_11" type="xs:string" use="optional" />
+                        <xs:attribute name="anim_11" type="xs:string" use="optional" />
+                        <xs:attribute name="rotate_11" type="xs:short" use="optional" />
+                        <xs:attribute name="mesh_12" type="xs:string" use="optional" />
+                        <xs:attribute name="anim_12" type="xs:string" use="optional" />
+                        <xs:attribute name="rotate_12" type="xs:unsignedByte" use="optional" />
+                        <xs:attribute name="mesh_13" type="xs:string" use="optional" />
+                        <xs:attribute name="anim_13" type="xs:string" use="optional" />
+                        <xs:attribute name="rotate_13" type="xs:unsignedByte" use="optional" />
+                        <xs:attribute name="mesh_14" type="xs:string" use="optional" />
+                        <xs:attribute name="anim_14" type="xs:string" use="optional" />
+                        <xs:attribute name="rotate_14" type="xs:unsignedByte" use="optional" />
+                        <xs:attribute name="mesh_15" type="xs:string" use="optional" />
+                        <xs:attribute name="anim_15" type="xs:string" use="optional" />
+                        <xs:attribute name="rotate_15" type="xs:unsignedByte" use="optional" />
+                        <xs:attribute name="mesh_16" type="xs:string" use="optional" />
+                        <xs:attribute name="anim_16" type="xs:string" use="optional" />
+                        <xs:attribute name="rotate_16" type="xs:unsignedByte" use="optional" />
+                        <xs:attribute name="mesh_17" type="xs:string" use="optional" />
+                        <xs:attribute name="anim_17" type="xs:string" use="optional" />
+                        <xs:attribute name="rotate_17" type="xs:unsignedByte" use="optional" />
+                        <xs:attribute name="mesh_18" type="xs:string" use="optional" />
+                        <xs:attribute name="anim_18" type="xs:string" use="optional" />
+                        <xs:attribute name="rotate_18" type="xs:unsignedByte" use="optional" />
+                        <xs:attribute name="mesh_19" type="xs:string" use="optional" />
+                        <xs:attribute name="anim_19" type="xs:string" use="optional" />
+                        <xs:attribute name="rotate_19" type="xs:unsignedByte" use="optional" />
+                        <xs:attribute name="mesh_20" type="xs:string" use="optional" />
+                        <xs:attribute name="anim_20" type="xs:string" use="optional" />
+                        <xs:attribute name="rotate_20" type="xs:unsignedByte" use="optional" />
+                        <xs:attribute name="effectId" type="xs:string" use="optional" />
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+            <xs:attribute name="id" type="xs:string" use="required" />
+            <xs:attribute name="bgLevel" type="xs:string" use="required" />
+            <xs:attribute name="location" type="xs:string" use="optional" />
+            <xs:attribute name="time" type="xs:string" use="optional" />
+            <xs:attribute name="nextId" type="xs:string" use="optional" />
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="CurrencyData">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" name="Currency">
+          <xs:complexType>
+            <xs:sequence minOccurs="0">
+              <xs:element name="TokenInfo">
+                <xs:complexType>
+                  <xs:attribute name="isDailyReset" type="xs:boolean" use="required" />
+                  <xs:attribute name="isAutoCharge" type="xs:boolean" use="required" />
+                  <xs:attribute name="autoChargeTimeMS" type="xs:unsignedInt" use="required" />
+                  <xs:attribute name="displayChargeTime" type="xs:boolean" use="required" />
+                  <xs:attribute name="chargeAmount" type="xs:unsignedByte" use="required" />
+                  <xs:attribute name="isGrowable" type="xs:boolean" use="required" />
+                  <xs:attribute name="canOverPossess" type="xs:boolean" use="required" />
+                  <xs:attribute name="maxChargeCount" type="xs:unsignedByte" use="optional" />
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+            <xs:attribute name="id" type="xs:string" use="required" />
+            <xs:attribute name="dev_Name" type="xs:string" use="required" />
+            <xs:attribute name="icon" type="xs:string" use="required" />
+            <xs:attribute name="iconSmall" type="xs:string" use="required" />
+            <xs:attribute name="digit" type="xs:unsignedByte" use="required" />
+            <xs:attribute name="goodsId" type="xs:string" use="optional" />
+            <xs:attribute name="showOnResourcePanelOrder" type="xs:unsignedByte" use="optional" />
+            <xs:attribute name="preCurrencyId" type="xs:string" use="optional" />
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

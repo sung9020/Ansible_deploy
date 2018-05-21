@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="ItemData">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" name="Item">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="MainStat">
+                <xs:complexType>
+                  <xs:attribute name="id" type="xs:string" use="required" />
+                  <xs:attribute name="value" type="xs:unsignedShort" use="required" />
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="RandomOption">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element maxOccurs="unbounded" name="Option">
+                      <xs:complexType>
+                        <xs:attribute name="id" type="xs:string" use="required" />
+                        <xs:attribute name="minQuality" type="xs:unsignedByte" use="required" />
+                        <xs:attribute name="maxQuality" type="xs:unsignedByte" use="required" />
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="LevelUp">
+                <xs:complexType>
+                  <xs:attribute name="maxLevel" type="xs:unsignedByte" use="required" />
+                  <xs:attribute name="baseExp" type="xs:unsignedShort" use="required" />
+                  <xs:attribute name="stuffType" type="xs:string" use="required" />
+                  <xs:attribute name="stuffId" type="xs:string" use="required" />
+                  <xs:attribute name="stuffAmount" type="xs:unsignedShort" use="required" />
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="EquipCondition">
+                <xs:complexType>
+                  <xs:attribute name="heroLv" type="xs:unsignedByte" use="required" />
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+            <xs:attribute name="id" type="xs:string" use="required" />
+            <xs:attribute name="templateId" type="xs:unsignedInt" use="required" />
+            <xs:attribute name="dev_Name" type="xs:string" use="required" />
+            <xs:attribute name="category" type="xs:string" use="required" />
+            <xs:attribute name="faction" type="xs:string" use="required" />
+            <xs:attribute name="elementType" type="xs:string" use="required" />
+            <xs:attribute name="tier" type="xs:string" use="optional" />
+            <xs:attribute name="groupId" type="xs:string" use="required" />
+            <xs:attribute name="canLevelUp" type="xs:boolean" use="required" />
+            <xs:attribute name="canEvolve" type="xs:boolean" use="required" />
+            <xs:attribute name="isLocked" type="xs:boolean" use="required" />
+            <xs:attribute name="isStackable" type="xs:boolean" use="required" />
+            <xs:attribute name="canLimitBreak" type="xs:boolean" use="required" />
+            <xs:attribute name="canCombine" type="xs:boolean" use="required" />
+            <xs:attribute name="iconResourcePath" type="xs:string" use="required" />
+            <xs:attribute name="sellingId" type="xs:string" use="required" />
+            <xs:attribute name="sellingPrice" type="xs:unsignedShort" use="required" />
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
