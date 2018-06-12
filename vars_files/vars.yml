@@ -1,0 +1,4 @@
+---
+project_name: Ansible_deploy
+project_root: /usr/share/tomcat/webapps
+project_repo: https://github.com/sung9020/Ansible_deploy.git
